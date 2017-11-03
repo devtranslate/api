@@ -1,0 +1,555 @@
+{
+    "totalRows": 55,
+    "data": [
+        {
+            "id": 1,
+            "name": "Pare de usar CSS no JavaScript para desenvolvimento web",
+            "author": "Gajus Kuizinas",
+            "translators": "Carlos Eduardo Olivieri",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
+            "image": "https://cdn-images-1.medium.com/max/800/1*Z7uoOFGKoI4-OOEE9yoNdg.jpeg" 
+        },
+        {
+            "id": 2,
+            "name": "Escrevendo HTML com acessibilidade em mente",
+            "author": "Manuel Matuzovic",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/escrevendo-html-com-acessibilidade-em-mente-4af1b8599246",
+            "image": "https://17404-presscdn-0-71-pagely.netdna-ssl.com/studio/wp-content/uploads/2016/03/featured15.jpg" 
+        },
+        {
+            "id": 3,
+            "name": "Entendendo a precedência de estilo em CSS: Especificidade, Herança e Efeito Cascata",
+            "author": "Steven Bradley",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173",
+            "image": "https://d2tycqyw09ngo1.cloudfront.net/be-content/uploads/2016/08/26185102/Sites-CSS-surpreende.png" 
+        },
+        {
+            "id": 4,
+            "name": "CSS: do ‘Odeio essa m**’ a ‘pode deixar comigo!’",
+            "author": "Ignacio Piantanida",
+            "translators": "Leandro Cavalcante",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@leandrw/css-do-odeio-essa-m-a-pode-deixar-comigo-f4203edfaec5",
+            "image": "http://mediamaxdesign.com/wp-content/uploads/2016/12/use-CSS.png" 
+        },
+        {
+            "id": 5,
+            "name": "A evolução do CSS: De arquivos CSS, SASS, BEM para CSS Modules até Styled Components",
+            "author": "Perez Priego",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/tableless/a-evolu%C3%A7%C3%A3o-do-css-de-arquivos-css-sass-bem-para-css-modules-at%C3%A9-styled-components-b7ad4d16ffc2",
+            "image": "https://cdn-images-1.medium.com/max/1000/1*R3d8_MpYJEAr6WAFwapc3g.png" 
+        },
+        {
+            "id": 6,
+            "name": "A ascensão do Functional CSS",
+            "author": "Marcelo Somers",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/tableless/a-ascens%C3%A3o-do-functional-css-8ae81ac2aa9c",
+            "image": "http://i65.tinypic.com/1550ytd.png" 
+        },
+        {
+            "id": 7,
+            "name": "Construindo uma aplicação sem CSS — Os altos e baixos sobre isso",
+            "author": "Krasimir Tsonev",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@oieduardorabelo/construindo-uma-aplica%C3%A7%C3%A3o-sem-css-os-altos-e-baixos-sobre-isso-33d8a218c72f",
+            "image": "https://cdn-images-1.medium.com/max/1600/1*P9hxbMXtgmBAJmZuzC73zw.jpeg" 
+        },
+        {
+            "id": 8,
+            "name": "CSS e Escalabilidade — Nós deveríamos escrever menos CSS",
+			"author": "Adam Morse",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/tableless/css-e-escalabilidade-n%C3%B3s-dever%C3%ADamos-escrever-menos-css-7bf9d4749519",
+            "image": "http://i68.tinypic.com/250qw5e.png" 
+        },
+        {
+            "id": 9,
+            "name": "O fim do CSS global",
+            "author": "Mark Dalgleish",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/tableless/o-fim-do-css-global-ddcd80bd6334",
+            "image": "https://cdn-images-1.medium.com/max/1440/1*r9VhiSAFIJpV2Xto3rl3_g.jpeg" 
+        },
+        {
+            "id": 10,
+            "name": "8 regras simples para uma arquitetura CSS robusta e escalável",
+            "author": "Jarno Rantanen",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/tableless/8-regras-simples-para-uma-arquitetura-css-robusta-e-escal%C3%A1vel-545c6dade170",
+            "image": "http://i66.tinypic.com/szhqnm.png" 
+        },
+        {
+            "id": 11,
+            "name": "3 novidades do CSS para aprender em 2017",
+            "author": "Ire Aderinokun",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/tableless/3-novidades-do-css-para-aprender-em-2017-15b65acb85d8",
+            "image": "http://i65.tinypic.com/2hq6is4.png" 
+        },
+        {
+            "id": 12,
+            "name": "Qual mudança que Web Components causa na arquitetura CSS?",
+            "author": "Jonathan Snook",
+            "translators": "Eduardo Rabelo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@oieduardorabelo/qual-mudan%C3%A7a-que-web-components-causa-na-arquitetura-css-5a4b6fdb6a98",
+            "image": "https://cdn-images-1.medium.com/max/1162/1*5FfNEWaZeIhoAk7sT2aecw.png" 
+        },
+        {
+            "id": 13,
+            "name": "Como é programar em JavaScript em 2016",
+            "author": "Jose Aguinaga",
+            "translators": "Joselito Júnior (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://codetalks.net/como-%C3%A9-programar-em-javascript-em-2016-9c9b3c12cea8",
+            "image": "http://i63.tinypic.com/2i0eu.png" 
+        },
+        {
+            "id": 14,
+            "name": "Código Limpo em Javascript",
+            "author": "Ryan McDermott",
+            "translators": "Felipe Augusto",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://github.com/felipe-augusto/clean-code-javascript/blob/master/README.md",
+            "image": "http://i67.tinypic.com/a43mg8.png" 
+        },
+        {
+            "id": 15,
+            "name": "Tudo sobre Recursão, PTC, TCO e STC em JavaScript",
+            "author": "Lucas Fernandes da Costa",
+            "translators": "Jean Carlo Nascimento",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@osuissa/tudo-sobre-recurs%C3%A3o-ptc-tco-e-stc-em-javascript-58953a5a846a",
+            "image": "http://theusualstuff.com/wp-content/uploads/2017/06/Javascript-Recursion.png" 
+        },
+        {
+            "id": 16,
+            "name": "JavaScript - Promises",
+            "author": "Forbes Lindesay",
+            "translators": "Jean Carlo Nascimento",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://medium.com/@osuissa/javascript-promises-671934f08bdf",
+            "image": "http://i68.tinypic.com/2igyumh.png" 
+        },
+        {
+            "id": 17,
+            "name": "Flow: Fundamentos para Desenvolvedores JavaScript",
+            "author": "A. Sharif",
+            "translators": "Eduardo Rabelo",
+            "type": "Codes",
+            "project": "Completed",
+            "site": "https://medium.com/trainingcenter/flow-fundamentos-para-desenvolvedores-javascript-9f0a1da74c4e",
+            "image": "http://www.theodo.fr/uploads/blog//2016/11/flow-og-image.png" 
+        },
+        {
+            "id": 18,
+            "name": "Aventuras funcionais ocasionais em JavaScript",
+            "author": "Štefan Maric",
+            "translators": "Jean Carlo Nascimento",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@osuissa/aventuras-funcionais-ocasionais-em-javascript-54d3e168c4da",
+            "image": "http://blog.rangle.io/content/images/2016/11/rangle-blog-funtional-js-small-1-1.png" 
+        },
+        {
+            "id": 19,
+            "name": "Novos campos de classe #private no JavaScript",
+            "author": "James Kyle",
+            "translators": "Danilo Vaz",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/trainingcenter/novos-campos-de-classe-private-no-javascript-2622d5faa65e",
+            "image": "http://i68.tinypic.com/351gv46.png" 
+        },
+        {
+            "id": 20,
+            "name": "Kotlin 1.1 - Suporte a Javascript, Coroutines e mais",
+            "author": "JetBrains",
+            "translators": "Walmyr Carvalho",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@walmyrcarvalho/kotlin-1-1-suporte-a-javascript-co-rotinas-e-mais-d84b65ac2f92#.9usvgmws0",
+            "image": "https://codete.com/blog/wp-content/uploads/2016/07/Yet-Another-Kotlin_.jpg" 
+        },
+        {
+            "id": 21,
+            "name": "Meu colega é um computador: Máquinas como força de trabalho",
+            "author": "Tony C.",
+            "translators": "Runrun.it",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/liderar-e-dificil/meu-colega-%C3%A9-um-computador-m%C3%A1quinas-como-for%C3%A7a-de-trabalho-ca83e7f46e93",
+            "image": "https://scottasai.files.wordpress.com/2015/05/worksmart2.jpg?w=820" 
+        },
+        {
+            "id": 22,
+            "name": "Por favor pare de se preocupar com o Angular 3",
+            "author": "Todd Motto",
+            "translators": "Rodolfo Dias",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@r_mdias/por-favor-pare-de-se-preocupar-com-o-angular-3-c54e8e79f1fc#.i3ypcg3jb",
+            "image": "https://pbs.twimg.com/media/Cw7vdoGXgAAJLFL.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Neutralidade da rede: você ama, mesmo não sabendo direito o que é",
+            "author": "Sérgio Branco",
+            "translators": "Marianna Jardim",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://feed.itsrio.org/neutralidade-da-rede-você-ama-mesmo-não-sabendo-direito-o-que-é-5743f129563b#.b84or2sqt",
+            "image": "https://cdn-images-1.medium.com/max/800/1*SD_b-0vJzoErGblojaUMMw.png" 
+        },
+        {
+            "id": 24,
+            "name": "Por que a Internet no Brasil é parcialmente livre?",
+            "author": "Sérgio Branco",
+            "translators": "Beatriz Nunes",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://feed.itsrio.org/por-que-a-internet-no-brasil-é-parcialmente-livre-7b3832a657bd#.mue2uap9k",
+            "image": "https://cdn-images-1.medium.com/max/800/1*8HTPalR5jfy2OQnozjEf1A.png" 
+        },
+        {
+            "id": 25,
+            "name": "Os Futuros da Internet",
+            "author": "Sérgio Branco",
+            "translators": "Beatriz Nunes",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://feed.itsrio.org/os-futuros-da-internet-8f629673efcd#.to0ilvw4t",
+            "image": "https://cdn-images-1.medium.com/max/800/1*1Ts-9spYCGeGpjKGgLi3CQ.png"
+        },
+        {
+            "id": 26,
+            "name": "UX: Rolagem infinita vs. Paginação",
+            "author": "Nick Babich",
+            "translators": "Renan C. Araujo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/ux-traduzido/ux-rolagem-infinita-vs-paginação-b7da06e72662#.o43hfullt",
+            "image": "https://cdn-images-1.medium.com/max/800/1*FcMzmmbiMuQlwfaaAyKjYQ.png"
+        },
+        {
+            "id": 27,
+            "name": "Como funcionam os servidores da Web",
+            "author": "Marshall Brain",
+            "translators": "Daniel Simão",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@simaodeveloper/como-funcionam-os-servidores-da-web-736542c386fa#.75jv8d7dc",
+            "image": "https://cdn-images-1.medium.com/max/800/1*EpHuJkPCcPftTB43tdErPg.jpeg"
+        },
+        {
+            "id": 28,
+            "name": "Metodologia Tradicional versus Ágil",
+            "author": "Testing Experience",
+            "translators": "Wellington Marion",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@wellmarion/metodologia-tradicional-versus-ágil-e23bac9b12cb#.54cpdbvnq",
+            "image": "http://vitalitychicago.com/sites/default/files/Project-Success-Rates-agile-vs-waterfall2.png"
+        },
+        {
+            "id": 29,
+            "name": "Programming Doesn’t Require Talent or Even Passion",
+            "author": "Tony You",
+            "translators": "Manuel Mendes",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@mdm.exe/programar-não-requer-talento-ou-paixão-36b0ae176782#.t24kokdrj",
+            "image": "http://www.groundreport.com/wp-content/uploads/2016/11/programming-013.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Série ES6 by Wes Bos — Como let e const são ‘escopados’ em JavaScript parte 1",
+            "author": "Wes Bos",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/como-let-const-sao-escopados-f190b632879b#.s1p2hbnp1",
+            "image": "http://jordifernandes.com/wp-content/uploads/2015/06/7801e1ec06f7461c8766b6e81007fd16.png"
+        },
+        {
+            "id": 31,
+            "name": "Série ES6 by Wes Bos — Let vs const",
+            "author": "Wes Bos",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-let-vs-const-f521beef074a#.kcmvimmze",
+            "image": "https://fossbytes.com/wp-content/uploads/2016/06/ecmascript-2016.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Série ES6 by Wes Bos — Use let com for loops em JavaScript",
+            "author": "Wes Bos",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-use-let-com-for-loops-em-javascript-891922dcea49#.dv05gwm0f",
+            "image": "http://itschool-hillel.org/images/blog/488/ecma-1200x600__og.png"
+        },
+        {
+            "id": 33,
+            "name": "Escrevendo JavaScript com acessibilidade em mente",
+            "author": "Manuel Matuzovic",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/escrevendo-javascript-com-acessibilidade-em-mente-3720e9779969#.mmux2td5q",
+            "image": "https://cdn-images-1.medium.com/max/800/1*iAXxkKQ0YDwb0PV8v7t2Hw.png"
+        },
+        {
+            "id": 34,
+            "name": "Reflexão em padrões de projeto para Node.js",
+            "author": "Kalin Chernev",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/reflex%C3%A3o-em-padr%C3%B5es-de-projeto-para-node-js-b7344f2529c7#.gy5lnmau4",
+            "image": "https://tadeuesteves.files.wordpress.com/2014/05/nodejs_0.png"
+        },
+        {
+            "id": 35,
+            "name": "4 novos métodos de string em ES6 que você deveria conhecer",
+            "author": "Wes Bos",
+            "translators": "Emanuel G de Souza",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/emanuelg-blog/4-novos-m%C3%A9todos-de-string-em-es6-que-voc%C3%AA-deveria-conhecer-e85c7262123c#.o8tvbjyke",
+            "image": "http://www.cuelogic.com/blog/wp-content/uploads/2016/04/Advantages-of-JavaScript-ES6-over-ES51.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Design Patterns para Humanos",
+            "author": "Kamran Ahmed",
+            "translators": "Lucas Santos",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://github.com/khaosdoctor/design-patterns-for-humans/tree/translation",
+            "image": "https://speckycdn-sdm.netdna-ssl.com/wp-content/uploads/2017/02/weekly-news-for-designers-february-26-15.png"
+        },
+        {
+            "id": 37,
+            "name": "Como o Flexbox funciona— explicado com gifs grandes e coloridos",
+            "author": "Scott Domes",
+            "translators": "Lucas Silva",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@lucasjs/como-o-flexbox-funciona-explicado-com-gifs-grandes-e-coloridos-26c42a0bcdc",
+            "image": "https://cdn-images-1.medium.com/max/1000/1*naWgwUzZAZxxAfbc6OISpQ.png"
+        },
+        {
+            "id": 38,
+            "name": "Aprenda Istanbul",
+            "author": "DWYL",
+            "translators": "Lucas Santos",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/khaosdoctor/learn-istanbul",
+            "image": "http://gregjopa.com/2014/02/testing-and-code-coverage-with-node-js-apps/istanbul_bad_test_coverage_screenshot.png"
+        },
+        {
+            "id": 39,
+            "name": "O que significa const no ES6?",
+            "author": "Jacopo Daeli",
+            "translators": "Jean Carlo Nascimento",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/suissa/blog/tree/master/traducoes/What%20does%20const%20stand%20for%20in%20ES6%3F",
+            "image": "https://i.ytimg.com/vi/2A-cjljq7ts/maxresdefault.jpg"
+        },
+        {
+            "id": 40,
+            "name": "Carreira Front-End",
+            "author": "William Oliveira",
+            "translators": "William Oliveira, Bruno Silva, Ricardo Shiota Yasuda, Gabriel Brito e Danilo Vaz",
+            "type": "Others",
+            "project": "Completed",
+            "site": "https://github.com/woliveiras/front-end-career/blob/master/translations/pt-br/README.md",
+            "image": "http://i67.tinypic.com/k1uxef.png"
+        },
+        {
+            "id": 41,
+            "name": "Vue.js vale a tentativa?",
+            "author": "Lukas Zkups",
+            "translators": "Walter Gandarella",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://blog.wgbn.com.br/vue-js-vale-a-tentativa-6e63b6e74a3b",
+            "image": "https://i.ytimg.com/vi/DsuTwV0jwaY/maxresdefault.jpg"
+        },
+        {
+            "id": 42,
+            "name": "FIRE Stack, uma nova arquitetura",
+            "author": "Chris Esplin",
+            "translators": "Walter Gandarella",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://blog.wgbn.com.br/fire-stack-uma-nova-arquitetura-11f33b4fb3f",
+            "image": "https://s23.postimg.org/mtsuss8kr/fdgddfg.png"
+        },
+        {
+            "id": 43,
+            "name": "Como Kotlin se tornou a nossa linguagem principal para Android",
+            "author": "Dima Kovalenko",
+            "translators": "Wellington Mitrut",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/blog-do-mitrut/como-kotlin-se-tornou-a-nossa-linguagem-principal-para-android-24c9492fa273",
+            "image": "https://novemberfive.co/images/blog/kotlin-implementation/img-header.a35685e862fa39ad24d32cce13e741f7330b330efc4d432bc5a14479e05ce7ec.jpg"
+        },
+        {
+            "id": 44,
+            "name": "Xamarin vs. Nativo",
+            "author": "Colby Williams",
+            "translators": "Wellington Mitrut",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/blog-do-mitrut/xamarin-vs-nativo-36e46ec2c566",
+            "image": "https://cdn-images-1.medium.com/max/1000/1*ZS0F2bXqEELjlzVJ-Hpw6A.png"
+        },
+        {
+            "id": 45,
+            "name": "Então Você Quer Ser um Programador Funcional (Parte 1)",
+            "author": "Colby Williams",
+            "translators": "Charles Scalfani",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@mapaiva/ent%C3%A3o-voc%C3%AA-quer-ser-um-programador-funcional-parte-1-f3bdb7baeedb",
+            "image": "https://blog.jscrambler.com/content/images/2016/12/functional_programming.jpg"
+        },
+        {
+            "id": 46,
+            "name": "PyPi — Quem mantém e como",
+            "author": "Donald Stuff",
+            "translators": "Cadu Leite",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@cadu_leite/mantendo-o-%C3%ADndice-de-pacotes-python-pypi-deb403b0d984",
+            "image": "https://15809-presscdn-0-93-pagely.netdna-ssl.com/wp-content/uploads/2016/02/MTE5NDg0MDYxMTk4NTUwNTQz.png"
+        },
+        {
+            "id": 47,
+            "name": "Como escrever código Go",
+            "author": "Golang",
+            "translators": "Viliam",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://medium.com/@viliamjr/como-escrever-codigo-go-95381b84ba82",
+            "image": "https://s.dou.ua/storage-files/golang600.png"
+		},
+        {
+            "id": 48,
+            "name": "As 5 Regras da Programação - Segundo Rob Pike",
+            "author": "Rob Pike",
+            "translators": "Viliam",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@viliamjr/as-5-regras-da-programacao-segundo-rob-pike-ae3c8b599f50",
+            "image": "https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2016/08/Untitled-5-1024x576.png"
+        },
+        {
+            "id": 49,
+            "name": "Como dar um treinamento de segurança digital",
+            "author": "Rachel Weidinger, Cooper Quintin, Martin Shelton e Matt Mitchell",
+            "translators": "Narrira Lemos",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@narriral/como-dar-um-treinamento-de-seguran%C3%A7a-digital-48c1df2f0b35",
+            "image": "http://blog.futurecom.com.br/wp-content/uploads/2017/02/seguranca-ti-futurecom.png"
+        },
+        {
+            "id": 50,
+            "name": "Aprenda lua em 15 minutos",
+            "author": "Corona Labs",
+            "translators": "Júnior Pires",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@junior_pires/saaripar-valida%C3%A7%C3%A3o-de-campos-no-android-9d35821a493d",
+            "image": "http://2.bp.blogspot.com/-c87b0AB50aE/Upcb2dnCdRI/AAAAAAAAAC8/w-2ZQwfvhe0/w1200-h630-p-k-no-nu/logo-lua.png"
+        },
+        {
+            "id": 51,
+            "name": "Como usar o GitHub como um ser humano adequado",
+            "author": "Daniel Gallegos",
+            "translators": "Juliano Padilha",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@julianopadilha/como-usar-o-github-como-um-ser-humano-adequado-5a0a2e1afd18",
+            "image": "https://xakep.ru/wp-content/uploads/2015/07/collabocats.jpg"
+        },
+        {
+            "id": 52,
+            "name": "PSR-2 pt-BR Classes",
+            "author": "PHP-Fig",
+            "translators": "Artur Afonso",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://blog.arturafonso.com.br/psr-2-pt-br-classes-fe332b6421fd",
+            "image": "https://s7.postimg.org/4u0acjq1n/2i0eudgdfgdfgdfg.png"
+        },
+        {
+            "id": 53,
+            "name": "Substituindo instruções de switch por objetos literais",
+            "author": "Todd Motto",
+            "translators": "Jean Carlo Nascimento",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@osuissa/substituindo-instru%C3%A7%C3%B5es-de-switch-por-objetos-literais-93a3a78463a1",
+            "image": "https://cdn.programiz.com/sites/tutorial2program/files/switch-case_0.jpg"
+        },
+        {
+            "id": 54,
+            "name": "Garotas precisam de bons exemplos",
+            "author": "Dinah Davis",
+            "translators": "Andressa Chiara",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://code.likeagirl.io/garotas-precisam-de-bons-exemplos-5c4ba026bacf",
+            "image": "https://static1.squarespace.com/static/5516b370e4b06fca171025cd/t/55a4e406e4b088e0a71cb066/1436869641329/?format=750w"
+        },
+        {
+            "id": 55,
+            "name": "Como os homens podem ajudar as mulheres em TI?",
+            "author": "Jonathan Howard",
+            "translators": "Marco Dubovski",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://code.likeagirl.io/como-os-homens-podem-ajudar-as-mulheres-em-ti-ec6f75cacdf8",
+            "image": "http://www.aiga.org/globalassets/migrated-images/uploadedimages/aiga/content/tools_and_resources/womens_leadership/gender-bias-design-aiga-640.png"
+        }
+    ]
+}
