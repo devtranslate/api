@@ -1,0 +1,13 @@
+{
+  "translation": [{
+      "image": "images/brazil.png",
+      "language": "portuguese",
+      "value": "PTBR"
+    },
+    {
+      "image": "images/united-states.png",
+      "language": "english",
+      "value": "ENG"
+    }
+  ]
+}
