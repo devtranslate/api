@@ -550,6 +550,126 @@
             "project": "Completed",
             "site": "https://code.likeagirl.io/how-can-men-help-women-in-tech-b8ed842da7fd",
             "image": "http://www.aiga.org/globalassets/migrated-images/uploadedimages/aiga/content/tools_and_resources/womens_leadership/gender-bias-design-aiga-640.png"
+        },
+        {
+            "id": 56,
+            "name": "Eloquent JavaScript",
+            "author": "Marijn Haverbeke",
+            "translators": "Eric Douglas, Saulo Santiago, Joao Stein, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "http://eloquentjavascript.net/",
+            "image": "https://www.javascript.com/images/pages/resources/img-eloquent-js.jpg"
+        },
+        {
+            "id": 57,
+            "name": "The Swift Programming Language",
+            "author": "Apple",
+            "translators": "CocoaHeadsBrasil (PT-BR)",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "http://carlosicaza.com/swiftbooks/SwiftLanguage.pdf",
+            "image": "http://imagazin.ro/wp-content/uploads/2015/11/cover29.jpg"
+        },
+        {
+            "id": 58,
+            "name": "Learning JavaScript Design Patterns",
+            "author": "Addy Osmani",
+            "translators": "Eric Oliveira (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+            "image": "https://camo.githubusercontent.com/affe20a0b3c2bfc8d288ab8a35d45b49a6972693/687474703a2f2f692e696d6775722e636f6d2f7035324b4742572e706e67"
+        },
+        {
+            "id": 59,
+            "name": "Why's (Poignant) Guide to Ruby",
+            "author": "Mislav Marohnić",
+            "translators": "Carlos Brando, Hugo Borges, Marcos Piccinini, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://poignant.guide",
+            "image": "http://i67.tinypic.com/1687gqa.png"
+        },
+        {
+            "id": 60,
+            "name": "Think Python",
+            "author": "Allen B. Downey",
+            "translators": "Diego Rocha, Luciano Ramalho e Wellington Moraes (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "http://greenteapress.com/wp/think-python-2e/",
+            "image": "http://i63.tinypic.com/30s7p6g.png"
+        },
+        {
+            "id": 61,
+            "name": "Learn You Node",
+            "author": "Node School",
+            "translators": "Lucas Fernandes da Costa, Eric Douglas, Lucas Vieira, etc (PT-BR)",
+            "type": "Others",
+            "project": "Completed",
+            "site": "https://github.com/workshopper/learnyounode",
+            "image": "http://i64.tinypic.com/2s96q9y.png"
+        },
+        {
+            "id": 62,
+            "name": "Learning JavaScript Design Patterns",
+            "author": "Addy Osmani",
+            "translators": "Eliel das Virgens Santos (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+            "image": "http://i68.tinypic.com/2e0lbvs.png"
+        },
+        {
+            "id": 63,
+            "name": "Sinatra Book",
+            "author": "Chris Schneider",
+            "translators": "Tailor Fontela e Giovani Generali (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://github.com/cschneid/sinatra-book/tree/master",
+            "image": "http://i64.tinypic.com/27x1d7r.png"
+        },
+        {
+            "id": 64,
+            "name": "Angular Style Guide",
+            "author": "John Papa",
+            "translators": "Lennon Jesus, Lucas Moreira e Bruno Wego (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://github.com/johnpapa/angular-styleguide",
+            "image": "http://i63.tinypic.com/15yu0s9.png"
+        },
+        {
+            "id": 65,
+            "name": "Try Git",
+            "author": "Code School",
+            "translators": "Gustavo Franco (PT-BR)",
+            "type": "Codes",
+            "project": "Completed",
+            "site": "https://github.com/mandado/Experimente-Git",
+            "image": "http://media02.hongkiat.com/developers-command-line/try-git.jpg"
+        },
+        {
+            "id": 66,
+            "name": "Maintainable CSS",
+            "author": "Adam Silver",
+            "translators": "Ayrton Fidélis, Gabriel Bastos e Talita Pagani (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://maintainablecss.com/",
+            "image": "http://i67.tinypic.com/28vdjcw.png"
+        },
+        {
+            "id": 67,
+            "name": "Pycubator",
+            "author": "Noam Elfanbaum and Udi Oron",
+            "translators": "Gilson Filho, Noam Elfanbaum e James Peres, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "http://pycubator.com/",
+            "image": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAZcAAAAJDYwMWNjZWU5LWRiZGItNDM3Ny1iMGMzLWRjNmVjZWE2M2Q3MQ.png"
         }
     ]
 }
