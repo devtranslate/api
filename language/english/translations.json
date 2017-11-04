@@ -1,5 +1,5 @@
 {
-    "totalRows": 55,
+    "totalRows": 86,
     "data": [
         {
             "id": 1,
@@ -567,7 +567,7 @@
             "author": "Apple",
             "translators": "CocoaHeadsBrasil (PT-BR)",
             "type": "Books",
-            "project": "In Progress",
+            "project": "Completed",
             "site": "http://carlosicaza.com/swiftbooks/SwiftLanguage.pdf",
             "image": "http://imagazin.ro/wp-content/uploads/2015/11/cover29.jpg"
         },
@@ -670,6 +670,196 @@
             "project": "Completed",
             "site": "http://pycubator.com/",
             "image": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAZcAAAAJDYwMWNjZWU5LWRiZGItNDM3Ny1iMGMzLWRjNmVjZWE2M2Q3MQ.png"
-        }
+        },
+        {
+            "id": 68,
+            "name": "Making Games With Python & Pygame",
+            "author": "Al Sweigart",
+            "translators": "Iury Alves e Eduardo Saito (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "http://inventwithpython.com/pygame/chapters/",
+            "image": "http://i65.tinypic.com/2helf0g.png"
+        },
+        {
+            "id": 69,
+            "name": "Learn You a Haskell for Great Good",
+            "author": "Miran Lipovaca",
+            "translators": "Tailor Fontela, Bruno Soares da Silva, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "http://www.learnyouahaskell.com/",
+            "image": "http://i68.tinypic.com/fooxgh.png"
+        },
+        {
+            "id": 70,
+            "name": "CSS Guideline",
+            "author": "Harry Roberts",
+            "translators": "Jhon Donavan, Lucas Trindade, Larissa Mourullo, etc (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://cssguidelin.es/",
+            "image": "http://styleguides.io/images/screenshots/css-guidelines.jpg"
+        },
+        {
+            "id": 71,
+            "name": "The Vala Tutorial",
+            "author": "Chris Daley",
+            "translators": "Fernando da Silva Sousa, Leonardo Lemos, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://github.com/valadate-project/the-vala-tutorial",
+            "image": "http://i66.tinypic.com/2vj782b.png"
+        },
+        {
+            "id": 72,
+            "name": "The Django Book",
+            "author": "Nigel George",
+            "translators": "Douglas Miranda, Marcelo J. Both, Londerson, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://djangobook.com/the-django-book/",
+            "image": "http://i68.tinypic.com/11bm2iu.png"
+        },
+        {
+            "id": 73,
+            "name": "PHP Standards Recommendations",
+            "author": "Matthew Weier O'Phinney",
+            "translators": "Enrico Pereira (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://www.php-fig.org/psr/",
+            "image": "http://i64.tinypic.com/23w4q4y.png"
+        },
+        {
+            "id": 74,
+            "name": "Jekyll Documentation",
+            "author": "Jekyll",
+            "translators": "Fernando Moreira, Raphael Barreto, etc (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://jekyllrb.com/",
+            "image": "https://d2vvqscadf4c1f.cloudfront.net/QFIpIiNBR5ygh6UOWMf8_jekyll-logo-820x418.png"
+        },
+        {
+            "id": 75,
+            "name": "React Documentation",
+            "author": "Facebook",
+            "translators": "Willian Mano e Fabio Soares (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://reactjs.org",
+            "image": "https://facebook.github.io/react/img/logo_og.png"
+        },
+        {
+            "id": 76,
+            "name": "Composer Documentation",
+            "author": "Composer",
+            "translators": "Nando Kstro, Alfredo Braga e Gustavo Pereira (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://getcomposer.org/doc/",
+            "image": "https://phptoday.ru/img-cache/storage/tools/composer.jpg?p=opengraph"
+        },
+        {
+            "id": 77,
+            "name": "Prism for Xamarin Forms",
+            "author": "Prism",
+            "translators": "Angelo Luis, Ronildo N. Souza e Jonathan Braga (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://prismlibrary.readthedocs.io/en/latest/Xamarin-Forms/1-Getting-Started/",
+            "image": "https://raw.githubusercontent.com/PrismLibrary/Prism/master/docs/images/prism-visual-studio-gallery.jpg"
+        },
+        {
+            "id": 78,
+            "name": "Hexo Documentation",
+            "author": "Hexo",
+            "translators": "Luciano Baraúna (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/lucianobarauna/dochexo",
+            "image": "http://i.imgur.com/HLrmbRw.jpg"
+        },
+        {
+            "id": 79,
+            "name": "Beginning Perl",
+            "author": "Simon Cozens",
+            "translators": "Blabos de Blebe, Solli Moreira, etc (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://www.perl.org/books/beginning-perl/",
+            "image": "http://i66.tinypic.com/6svrr4.png"
+        },
+        {
+            "id": 80,
+            "name": "PromiseJS",
+            "author": "Forbes Lindesay",
+            "translators": "Pedro Nauck, Eric Douglas, etc (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://www.promisejs.org/",
+            "image": "http://i66.tinypic.com/5b41w0.png"
+        },
+        {
+            "id": 81,
+            "name": "Wisdom of the ElePHPant",
+            "author": "Jeff Carouth",
+            "translators": "Reginaldo Junior e Vitor Capretz (PT-BR)",
+            "type": "Books",
+            "project": "Completed",
+            "site": "https://wisdomoftheelephpant.com",
+            "image": "http://srcmvn.com/images/posts/2015-02-06-wisdom.jpg"
+        },
+        {
+            "id": 82,
+            "name": "Laravel 4 Docs",
+            "author": "Taylor Otwel",
+            "translators": "Kaio Cesar (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://laravel.com/docs",
+            "image": "http://i63.tinypic.com/1175qhz.png"
+        },
+        {
+            "id": 83,
+            "name": "Open Source Guides",
+            "author": "Github",
+            "translators": "Fernando Moreira (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://opensource.guide/",
+            "image": "https://fossbytes.com/wp-content/uploads/2017/02/Github-OS-Guide.png"
+        },
+        {
+            "id": 84,
+            "name": "Google Interview University",
+            "author": "John Washam",
+            "translators": "Marlon Aviz (PT-BR)",
+            "type": "Others",
+            "project": "Completed",
+            "site": "https://github.com/jwasham/coding-interview-university",
+            "image": "http://www.lifo.gr/icache/590/310/2/681658_silicon-valley.jpg"
+        },
+        {
+            "id": 85,
+            "name": "PHP Manual",
+            "author": "PHP Group",
+            "translators": "Anderson Mamede, Fabio Abrantes, etc (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://php.net/manual/en/copyright.php",
+            "image": "http://www.cpd-india.com/blog/wp-content/uploads/2016/05/php1.png"
+        },
+        {
+            "id": 86,
+            "name": "React Native Documentation",
+            "author": "Facebook",
+            "translators": "Anthony Conceição e Lorhana Trindade (PT-BR)",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://facebook.github.io/react-native/docs/getting-started.html",
+            "image": "http://i.imgur.com/oudmGva.png"
+        },
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "totalRows": 55,
+    "totalRows": 86,
     "data": [
         {
             "id": 1,
@@ -670,6 +670,196 @@
             "project": "Completed",
             "site": "http://df.python.org.br/pycubator/",
             "image": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAZcAAAAJDYwMWNjZWU5LWRiZGItNDM3Ny1iMGMzLWRjNmVjZWE2M2Q3MQ.png"
+        },
+        {
+            "id": 68,
+            "name": "Making Games With Python & Pygame",
+            "author": "Al Sweigart",
+            "translators": "Iury Alves e Eduardo Saito",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "https://github.com/IuryAlves/pygame-book-translation",
+            "image": "http://i65.tinypic.com/2helf0g.png"
+        },
+        {
+            "id": 69,
+            "name": "Aprender Haskell Será um Grande Bem Para Você",
+            "author": "Miran Lipovaca",
+            "translators": "Tailor Fontela, Bruno Soares da Silva, etc",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "https://github.com/taylorrf/learnhaskell",
+            "image": "http://i68.tinypic.com/fooxgh.png"
+        },
+        {
+            "id": 70,
+            "name": "CSS Guideline",
+            "author": "Harry Roberts",
+            "translators": "Jhon Donavan, Lucas da Silva Trindade, Larissa Mourullo, etc",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/GDGDuqueDeCaxias/cssguideline-translate-ptbr",
+            "image": "http://styleguides.io/images/screenshots/css-guidelines.jpg"
+        },
+        {
+            "id": 71,
+            "name": "The Vala Tutorial",
+            "author": "Chris Daley",
+            "translators": "Fernando da Silva Sousa, Leonardo Lemos, etc",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "https://github.com/elementary-br/the-vala-tutorial",
+            "image": "http://i66.tinypic.com/2vj782b.png"
+        },
+        {
+            "id": 72,
+            "name": "The Django Book",
+            "author": "Nigel George",
+            "translators": "Douglas Miranda, Marcelo J. Both, Londerson, etc",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "https://github.com/erichideki/djangobook",
+            "image": "http://i68.tinypic.com/11bm2iu.png"
+        },
+        {
+            "id": 73,
+            "name": "PHP Standards Recommendations",
+            "author": "Matthew Weier O'Phinney",
+            "translators": "Enrico Pereira",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/aaoliveira/PSR_PT-BR",
+            "image": "http://i64.tinypic.com/23w4q4y.png"
+        },
+        {
+            "id": 74,
+            "name": "Documentação do Jekyll",
+            "author": "Jekyll",
+            "translators": "Fernando Moreira, Raphael Barreto, etc",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/jekyll-brasil/jekyll-brasil.github.io",
+            "image": "https://d2vvqscadf4c1f.cloudfront.net/QFIpIiNBR5ygh6UOWMf8_jekyll-logo-820x418.png"
+        },
+        {
+            "id": 75,
+            "name": "Documentação do React",
+            "author": "Facebook",
+            "translators": "Willian Mano e Fabio Soares",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/willianmano/reactdocs-pt_br",
+            "image": "https://facebook.github.io/react/img/logo_og.png"
+        },
+        {
+            "id": 76,
+            "name": "Documentação do Composer",
+            "author": "Composer",
+            "translators": "Nando Kstro, Alfredo Braga e Gustavo Pereira",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/NandoKstroNet/docs-composer-pt-br",
+            "image": "https://phptoday.ru/img-cache/storage/tools/composer.jpg?p=opengraph"
+        },
+        {
+            "id": 77,
+            "name": "Prism for Xamarin Forms",
+            "author": "Prism",
+            "translators": "Angelo Luis, Ronildo N. Souza e Jonathan Braga",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/angelobelchior/prism-xamarin-forms",
+            "image": "https://raw.githubusercontent.com/PrismLibrary/Prism/master/docs/images/prism-visual-studio-gallery.jpg"
+        },
+        {
+            "id": 78,
+            "name": "Documentação Hexo - Template Estático em Node.js",
+            "author": "Hexo",
+            "translators": "Luciano Baraúna",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/lucianobarauna/dochexo",
+            "image": "http://i.imgur.com/HLrmbRw.jpg"
+        },
+        {
+            "id": 79,
+            "name": "Beginning Perl",
+            "author": "Simon Cozens",
+            "translators": "Blabos de Blebe, Solli Moreira, etc",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "https://github.com/shonorio/beginning-perl",
+            "image": "http://i66.tinypic.com/6svrr4.png"
+        },
+        {
+            "id": 80,
+            "name": "PromiseJS",
+            "author": "Forbes Lindesay",
+            "translators": "Pedro Nauck, Eric Douglas, etc",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/pedronauck/promiseJS.br",
+            "image": "http://i66.tinypic.com/5b41w0.png"
+        },
+        {
+            "id": 81,
+            "name": "Sabedoria do Elefante (Wisdom of the ElePHPant)",
+            "author": "Jeff Carouth",
+            "translators": "Reginaldo Junior e Vitor Capretz",
+            "type": "Books",
+            "project": "In Progress",
+            "site": "https://github.com/reginaldojunior/wisdom-of-the-elephant",
+            "image": "http://srcmvn.com/images/posts/2015-02-06-wisdom.jpg"
+        },
+        {
+            "id": 82,
+            "name": "Laravel 4 Docs",
+            "author": "Taylor Otwel",
+            "translators": "Kaio Cesar",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/kaiocesar/laravel4-docs-ptbr",
+            "image": "http://i63.tinypic.com/1175qhz.png"
+        },
+        {
+            "id": 83,
+            "name": "Open Source Guides",
+            "author": "Github",
+            "translators": "Fernando Moreira",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/nandomoreirame/open-source-guide",
+            "image": "https://fossbytes.com/wp-content/uploads/2017/02/Github-OS-Guide.png"
+        },
+        {
+            "id": 84,
+            "name": "Google Interview University",
+            "author": "John Washam",
+            "translators": "Marlon Aviz",
+            "type": "Others",
+            "project": "In Progress",
+            "site": "https://github.com/avizmarlon/google-interview-university",
+            "image": "http://www.lifo.gr/icache/590/310/2/681658_silicon-valley.jpg"
+        },
+        {
+            "id": 85,
+            "name": "Guia de Edição do Manual de PHP",
+            "author": "PHP Group",
+            "translators": "Anderson Mamede, Fabio Abrantes, etc",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/phpdocbrbridge/traducao/wiki/Guia-de-edi%C3%A7%C3%A3o-do-manual",
+            "image": "http://www.cpd-india.com/blog/wp-content/uploads/2016/05/php1.png"
+        },
+        {
+            "id": 86,
+            "name": "Documentação React Native",
+            "author": "Facebook",
+            "translators": "Anthony Conceição e Lorhana Trindade",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/AnthonyMRodrigues/docsreactnative",
+            "image": "http://i.imgur.com/oudmGva.png"
         }
     ]
 }
