@@ -1,5 +1,5 @@
 {
-    "totalRows": 86,
+    "totalRows": 103,
     "data": [
         {
             "id": 1,
@@ -860,6 +860,176 @@
             "project": "In Progress",
             "site": "https://github.com/AnthonyMRodrigues/docsreactnative",
             "image": "http://i.imgur.com/oudmGva.png"
+        },
+        {
+            "id": 87,
+            "name": "Documentação - Ruby",
+            "author": "Ruby",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://www.ruby-lang.org/pt/documentation/",
+            "image": "http://i.imgur.com/Zu11SLM.png"
+        },
+        {
+            "id": 88,
+            "name": "Guia Definitivo para Yii 2.0",
+            "author": "Yii Software LLC",
+            "translators": "Davidson Alencar, Jan Silva, etc",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/yiisoft/yii2/tree/master/docs/guide-pt-BR",
+            "image": "http://catazinelive.net/wp-content/uploads/2013/06/yii-1.png"
+        },
+        {
+            "id": 89,
+            "name": "Documentação de PostgreSQL",
+            "author": "The PostgreSQL Global Development Group",
+            "translators": "Comunidade do PostgreSQL",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://www.postgresql.org.br/pages/documentacao.html",
+            "image": "https://tellesr.files.wordpress.com/2015/01/postgresql-logo.png"
+        },
+        {
+            "id": 90,
+            "name": "Documentação do Bootstrap",
+            "author": "Mark Otto e Jacob",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://getbootstrap.com.br/",
+            "image": "http://bootstrapbrasil.github.io/assets/img/bootstrap-cover.png"
+        },
+        {
+            "id": 91,
+            "name": "Documentação do Symfony",
+            "author": "SensioLabs",
+            "translators": "Andréia Bohner",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://github.com/andreia/symfony-docs-pt-BR",
+            "image": "http://i68.tinypic.com/2chuy5l.png"
+        },
+        {
+            "id": 92,
+            "name": "Documentação do Framework Meteor",
+            "author": "Meteor Development Group Inc.",
+            "translators": "Guilherme Decampo",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/MeteorBrasil/meteor-docsbr",
+            "image": "http://baboon.ir/uploads/2016/08/discover-meteor-wallpaper-with-logo-950x490.jpg"
+        }, 
+        {
+           "id": 93,
+            "name": "Documentação Respect / REST",
+            "author": "Alexandre Gomes Gaigalas",
+            "translators": "Nando Kstro, Eduardo Lopes e Eric Cristhiano",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/NandoKstroNet/docptbrrespectrest",
+            "image": "http://i66.tinypic.com/2a0g3yo.png"
+        },
+        {
+            "id": 94,
+            "name": "Documentação de JavaScript",
+            "author": "Mozilla",
+            "translators": "Comunidade MDN",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+            "image": "https://www.adslzone.net/app/uploads/2016/12/javascript.jpg"
+        },
+        {
+            "id": 95,
+            "name": "Documentação do Respect\\Validation",
+            "author": "Alexandre Gomes Gaigalas",
+            "translators": "Nando Kstro",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/NandoKstroNet/docsptbrrespectvalidation",
+            "image": "http://i65.tinypic.com/2eyf04j.png"
+        },
+        {
+            "id": 96,
+            "name": "Laravel Docs",
+            "author": "Taylor Otwel",
+            "translators": "Vinicius Reis, Leandro Sanches, Hely de Sousa, etc",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/artesaos/laravel-docs",
+            "image": "http://jonathasguerra.com.br/blog/wp-content/uploads/2017/01/laravel-covercover.jpg"
+        },
+        {
+            "id": 97,
+            "name": "Documentação do Framework Jasmine 2.0",
+            "author": "Michael Jackson",
+            "translators": "Eric Douglas",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://ericdouglas.github.io/jasmine-br-docs/",
+            "image": "http://i68.tinypic.com/k0fsxh.png"
+        },
+        {
+            "id": 98,
+            "name": "Documentação do Joomla",
+            "author": "Joomla! EDL",
+            "translators": "Comunidade Joomla",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://docs.joomla.org/Joomla_info_page/pt-BR",
+            "image": "https://cdn.joomla.org/images/joomla-org-og.jpg"
+        },
+        {
+            "id": 99,
+            "name": "Documentação do Vue.js",
+            "author": "Evan You",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://br.vuejs.org/",
+            "image": "https://i.ytimg.com/vi/DsuTwV0jwaY/maxresdefault.jpg"
+        },
+        {
+            "id": 100,
+            "name": "Documentação de RSCSS",
+            "author": "Rico Sta. Cruz",
+            "translators": "Mateus da Silva Sousa",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://silvamateus.gitbooks.io/rscss/content/",
+            "image": "http://syndicode.co/wp-content/uploads/2016/07/article-logo.jpg"
+        },
+        {
+            "id": 101,
+            "name": "Documentação do Jest",
+            "author": "Facebook",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://facebook.github.io/jest/pt-BR/",
+            "image": "https://marmelab.com/images/blog/jest.png"
+        },
+        {
+            "id": 102,
+            "name": "Documentação de Lua 5.2",
+            "author": "Lua.org",
+            "translators": "Sérgio Queiroz de Medeiros e Roberto Ierusalimschy",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://www.lua.org/manual/5.2/pt/",
+            "image": "https://2.bp.blogspot.com/-c87b0AB50aE/Upcb2dnCdRI/AAAAAAAAAC8/w-2ZQwfvhe0/w1200-h630-p-k-no-nu/logo-lua.png"
+        },
+        {
+            "id": 103,
+            "name": "Documentação do Django",
+            "author": "Django Software Foundation",
+            "translators": "Comunidade Django",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://docs.djangoproject.com/pt-br/1.11/",
+            "image": "https://i0.wp.com/edlibre.com/new/wp-content/uploads/2016/02/djangopony.jpg"
         }
     ]
 }

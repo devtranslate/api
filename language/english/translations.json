@@ -1,5 +1,5 @@
 {
-    "totalRows": 86,
+    "totalRows": 103,
     "data": [
         {
             "id": 1,
@@ -857,9 +857,179 @@
             "author": "Facebook",
             "translators": "Anthony Conceição e Lorhana Trindade (PT-BR)",
             "type": "Documentation",
-            "project": "In Progress",
+            "project": "Completed",
             "site": "https://facebook.github.io/react-native/docs/getting-started.html",
             "image": "http://i.imgur.com/oudmGva.png"
         },
+        {
+            "id": 87,
+            "name": "Ruby Documentation",
+            "author": "Ruby",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://www.ruby-lang.org/en/documentation/",
+            "image": "http://i.imgur.com/Zu11SLM.png"
+        },
+        {
+            "id": 88,
+            "name": "The Definitive Guide to Yii 2.0",
+            "author": "Yii Software LLC",
+            "translators": "Davidson Alencar, Jan Silva, etc (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/yiisoft/yii2/tree/master/docs/guide",
+            "image": "http://catazinelive.net/wp-content/uploads/2013/06/yii-1.png"
+        },
+        {
+            "id": 89,
+            "name": "PostgreSQL Documentation",
+            "author": "The PostgreSQL Global Development Group",
+            "translators": "PostgreSQL Community",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://www.postgresql.org/docs/",
+            "image": "https://tellesr.files.wordpress.com/2015/01/postgresql-logo.png"
+        },
+        {
+            "id": 90,
+            "name": "Bootstrap Documentation",
+            "author": "Mark Otto and Jacob",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://getbootstrap.com/",
+            "image": "http://bootstrapbrasil.github.io/assets/img/bootstrap-cover.png"
+        },
+        {
+            "id": 91,
+            "name": "Symfony Documentation",
+            "author": "SensioLabs",
+            "translators": "Andréia Bohner (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://symfony.com/doc/current/index.html",
+            "image": "http://www.ivangabriele.com/wp-content/uploads/2015/06/Symfony-1024x512.png"
+        },
+        {
+            "id": 92,
+            "name": "Meteor Documentation",
+            "author": "Meteor Development Group Inc.",
+            "translators": "Guilherme Decampo (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://docs.meteor.com/#/full/",
+            "image": "http://baboon.ir/uploads/2016/08/discover-meteor-wallpaper-with-logo-950x490.jpg"
+        }, 
+        {
+           "id": 93,
+            "name": "Respect / REST Documentation",
+            "author": "Alexandre Gomes Gaigalas",
+            "translators": "Nando Kstro, Eduardo Lopes e Eric Cristhiano (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://respect.github.io/Rest/license.html",
+            "image": "http://i66.tinypic.com/2a0g3yo.png"
+        },
+        {
+            "id": 94,
+            "name": "JavaScript Documentation",
+            "author": "Mozilla",
+            "translators": "MDN Community",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "image": "https://www.adslzone.net/app/uploads/2016/12/javascript.jpg"
+        },
+        {
+            "id": 95,
+            "name": "Documentação do Respect\\Validation",
+            "author": "Alexandre Gomes Gaigalas",
+            "translators": "Nando Kstro (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/Respect/Validation",
+            "image": "http://i65.tinypic.com/2eyf04j.png"
+        },
+        {
+            "id": 96,
+            "name": "Laravel Docs",
+            "author": "Taylor Otwel",
+            "translators": "Vinicius Reis, Leandro Sanches, Hely de Sousa, etc (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/laravel/docs",
+            "image": "http://jonathasguerra.com.br/blog/wp-content/uploads/2017/01/laravel-covercover.jpg"
+        },
+        {
+            "id": 97,
+            "name": "Jasmine 2 Documentation",
+            "author": "Michael Jackson",
+            "translators": "Eric Douglas (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://jasmine.github.io/2.0/introduction.html",
+            "image": "http://i68.tinypic.com/k0fsxh.png"
+        },
+        {
+            "id": 98,
+            "name": "Joomla Documentation",
+            "author": "Joomla! EDL",
+            "translators": "Joomla Community",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://docs.joomla.org/Joomla_info_page/EN",
+            "image": "https://cdn.joomla.org/images/joomla-org-og.jpg"
+        },
+        {
+            "id": 99,
+            "name": "Vue.js Documentation",
+            "author": "Evan You",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://vuejs.org/",
+            "image": "https://i.ytimg.com/vi/DsuTwV0jwaY/maxresdefault.jpg"
+        },
+        {
+            "id": 100,
+            "name": "RSCSS Documentation",
+            "author": "Rico Sta. Cruz",
+            "translators": "Mateus da Silva Sousa (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://rscss.io/",
+            "image": "http://syndicode.co/wp-content/uploads/2016/07/article-logo.jpg"
+        },
+        {
+            "id": 101,
+            "name": "Jest Documentation",
+            "author": "Facebook",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://facebook.github.io/jest/",
+            "image": "https://marmelab.com/images/blog/jest.png"
+        },
+        {
+            "id": 102,
+            "name": "Lua 5.2 Documentation",
+            "author": "Lua.org",
+            "translators": "Sérgio Queiroz de Medeiros e Roberto Ierusalimschy (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://www.lua.org/manual/5.2/",
+            "image": "https://2.bp.blogspot.com/-c87b0AB50aE/Upcb2dnCdRI/AAAAAAAAAC8/w-2ZQwfvhe0/w1200-h630-p-k-no-nu/logo-lua.png"
+        },
+        {
+            "id": 103,
+            "name": "Django Documentation",
+            "author": "Django Software Foundation",
+            "translators": "Django Community",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://docs.djangoproject.com/en/1.11/",
+            "image": "https://i0.wp.com/edlibre.com/new/wp-content/uploads/2016/02/djangopony.jpg"
+        }
     ]
 }
