@@ -665,7 +665,7 @@
             "id": 67,
             "name": "Pycubator",
             "author": "Noam Elfanbaum e Udi Oron",
-            "translators": "Gilson Filho, Noam Elfanbaum e James Peres, etc",
+            "translators": "Gilson Filho, Noam Elfanbaum, James Peres, etc",
             "type": "Books",
             "project": "Completed",
             "site": "http://df.python.org.br/pycubator/",
@@ -749,7 +749,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/willianmano/reactdocs-pt_br",
-            "image": "https://facebook.github.io/react/img/logo_og.png"
+            "image": "https://cdn-images-1.medium.com/max/1600/1*TUKtRDyPfi5gJ3q0NKomxA.jpeg"
         },
         {
             "id": 76,
@@ -879,7 +879,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/yiisoft/yii2/tree/master/docs/guide-pt-BR",
-            "image": "http://catazinelive.net/wp-content/uploads/2013/06/yii-1.png"
+            "image": "http://2.bp.blogspot.com/-egsqlKtGdeg/UcGoyEuUxOI/AAAAAAAAL4M/o5TMJ1J9SZI/s1600/yii-framework.jpg"
         },
         {
             "id": 89,
@@ -1030,6 +1030,276 @@
             "project": "Completed",
             "site": "https://docs.djangoproject.com/pt-br/1.11/",
             "image": "https://i0.wp.com/edlibre.com/new/wp-content/uploads/2016/02/djangopony.jpg"
+        },
+        {
+            "id": 104,
+            "name": "Você não precisa de jQuery (Não mais)",
+            "author": "Ray Nicholus",
+            "translators": "Gabriel Ribeiro e Eric Cristhiano",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/tree/master/series/voce-nao-precisa-de-jquery",
+            "image": "http://bradsknutson.com/wp-content/uploads/2014/05/you-dont-need-jquery.jpg"
+        },
+        {
+            "id": 105,
+            "name": "Então você quer ser um Programador Funcional?",
+            "author": "Charles Scalfani",
+            "translators": "Gabriel Ribeiro",
+            "type": "Articles",
+            "project": "In Progress",
+            "site": "https://github.com/ericdouglas/traduz-ai/tree/master/series/entao-voce-quer-ser-um-programador-funcional",
+            "image": "http://www.ruanyifeng.com/blogimg/asset/2017/bg2017022201.jpg"
+        },
+        {
+            "id": 106,
+            "name": "Guia Definitivo para Aprender Angularjs em 1 Dia",
+            "author": "Todd Motto",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/001-guia-definitivo-para-aprender-angularjs.md",
+            "image": "http://www.iiceducation.in/img/institute/angular-js-training-institute-class-course-in-indore.png"
+        },
+        {
+            "id": 107,
+            "name": "Aprenda AngularJS com 5 Exemplos",
+            "author": "Danny Markov",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/002-aprenda-angularjs-com-5-exemplos.md",
+            "image": "https://raw.githubusercontent.com/ericdouglas/traduz-ai/master/img/angularJS-5-exemplos.png"
+        },
+        {
+            "id": 108,
+            "name": "Use AngularJS para Potencializar suas Aplicações Web",
+            "author": "Year Of Moo",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/003-use-angularjs-para-potencializar-sua-webapp.md#use-angularjs-para-potencializar-suas-aplica%C3%A7%C3%B5es-web",
+            "image": "https://blog.mxcursos.com/wp-content/uploads/2016/06/AngularJS-1.jpg"
+        },
+        {
+            "id": 109,
+            "name": "Mais Mágicas do AngularJS para Turbinar sua Webapp",
+            "author": "Year Of Moo",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/004-mais-magicas-angularjs-para-turbinar-sua-webapp.md#mais-m%C3%A1gicas-do-angularjs-para-turbinar-sua-webapp",
+            "image": "http://blog.caelum.com.br/wp-content/uploads/2014/11/angularjs.jpg"
+        },
+        {
+            "id": 110,
+            "name": "Entendendo Diretivas",
+            "author": "AngularJS",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/005-entendendo-diretivas.md",
+            "image": "http://cdn2.hubspot.net/hubfs/247169/blogs/angular-1.png"
+        },
+        {
+            "id": 111,
+            "name": "Behaviour Driven Development com JavaScript",
+            "author": "Gajus Kuizinas",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/bdd/001-bdd-with-js.md",
+            "image": "http://www.diatomenterprises.com/wp-content/uploads/2016/11/BDD-825x400.jpg"
+        },
+        {
+            "id": 112,
+            "name": "Aprenda Tudo sobre Handlebars.js Templating JavaScript",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas e Thulio Philipe",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/handlebars/001-aprenda-tudo-sobre-handlebars.md#aprenda-tudo-sobre-handlebarsjs-templating-javascript",
+            "image": "https://i2.wp.com/keyholesoftware.com/wp-content/uploads/Handlebars.jpg?fit=700%2C400&ssl=1"
+        },
+        {
+            "id": 113,
+            "name": "Como aprender Javascript Corretamente! – JavaScript.is (Sexy)",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "http://javascriptissexy.com/how-to-learn-javascript-properly/",
+            "image": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fs.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F681e51ecea852c4622223d39db2ea1ea%2F203028888%2Fessentialjavascrip_editorial.jpg&client=cbc79c14efcebee57402&signature=b733ded8c2047187a14cad6b928eff5a6405b610"
+        },
+        {
+            "id": 114,
+            "name": "Objetos JavaScript em Detalhe",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/002-objetos-js-em-detalhe.md#objetos-javascript-em-detalhe",
+            "image": "http://cdn.matera.com/br/wp-content/uploads/2017/05/JavaScript.png"
+        },
+        {
+            "id": 115,
+            "name": "Escopo e Hoisting de Variáveis no JavaScript Explicados",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/003-escopo-de-variavel-js-e-hoisting-explicado.md#escopo-de-vari%C3%A1vel-javascript-e-hoisting-explicado",
+            "image": "https://blog.mxcursos.com/wp-content/uploads/2016/06/JavaScript-1.jpg"
+        },
+        {
+            "id": 116,
+            "name": "Entenda Closures no JavaScript com Facilidade",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/004-entenda-closures-no-javaScript-com-facilidade.md#entenda-closures-no-javascript-com-facilidade",
+            "image": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/NzIsAac-796x398.jpg"
+        },
+        {
+            "id": 117,
+            "name": "Protótipos Javascript em uma Linguagem Simples",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/005-prototipos-javascript-em-uma-linguagem-simples.md#prot%C3%B3tipos-javascript-em-uma-linguagem-simples",
+            "image": "https://gaunte.com/images/blog/_fbjumbo/porque-aprender-javascript.jpg"
+        },
+        {
+            "id": 118,
+            "name": "Aprenda Funções JavaScript de Ordem Superior - Funções Callback",
+            "author": "Javascript is Sexy",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/006-entenda-callbacks-js.md",
+            "image": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAxJAAAAJGVmYjkwOGUzLTUzMTYtNDkyZC1hY2VjLWM3MTFkNDFjNzIwMg.png"
+        },
+        {
+            "id": 119,
+            "name": "Um Mergulho no JavaScript Puro",
+            "author": "Adtile Technologies Inc.",
+            "translators": "Lucas F. Costa",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/007-um-mergulho-no-javascript-puro.md",
+            "image": "https://www.webdevelopersnotes.com/wp-content/uploads/javascript-tutorial.png"
+        },
+        {
+            "id": 120,
+            "name": "Programação Funcional Deve Ser Sua Prioridade número #1 em 2015",
+            "author": "Ju Gonçalves",
+            "translators": "Eric Douglas e Diogo Beato",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/008-programacao-funcional-prioridade-2015.md",
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--NhevDum3--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/xrgq7d9fycjzj94vc4ob.png"
+        },
+        {
+            "id": 121,
+            "name": "Uma Suave Introdução ao JavaScript Funcional",
+            "author": "James Sinclair",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/009-uma-suave-introducao-ao-javascript-parte-1.md",
+            "image": "https://www.edx.org/sites/default/files/styles/course_video_banner/public/course/image/featured-card/1_haskell_home_378x225.jpg?itok=BNKqkeK8"
+        },
+        {
+            "id": 122,
+            "name": "Uma introdução ao MongoDB",
+            "author": "Chris Sevilleja",
+            "translators": "Felipe Batista",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/MongoDB/001-uma-introduc%CC%A7a%CC%83o-ao-mongodb.md",
+            "image": "http://www.marcdias.com.br/wp-content/uploads/2017/03/0001494_search-engine-powered-by-mongodb.jpeg"
+        },
+        {
+            "id": 123,
+            "name": "Guia Para Absolutos Iniciantes em Node.js",
+            "author": "Brandon Satrom",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/001-guia-para-iniciantes-absolutos-em-nodejs.md",
+            "image": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/landscape/nodejslogo.png?1499963356"
+        },
+        {
+            "id": 124,
+            "name": "Simples Guia Passo-a-Passo Para Desenvolvedores Front-End Iniciarem Com Node.js, Express, Jade e MongoDB",
+            "author": "Christopher Buecheler",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/002-simples-guia-nodejs-jade-express-mongodb.md",
+            "image": "http://inventures.cl/wp-content/uploads/2017/02/men.png"
+        },
+        {
+            "id": 125,
+            "name": "Sua Linha do Tempo para Aprender React",
+            "author": "Dave Ceddia",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/react/01-sua-linha-do-tempo-para-aprender-react.md",
+            "image": "http://www.mindinventory.com/blog/wp-content/uploads/2017/08/reactjs.jpg"
+        },
+        {
+            "id": 126,
+            "name": "Introdução ao React para pessoas que sabem apenas o suficiente de jQuery para sobreviver",
+            "author": "Robin Rendle",
+            "translators": "Eric Douglas",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/ericdouglas/traduz-ai/blob/master/react/02-introducao-ao-react-para-pessoas-que-sabem-apenas-jquery.md",
+            "image": "https://i0.wp.com/wptavern.com/wp-content/uploads/2016/09/reactjs.png?ssl=1"
+        },
+        {
+            "id": 127,
+            "name": "Por que VOCÊ deve escolher Python?",
+            "author": "Naomi Ceder",
+            "translators": "Débora Azevedo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/nossa-coletividad/por-que-voc%C3%AA-deve-escolher-python-ad187b9783d0",
+            "image": "https://www.visualstudio.com/wp-content/uploads/2016/06/python-1-562x309@2x-op.png"
+        },
+        {
+            "id": 128,
+            "name": "Como instalar o pip para gerenciar pacotes do Python no GNU/Linux",
+            "author": "Aaron Kili",
+            "translators": "Allythy",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://allythy.github.io/Como-instalar-o-pip-para-gerenciar-pacotes-do-Python-no-GNU-Linux",
+            "image": "https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/funciones-en-python-t1.jpg"
+        },
+        {
+            "id": 129,
+            "name": "Documentação do Python",
+            "author": "Python Software Foundation",
+            "translators": "Comunidade Python",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://www.python.org/doc/",
+            "image": "https://www.webtechnika.pl/media/cache/fc/b6/fcb62eee78a3d6139c08236360cdd700.png"
+        },
+        {
+            "id": 130,
+            "name": "Como Pensar Como um Cientista da Computação",
+            "author": "Brad Miller e David Ranum",
+            "translators": "USP - Universidade de São Paulo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://panda.ime.usp.br/pensepy/static/pensepy/index.html",
+            "image": "https://cdn.lynda.com/course/609018/609018-636377089287008629-16x9.jpg"
         }
     ]
 }
