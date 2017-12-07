@@ -309,7 +309,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-let-vs-const-f521beef074a#.kcmvimmze",
-            "image": "https://fossbytes.com/wp-content/uploads/2016/06/ecmascript-2016.jpg"
+            "image": "https://image.ibb.co/cBrEcw/31.png"
         },
         {
             "id": 32,
@@ -319,7 +319,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-use-let-com-for-loops-em-javascript-891922dcea49#.dv05gwm0f",
-            "image": "http://itschool-hillel.org/images/blog/488/ecma-1200x600__og.png"
+            "image": "https://image.ibb.co/fjPBPb/32.png"
         },
         {
             "id": 33,
@@ -329,7 +329,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/escrevendo-javascript-com-acessibilidade-em-mente-3720e9779969#.mmux2td5q",
-            "image": "https://cdn-images-1.medium.com/max/800/1*iAXxkKQ0YDwb0PV8v7t2Hw.png"
+            "image": "https://image.ibb.co/e0e0Hw/33.png"
         },
         {
             "id": 34,
@@ -339,7 +339,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/reflex%C3%A3o-em-padr%C3%B5es-de-projeto-para-node-js-b7344f2529c7#.gy5lnmau4",
-            "image": "https://tadeuesteves.files.wordpress.com/2014/05/nodejs_0.png"
+            "image": "https://image.ibb.co/nbf7xw/34.png"
         },
         {
             "id": 35,
@@ -349,7 +349,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/4-novos-m%C3%A9todos-de-string-em-es6-que-voc%C3%AA-deveria-conhecer-e85c7262123c#.o8tvbjyke",
-            "image": "http://www.cuelogic.com/blog/wp-content/uploads/2016/04/Advantages-of-JavaScript-ES6-over-ES51.jpg"
+            "image": "https://image.ibb.co/fnUNVG/35.png"
         },
         {
             "id": 36,
@@ -359,7 +359,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/khaosdoctor/design-patterns-for-humans/tree/translation",
-            "image": "https://speckycdn-sdm.netdna-ssl.com/wp-content/uploads/2017/02/weekly-news-for-designers-february-26-15.png"
+            "image": "https://image.ibb.co/dXsLHw/36.png"
         },
         {
             "id": 37,
@@ -369,7 +369,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@lucasjs/como-o-flexbox-funciona-explicado-com-gifs-grandes-e-coloridos-26c42a0bcdc",
-            "image": "https://cdn-images-1.medium.com/max/1000/1*naWgwUzZAZxxAfbc6OISpQ.png"
+            "image": "https://image.ibb.co/jp07xw/37.png"
         },
         {
             "id": 38,
@@ -379,7 +379,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/khaosdoctor/learn-istanbul",
-            "image": "http://gregjopa.com/2014/02/testing-and-code-coverage-with-node-js-apps/istanbul_bad_test_coverage_screenshot.png"
+            "image": "https://image.ibb.co/dJz0Hw/38.png"
         },
         {
             "id": 39,
@@ -389,7 +389,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/suissa/blog/tree/master/traducoes/What%20does%20const%20stand%20for%20in%20ES6%3F",
-            "image": "https://i.ytimg.com/vi/2A-cjljq7ts/maxresdefault.jpg"
+            "image": "https://image.ibb.co/e58hVG/39.png"
         },
         {
             "id": 40,
@@ -399,7 +399,7 @@
             "type": "Others",
             "project": "Completed",
             "site": "https://github.com/woliveiras/front-end-career/blob/master/translations/pt-br/README.md",
-            "image": "http://i67.tinypic.com/k1uxef.png"
+            "image": "https://image.ibb.co/jjgfHw/40.png"
         },
         {
             "id": 41,
@@ -409,7 +409,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://blog.wgbn.com.br/vue-js-vale-a-tentativa-6e63b6e74a3b",
-            "image": "https://i.ytimg.com/vi/DsuTwV0jwaY/maxresdefault.jpg"
+            "image": "https://image.ibb.co/eboSxw/41.png"
         },
         {
             "id": 42,
@@ -419,7 +419,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://blog.wgbn.com.br/fire-stack-uma-nova-arquitetura-11f33b4fb3f",
-            "image": "https://s23.postimg.org/mtsuss8kr/fdgddfg.png"
+            "image": "https://image.ibb.co/naySxw/42.png"
         },
         {
             "id": 43,
@@ -429,7 +429,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/blog-do-mitrut/como-kotlin-se-tornou-a-nossa-linguagem-principal-para-android-24c9492fa273",
-            "image": "https://novemberfive.co/images/blog/kotlin-implementation/img-header.a35685e862fa39ad24d32cce13e741f7330b330efc4d432bc5a14479e05ce7ec.jpg"
+            "image": "https://image.ibb.co/g4xLHw/43.png"
         },
         {
             "id": 44,
@@ -439,7 +439,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/blog-do-mitrut/xamarin-vs-nativo-36e46ec2c566",
-            "image": "https://cdn-images-1.medium.com/max/1000/1*ZS0F2bXqEELjlzVJ-Hpw6A.png"
+            "image": "https://image.ibb.co/ed7LHw/44.png"
         },
         {
             "id": 45,
@@ -449,7 +449,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@mapaiva/ent%C3%A3o-voc%C3%AA-quer-ser-um-programador-funcional-parte-1-f3bdb7baeedb",
-            "image": "https://blog.jscrambler.com/content/images/2016/12/functional_programming.jpg"
+            "image": "https://image.ibb.co/hFxbqG/45.png"
         },
         {
             "id": 46,
@@ -459,7 +459,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@cadu_leite/mantendo-o-%C3%ADndice-de-pacotes-python-pypi-deb403b0d984",
-            "image": "https://15809-presscdn-0-93-pagely.netdna-ssl.com/wp-content/uploads/2016/02/MTE5NDg0MDYxMTk4NTUwNTQz.png"
+            "image": "https://image.ibb.co/kabEcw/46.png"
         },
         {
             "id": 47,
@@ -469,7 +469,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://medium.com/@viliamjr/como-escrever-codigo-go-95381b84ba82",
-            "image": "https://s.dou.ua/storage-files/golang600.png"
+            "image": "https://image.ibb.co/dAMfHw/47.png"
         },
         {
             "id": 48,
@@ -479,7 +479,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@viliamjr/as-5-regras-da-programacao-segundo-rob-pike-ae3c8b599f50",
-            "image": "https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2016/08/Untitled-5-1024x576.png"
+            "image": "https://image.ibb.co/jMZpAG/48.png"
         },
         {
             "id": 49,
@@ -489,7 +489,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@narriral/como-dar-um-treinamento-de-seguran%C3%A7a-digital-48c1df2f0b35",
-            "image": "http://blog.futurecom.com.br/wp-content/uploads/2017/02/seguranca-ti-futurecom.png"
+            "image": "https://image.ibb.co/e94pAG/49.png"
         },
         {
             "id": 50,
@@ -499,7 +499,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@junior_pires/saaripar-valida%C3%A7%C3%A3o-de-campos-no-android-9d35821a493d",
-            "image": "http://2.bp.blogspot.com/-c87b0AB50aE/Upcb2dnCdRI/AAAAAAAAAC8/w-2ZQwfvhe0/w1200-h630-p-k-no-nu/logo-lua.png"
+            "image": "https://image.ibb.co/cx79AG/50.png"
         },
         {
             "id": 51,
@@ -509,7 +509,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@julianopadilha/como-usar-o-github-como-um-ser-humano-adequado-5a0a2e1afd18",
-            "image": "https://xakep.ru/wp-content/uploads/2015/07/collabocats.jpg"
+            "image": "https://image.ibb.co/d86Qjb/51.png"
         },
         {
             "id": 52,
@@ -519,7 +519,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://blog.arturafonso.com.br/psr-2-pt-br-classes-fe332b6421fd",
-            "image": "https://s7.postimg.org/4u0acjq1n/2i0eudgdfgdfgdfg.png"
+            "image": "https://image.ibb.co/iv9d4b/52.png"
         },
         {
             "id": 53,
@@ -529,7 +529,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@osuissa/substituindo-instru%C3%A7%C3%B5es-de-switch-por-objetos-literais-93a3a78463a1",
-            "image": "https://cdn.programiz.com/sites/tutorial2program/files/switch-case_0.jpg"
+            "image": "https://image.ibb.co/mtO5jb/53.png"
         },
         {
             "id": 54,
@@ -539,7 +539,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://code.likeagirl.io/garotas-precisam-de-bons-exemplos-5c4ba026bacf",
-            "image": "https://static1.squarespace.com/static/5516b370e4b06fca171025cd/t/55a4e406e4b088e0a71cb066/1436869641329/?format=750w"
+            "image": "https://image.ibb.co/meo5jb/54.png"
         },
         {
             "id": 55,
@@ -549,7 +549,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://code.likeagirl.io/como-os-homens-podem-ajudar-as-mulheres-em-ti-ec6f75cacdf8",
-            "image": "http://www.aiga.org/globalassets/migrated-images/uploadedimages/aiga/content/tools_and_resources/womens_leadership/gender-bias-design-aiga-640.png"
+            "image": "https://image.ibb.co/hSfJ4b/55.png"
         },
         {
             "id": 56,
@@ -559,7 +559,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/braziljs/eloquente-javascript",
-            "image": "https://www.javascript.com/images/pages/resources/img-eloquent-js.jpg"
+            "image": "https://image.ibb.co/gYRrPb/56.png"
         },
         {
             "id": 57,
@@ -569,7 +569,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/CocoaHeadsBrasil/the-swift-programming-language-in-portuguese-br",
-            "image": "http://imagazin.ro/wp-content/uploads/2015/11/cover29.jpg"
+            "image": "https://image.ibb.co/kn6Ecw/57.png"
         },
         {
             "id": 58,
@@ -579,7 +579,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/fhferreira/aprendendo-padroes-de-projeto-javascript",
-            "image": "https://camo.githubusercontent.com/affe20a0b3c2bfc8d288ab8a35d45b49a6972693/687474703a2f2f692e696d6775722e636f6d2f7035324b4742572e706e67"
+            "image": "https://image.ibb.co/jeC9AG/58.png"
         },
         {
             "id": 59,
@@ -589,7 +589,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/carlosbrando/poignant-br",
-            "image": "http://i67.tinypic.com/1687gqa.png"
+            "image": "https://image.ibb.co/n1aUAG/59_OK.png"
         },
         {
             "id": 60,
@@ -599,7 +599,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/PenseAllen/PensePython2e",
-            "image": "http://i63.tinypic.com/30s7p6g.png"
+            "image": "https://image.ibb.co/iY2nxw/60_OK.png"
         },
         {
             "id": 61,
@@ -609,7 +609,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/lucasfcosta/learnyounode-pt-br",
-            "image": "http://i64.tinypic.com/2s96q9y.png"
+            "image": "https://image.ibb.co/dAjd4b/61_OK.png"
         },
         {
             "id": 62,
@@ -619,7 +619,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/hc3/essencial-js-padroes-de-projeto",
-            "image": "http://i68.tinypic.com/2e0lbvs.png"
+            "image": "https://image.ibb.co/jMs9AG/62_OK.png"
         },
         {
             "id": 63,
@@ -629,7 +629,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/taylorrf/sinatra-book-pt-br",
-            "image": "http://i64.tinypic.com/27x1d7r.png"
+            "image": "https://image.ibb.co/dfU0Hw/63.png"
         },
         {
             "id": 64,
@@ -639,7 +639,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/gilsondev/angular-styleguide-pt-br/blob/master/SUMMARY.md",
-            "image": "http://i63.tinypic.com/15yu0s9.png"
+            "image": "https://image.ibb.co/fc0kjb/64.png"
         },
         {
             "id": 65,
@@ -649,7 +649,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/mandado/Experimente-Git",
-            "image": "http://media02.hongkiat.com/developers-command-line/try-git.jpg"
+            "image": "https://image.ibb.co/jtA7xw/65.png"
         },
         {
             "id": 66,
@@ -659,7 +659,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "http://csssustentavel.com.br/",
-            "image": "http://i67.tinypic.com/28vdjcw.png"
+            "image": "https://image.ibb.co/eNL7xw/66.png"
         },
         {
             "id": 67,
@@ -669,7 +669,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "http://df.python.org.br/pycubator/",
-            "image": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAZcAAAAJDYwMWNjZWU5LWRiZGItNDM3Ny1iMGMzLWRjNmVjZWE2M2Q3MQ.png"
+            "image": "https://image.ibb.co/mxPpAG/67.png"
         },
         {
             "id": 68,
@@ -679,7 +679,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/IuryAlves/pygame-book-translation",
-            "image": "http://i65.tinypic.com/2helf0g.png"
+            "image": "https://image.ibb.co/gDfUAG/68_OK.png"
         },
         {
             "id": 69,
@@ -689,7 +689,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/taylorrf/learnhaskell",
-            "image": "http://i68.tinypic.com/fooxgh.png"
+            "image": "https://image.ibb.co/iY6Qjb/69_OK.png"
         },
         {
             "id": 70,
@@ -699,7 +699,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/GDGDuqueDeCaxias/cssguideline-translate-ptbr",
-            "image": "http://styleguides.io/images/screenshots/css-guidelines.jpg"
+            "image": "https://image.ibb.co/dQEBPb/70.png"
         },
         {
             "id": 71,
@@ -709,7 +709,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/elementary-br/the-vala-tutorial",
-            "image": "http://i66.tinypic.com/2vj782b.png"
+            "image": "https://image.ibb.co/j6NFjb/71_OK.png"
         },
         {
             "id": 72,
@@ -719,7 +719,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/erichideki/djangobook",
-            "image": "http://i68.tinypic.com/11bm2iu.png"
+            "image": "https://image.ibb.co/exsLHw/72_OK.png"
         },
         {
             "id": 73,
@@ -729,7 +729,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/aaoliveira/PSR_PT-BR",
-            "image": "http://i64.tinypic.com/23w4q4y.png"
+            "image": "https://image.ibb.co/jytzAG/73_OK.png"
         },
         {
             "id": 74,
@@ -739,7 +739,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/jekyll-brasil/jekyll-brasil.github.io",
-            "image": "https://d2vvqscadf4c1f.cloudfront.net/QFIpIiNBR5ygh6UOWMf8_jekyll-logo-820x418.png"
+            "image": "https://image.ibb.co/jzRajb/74.png"
         },
         {
             "id": 75,
@@ -749,7 +749,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/willianmano/reactdocs-pt_br",
-            "image": "https://cdn-images-1.medium.com/max/1600/1*TUKtRDyPfi5gJ3q0NKomxA.jpeg"
+            "image": "https://image.ibb.co/gnJo4b/75.png"
         },
         {
             "id": 76,
@@ -759,7 +759,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/NandoKstroNet/docs-composer-pt-br",
-            "image": "https://phptoday.ru/img-cache/storage/tools/composer.jpg?p=opengraph"
+            "image": "https://image.ibb.co/ju1VHw/76.png"
         },
         {
             "id": 77,
@@ -769,7 +769,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/angelobelchior/prism-xamarin-forms",
-            "image": "https://raw.githubusercontent.com/PrismLibrary/Prism/master/docs/images/prism-visual-studio-gallery.jpg"
+            "image": "https://image.ibb.co/hs7gPb/77.png"
         },
         {
             "id": 78,
@@ -779,7 +779,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/lucianobarauna/dochexo",
-            "image": "http://i.imgur.com/HLrmbRw.jpg"
+            "image": "https://image.ibb.co/httzAG/78.png"
         },
         {
             "id": 79,
@@ -789,7 +789,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/shonorio/beginning-perl",
-            "image": "http://i66.tinypic.com/6svrr4.png"
+            "image": "https://image.ibb.co/eCc4cw/79.png"
         },
         {
             "id": 80,
@@ -799,7 +799,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/pedronauck/promiseJS.br",
-            "image": "http://i66.tinypic.com/5b41w0.png"
+            "image": "https://image.ibb.co/jyycxw/80.png"
         },
         {
             "id": 81,
@@ -809,7 +809,7 @@
             "type": "Books",
             "project": "In Progress",
             "site": "https://github.com/reginaldojunior/wisdom-of-the-elephant",
-            "image": "http://srcmvn.com/images/posts/2015-02-06-wisdom.jpg"
+            "image": "https://image.ibb.co/iadcxw/81.png"
         },
         {
             "id": 82,
@@ -819,7 +819,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/kaiocesar/laravel4-docs-ptbr",
-            "image": "http://i63.tinypic.com/1175qhz.png"
+            "image": "https://image.ibb.co/fGWajb/82.png"
         },
         {
             "id": 83,
@@ -829,7 +829,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/nandomoreirame/open-source-guide",
-            "image": "https://fossbytes.com/wp-content/uploads/2017/02/Github-OS-Guide.png"
+            "image": "https://image.ibb.co/mp4Hxw/83.png"
         },
         {
             "id": 84,
@@ -839,7 +839,7 @@
             "type": "Others",
             "project": "In Progress",
             "site": "https://github.com/avizmarlon/google-interview-university",
-            "image": "http://www.lifo.gr/icache/590/310/2/681658_silicon-valley.jpg"
+            "image": "https://image.ibb.co/cxR84b/84.png"
         },
         {
             "id": 85,
@@ -849,7 +849,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/phpdocbrbridge/traducao/wiki/Guia-de-edi%C3%A7%C3%A3o-do-manual",
-            "image": "http://www.cpd-india.com/blog/wp-content/uploads/2016/05/php1.png"
+            "image": "https://image.ibb.co/idU6qG/85.png"
         },
         {
             "id": 86,
@@ -859,7 +859,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/AnthonyMRodrigues/docsreactnative",
-            "image": "http://i.imgur.com/oudmGva.png"
+            "image": "https://image.ibb.co/eKdMPb/86.png"
         },
         {
             "id": 87,
@@ -869,7 +869,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://www.ruby-lang.org/pt/documentation/",
-            "image": "http://i.imgur.com/Zu11SLM.png"
+            "image": "https://image.ibb.co/fM8MPb/87.png"
         },
         {
             "id": 88,
@@ -879,7 +879,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/yiisoft/yii2/tree/master/docs/guide-pt-BR",
-            "image": "http://2.bp.blogspot.com/-egsqlKtGdeg/UcGoyEuUxOI/AAAAAAAAL4M/o5TMJ1J9SZI/s1600/yii-framework.jpg"
+            "image": "https://image.ibb.co/fzqPcw/88.png"
         },
         {
             "id": 89,
@@ -889,7 +889,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://www.postgresql.org.br/pages/documentacao.html",
-            "image": "https://tellesr.files.wordpress.com/2015/01/postgresql-logo.png"
+            "image": "https://image.ibb.co/kcOMPb/89.png"
         },
         {
             "id": 90,
@@ -899,7 +899,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "http://getbootstrap.com.br/",
-            "image": "http://bootstrapbrasil.github.io/assets/img/bootstrap-cover.png"
+            "image": "https://image.ibb.co/dgVeAG/90.png"
         },
         {
             "id": 91,
@@ -909,7 +909,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://github.com/andreia/symfony-docs-pt-BR",
-            "image": "http://i68.tinypic.com/2chuy5l.png"
+            "image": "https://image.ibb.co/ftRKAG/91.png"
         },
         {
             "id": 92,
@@ -919,7 +919,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://github.com/MeteorBrasil/meteor-docsbr",
-            "image": "http://baboon.ir/uploads/2016/08/discover-meteor-wallpaper-with-logo-950x490.jpg"
+            "image": "https://image.ibb.co/mCJo4b/92.png"
         }, 
         {
            "id": 93,
@@ -929,7 +929,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://github.com/NandoKstroNet/docptbrrespectrest",
-            "image": "http://i66.tinypic.com/2a0g3yo.png"
+            "image": "https://image.ibb.co/hUJAHw/93.png"
         },
         {
             "id": 94,
@@ -939,7 +939,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-            "image": "https://www.adslzone.net/app/uploads/2016/12/javascript.jpg"
+            "image": "https://image.ibb.co/dcssVG/94.png"
         },
         {
             "id": 95,
@@ -949,7 +949,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://github.com/NandoKstroNet/docsptbrrespectvalidation",
-            "image": "http://i65.tinypic.com/2eyf04j.png"
+            "image": "https://image.ibb.co/mrTo4b/95.png"
         },
         {
             "id": 96,
@@ -959,7 +959,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://github.com/artesaos/laravel-docs",
-            "image": "http://jonathasguerra.com.br/blog/wp-content/uploads/2017/01/laravel-covercover.jpg"
+            "image": "https://image.ibb.co/mcoAHw/96.png"
         },
         {
             "id": 97,
@@ -969,7 +969,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "http://ericdouglas.github.io/jasmine-br-docs/",
-            "image": "http://i68.tinypic.com/k0fsxh.png"
+            "image": "https://image.ibb.co/fidAHw/97.png"
         },
         {
             "id": 98,
@@ -979,7 +979,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://docs.joomla.org/Joomla_info_page/pt-BR",
-            "image": "https://cdn.joomla.org/images/joomla-org-og.jpg"
+            "image": "https://image.ibb.co/gG5eAG/98.png"
         },
         {
             "id": 99,
@@ -989,7 +989,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://br.vuejs.org/",
-            "image": "https://i.ytimg.com/vi/DsuTwV0jwaY/maxresdefault.jpg"
+            "image": "https://image.ibb.co/iT1KAG/99.png"
         },
         {
             "id": 100,
@@ -999,7 +999,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://silvamateus.gitbooks.io/rscss/content/",
-            "image": "http://syndicode.co/wp-content/uploads/2016/07/article-logo.jpg"
+            "image": "https://image.ibb.co/cR8MPb/100.png"
         },
         {
             "id": 101,
@@ -1009,7 +1009,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "http://facebook.github.io/jest/pt-BR/",
-            "image": "https://marmelab.com/images/blog/jest.png"
+            "image": ""
         },
         {
             "id": 102,
@@ -1019,7 +1019,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://www.lua.org/manual/5.2/pt/",
-            "image": "https://2.bp.blogspot.com/-c87b0AB50aE/Upcb2dnCdRI/AAAAAAAAAC8/w-2ZQwfvhe0/w1200-h630-p-k-no-nu/logo-lua.png"
+            "image": "https://image.ibb.co/niEHxw/102.png"
         },
         {
             "id": 103,
@@ -1029,7 +1029,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://docs.djangoproject.com/pt-br/1.11/",
-            "image": "https://i0.wp.com/edlibre.com/new/wp-content/uploads/2016/02/djangopony.jpg"
+            "image": "https://image.ibb.co/d724cw/103.png"
         },
         {
             "id": 104,
@@ -1039,7 +1039,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/tree/master/series/voce-nao-precisa-de-jquery",
-            "image": "http://bradsknutson.com/wp-content/uploads/2014/05/you-dont-need-jquery.jpg"
+            "image": "https://image.ibb.co/h70CVG/104.png"
         },
         {
             "id": 105,
@@ -1049,7 +1049,7 @@
             "type": "Articles",
             "project": "In Progress",
             "site": "https://github.com/ericdouglas/traduz-ai/tree/master/series/entao-voce-quer-ser-um-programador-funcional",
-            "image": "http://www.ruanyifeng.com/blogimg/asset/2017/bg2017022201.jpg"
+            "image": "https://image.ibb.co/ndqCVG/105.png"
         },
         {
             "id": 106,
@@ -1059,7 +1059,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/001-guia-definitivo-para-aprender-angularjs.md",
-            "image": "http://www.iiceducation.in/img/institute/angular-js-training-institute-class-course-in-indore.png"
+            "image": "https://image.ibb.co/ieQeAG/106.png"
         },
         {
             "id": 107,
@@ -1069,7 +1069,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/002-aprenda-angularjs-com-5-exemplos.md",
-            "image": "https://raw.githubusercontent.com/ericdouglas/traduz-ai/master/img/angularJS-5-exemplos.png"
+            "image": "https://image.ibb.co/gcZT4b/107.png"
         },
         {
             "id": 108,
@@ -1079,7 +1079,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/003-use-angularjs-para-potencializar-sua-webapp.md#use-angularjs-para-potencializar-suas-aplica%C3%A7%C3%B5es-web",
-            "image": "https://blog.mxcursos.com/wp-content/uploads/2016/06/AngularJS-1.jpg"
+            "image": "https://image.ibb.co/cA1mqG/108.png"
         },
         {
             "id": 109,
@@ -1089,7 +1089,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/004-mais-magicas-angularjs-para-turbinar-sua-webapp.md#mais-m%C3%A1gicas-do-angularjs-para-turbinar-sua-webapp",
-            "image": "http://blog.caelum.com.br/wp-content/uploads/2014/11/angularjs.jpg"
+            "image": "https://image.ibb.co/eNxRqG/109.png"
         },
         {
             "id": 110,
@@ -1099,7 +1099,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/005-entendendo-diretivas.md",
-            "image": "http://cdn2.hubspot.net/hubfs/247169/blogs/angular-1.png"
+            "image": "https://image.ibb.co/coPT4b/110.png"
         },
         {
             "id": 111,
@@ -1109,7 +1109,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/bdd/001-bdd-with-js.md",
-            "image": "http://www.diatomenterprises.com/wp-content/uploads/2016/11/BDD-825x400.jpg"
+            "image": "https://image.ibb.co/etdAHw/111.png"
         },
         {
             "id": 112,
@@ -1119,7 +1119,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/handlebars/001-aprenda-tudo-sobre-handlebars.md#aprenda-tudo-sobre-handlebarsjs-templating-javascript",
-            "image": "https://i2.wp.com/keyholesoftware.com/wp-content/uploads/Handlebars.jpg?fit=700%2C400&ssl=1"
+            "image": "https://image.ibb.co/dGbxxw/112.png"
         },
         {
             "id": 113,
@@ -1129,7 +1129,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "http://javascriptissexy.com/how-to-learn-javascript-properly/",
-            "image": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fs.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F681e51ecea852c4622223d39db2ea1ea%2F203028888%2Fessentialjavascrip_editorial.jpg&client=cbc79c14efcebee57402&signature=b733ded8c2047187a14cad6b928eff5a6405b610"
+            "image": "https://image.ibb.co/mzL1Pb/113.png"
         },
         {
             "id": 114,
@@ -1139,7 +1139,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/002-objetos-js-em-detalhe.md#objetos-javascript-em-detalhe",
-            "image": "http://cdn.matera.com/br/wp-content/uploads/2017/05/JavaScript.png"
+            "image": "https://image.ibb.co/ieUHxw/114.png"
         },
         {
             "id": 115,
@@ -1149,7 +1149,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/003-escopo-de-variavel-js-e-hoisting-explicado.md#escopo-de-vari%C3%A1vel-javascript-e-hoisting-explicado",
-            "image": "https://blog.mxcursos.com/wp-content/uploads/2016/06/JavaScript-1.jpg"
+            "image": "https://image.ibb.co/mdjjcw/115.png"
         },
         {
             "id": 116,
@@ -1159,7 +1159,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/004-entenda-closures-no-javaScript-com-facilidade.md#entenda-closures-no-javascript-com-facilidade",
-            "image": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/NzIsAac-796x398.jpg"
+            "image": "https://image.ibb.co/hJycxw/116.png"
         },
         {
             "id": 117,
@@ -1169,7 +1169,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/005-prototipos-javascript-em-uma-linguagem-simples.md#prot%C3%B3tipos-javascript-em-uma-linguagem-simples",
-            "image": "https://gaunte.com/images/blog/_fbjumbo/porque-aprender-javascript.jpg"
+            "image": "https://image.ibb.co/fchgPb/117.png"
         },
         {
             "id": 118,
@@ -1179,7 +1179,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/006-entenda-callbacks-js.md",
-            "image": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAxJAAAAJGVmYjkwOGUzLTUzMTYtNDkyZC1hY2VjLWM3MTFkNDFjNzIwMg.png"
+            "image": "https://image.ibb.co/k1XRqG/118.png"
         },
         {
             "id": 119,
@@ -1189,7 +1189,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/007-um-mergulho-no-javascript-puro.md",
-            "image": "https://www.webdevelopersnotes.com/wp-content/uploads/javascript-tutorial.png"
+            "image": "https://image.ibb.co/gJYo4b/119.png"
         },
         {
             "id": 120,
@@ -1199,7 +1199,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/008-programacao-funcional-prioridade-2015.md",
-            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--NhevDum3--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/xrgq7d9fycjzj94vc4ob.png"
+            "image": "https://image.ibb.co/kKHFjb/120.png"
         },
         {
             "id": 121,
@@ -1209,7 +1209,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/009-uma-suave-introducao-ao-javascript-parte-1.md",
-            "image": "https://www.edx.org/sites/default/files/styles/course_video_banner/public/course/image/featured-card/1_haskell_home_378x225.jpg?itok=BNKqkeK8"
+            "image": "https://image.ibb.co/mrvPcw/121.png"
         },
         {
             "id": 122,
@@ -1219,7 +1219,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/MongoDB/001-uma-introduc%CC%A7a%CC%83o-ao-mongodb.md",
-            "image": "http://www.marcdias.com.br/wp-content/uploads/2017/03/0001494_search-engine-powered-by-mongodb.jpeg"
+            "image": "https://image.ibb.co/jSp6qG/122.png"
         },
         {
             "id": 123,
@@ -1229,7 +1229,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/001-guia-para-iniciantes-absolutos-em-nodejs.md",
-            "image": "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/landscape/nodejslogo.png?1499963356"
+            "image": "https://image.ibb.co/byLqHw/123.png"
         },
         {
             "id": 124,
@@ -1239,7 +1239,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/002-simples-guia-nodejs-jade-express-mongodb.md",
-            "image": "http://inventures.cl/wp-content/uploads/2017/02/men.png"
+            "image": "https://image.ibb.co/k7wVHw/124.png"
         },
         {
             "id": 125,
@@ -1249,7 +1249,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/react/01-sua-linha-do-tempo-para-aprender-react.md",
-            "image": "http://www.mindinventory.com/blog/wp-content/uploads/2017/08/reactjs.jpg"
+            "image": "https://image.ibb.co/mmNFjb/125.png"
         },
         {
             "id": 126,
@@ -1259,7 +1259,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://github.com/ericdouglas/traduz-ai/blob/master/react/02-introducao-ao-react-para-pessoas-que-sabem-apenas-jquery.md",
-            "image": "https://i0.wp.com/wptavern.com/wp-content/uploads/2016/09/reactjs.png?ssl=1"
+            "image": "https://image.ibb.co/k2c4cw/126.png"
         },
         {
             "id": 127,
@@ -1269,7 +1269,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/nossa-coletividad/por-que-voc%C3%AA-deve-escolher-python-ad187b9783d0",
-            "image": "https://www.visualstudio.com/wp-content/uploads/2016/06/python-1-562x309@2x-op.png"
+            "image": "https://image.ibb.co/i7QCVG/127.png"
         },
         {
             "id": 128,
@@ -1279,7 +1279,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://allythy.github.io/Como-instalar-o-pip-para-gerenciar-pacotes-do-Python-no-GNU-Linux",
-            "image": "https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/funciones-en-python-t1.jpg"
+            "image": "https://image.ibb.co/n7OMPb/128.png"
         },
         {
             "id": 129,
@@ -1289,7 +1289,7 @@
             "type": "Documentation",
             "project": "In Progress",
             "site": "https://www.python.org/doc/",
-            "image": "https://www.webtechnika.pl/media/cache/fc/b6/fcb62eee78a3d6139c08236360cdd700.png"
+            "image": "https://image.ibb.co/kTr84b/129.png"
         },
         {
             "id": 130,
@@ -1299,7 +1299,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://panda.ime.usp.br/pensepy/static/pensepy/index.html",
-            "image": "https://cdn.lynda.com/course/609018/609018-636377089287008629-16x9.jpg"
+            "image": "https://image.ibb.co/eZg84b/130.png"
         }
     ]
 }
