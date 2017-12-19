@@ -1,5 +1,5 @@
 {
-    "totalRows": 130,
+    "totalRows": 131,
     "data": [
         {
             "id": 1,
@@ -1300,6 +1300,16 @@
             "project": "Completed",
             "site": "https://panda.ime.usp.br/pensepy/static/pensepy/index.html",
             "image": "https://image.ibb.co/eZg84b/130.png"
+        },
+        {
+            "id": 131,
+            "name": "A comunidade global de PHP continua se intoxicando, e precisamos reverter isso antes que afete outros de nós",
+            "author": "Neal Brooks",
+            "translators": "William Oliveira",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/a-comunidade-global-de-php-continua-se-intoxicando-e-precisamos-reverter-isso-antes-que-afete-da50ee793f8b",
+            "image": "https://image.ibb.co/ncGQh6/131.png"
         }
     ]
 }

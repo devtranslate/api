@@ -1,5 +1,5 @@
 {
-    "totalRows": 130,
+    "totalRows": 131,
     "data": [
         {
             "id": 1,
@@ -1300,6 +1300,16 @@
             "project": "Completed",
             "site": "https://panda.ime.usp.br/pensepy/static/pensepy/index.html",
             "image": "https://image.ibb.co/eZg84b/130.png"
+        },
+        {
+            "id": 131,
+            "name": "The global PHP community continues to toxify itself, and we need to halt it for the sake of our peers",
+            "author": "Neal Brooks",
+            "translators": "William Oliveira (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@nealio82/the-global-php-community-continues-to-toxify-itself-and-we-need-to-halt-it-for-the-sake-of-our-eabecd21a365",
+            "image": "https://image.ibb.co/ncGQh6/131.png"
         }
     ]
 }
