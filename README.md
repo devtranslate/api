@@ -15,7 +15,10 @@
 2. [English](https://github.com/devtranslate/api#english)
 
 ## Portuguese
-Em Breve.
+Neste respositório se encontra hospedado a nova api do site, organizada por idioma, facilitando a localização do conteúdo original e traduzido, informando também o tipo de documento e se o mesmo esta em progresso ou concluído.
+
+### Contribuição
+Caso deseje contribuir com alguma alteração acesse o nosso guia de contribuição [clicando aqui](https://github.com/devtranslate/about/blob/master/CONTRIBUTING.md).
 
 ## English
 Soon.
