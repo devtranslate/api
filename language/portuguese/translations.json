@@ -1,5 +1,5 @@
 {
-    "totalRows": 131,
+    "totalRows": 145,
     "data": [
         {
             "id": 1,
@@ -1310,6 +1310,146 @@
             "project": "Completed",
             "site": "https://medium.com/devtranslate/a-comunidade-global-de-php-continua-se-intoxicando-e-precisamos-reverter-isso-antes-que-afete-da50ee793f8b",
             "image": "https://image.ibb.co/ncGQh6/131.png"
+        },
+        {
+            "id": 132,
+            "name": "Documentação do ReactJs",
+            "author": "Facebook",
+            "translators": "Rafael Vianna e Gabriel Pireda",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/rafaelvianna/ReactJs-Docs-PT-BR",
+            "image": "https://image.ibb.co/bHm7P6/132.png"
+        },
+        {
+            "id": 133,
+            "name": "Laravel: Testando Parcialmente Respostas JSON",
+            "author": "Eric L. Barnes",
+            "translators": "Lucas Pires",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/laravel-testando-parcialmente-respostas-json-320c6dc267d7",
+            "image": "https://image.ibb.co/gfUrHR/133.png"
+        },
+        {
+            "id": 134,
+            "name": "Como Usar Variáveis CSS",
+            "author": "ZingChart",
+            "translators": "Larissa Mourullo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/como-usar-vari%C3%A1veis-css-29b5b980794c",
+            "image": "https://image.ibb.co/ntanrm/134.png"            
+        },
+        {
+            "id": 135,
+            "name": "CSS e 5 Erros Que Você Deve Evitar",
+            "author": "Alex Devero",
+            "translators": "Larissa Mourullo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/css-e-5-erros-que-voc%C3%AA-deve-evitar-91b9872f63f4",
+            "image": "https://image.ibb.co/maw2rm/135.png"
+        },
+        {
+            "id": 136,
+            "name": "Tutorial Angular para Iniciantes",
+            "author": "ngGirls",
+            "translators": "ngGirls",
+            "type": "Others",
+            "project": "Completed",
+            "site": "https://github.com/ng-girls/todo-list-tutorial-portuguese",
+            "image": "https://image.ibb.co/jxW7P6/136.png"
+        },
+        {
+            "id": 137,
+            "name": "Guia de Código do @mdo",
+            "author": "Mark Otto",
+            "translators": "Diego Eis",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://diegoeis.github.io/code-guide/",
+            "image": "https://image.ibb.co/ku9K46/137.png"
+        },
+        {
+            "id": 138,
+            "name": "CSS Idiomático",
+            "author": "Nicolas Gallagher",
+            "translators": "Zeno Rocha",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/necolas/idiomatic-css/blob/master/translations/pt-BR/README.md",
+            "image": "https://image.ibb.co/fcFWHR/138.png"
+        },
+        {
+            "id": 139,
+            "name": "Como ser* um compilador - Faça um compilador com JavaScript",
+            "author": "Mariko Kosaka",
+            "translators": "Caique Hitoshi Mitsuoka",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/como-ser-um-compilador--faca-um-compilador-com-javascript/artigo.md",
+            "image": "https://image.ibb.co/c5VTWm/139.png"
+        },
+        {
+            "id": 140,
+            "name": "A promessa de uma festa do hambúrguer",
+            "author": "Mariko Kosaka",
+            "translators": "Caique Hitoshi Mitsuoka",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/promessa-festa-hamburguer/artigo.md",
+            "image": "https://image.ibb.co/b1KfBm/140.png"
+        },
+        {
+            "id": 141,
+            "name": "JavaScript para Gatos",
+            "author": "Max Ogden",
+            "translators": "Carolina Pascale Campos",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/5eac7f0977fa3c669c521ae9a39f8e1faffb6627/javascript/javascript-para-gatos.md",
+            "image": "https://image.ibb.co/dNr5cR/141.png"
+        },
+        {
+            "id": 142,
+            "name": "Vale a pena aprender Vanilla JS? Claro!",
+            "author": "David Kopal",
+            "translators": "Marina Limeira",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/vale-a-pena-aprender-vanillajs--com-certeza.md",
+            "image": "https://image.ibb.co/mQOe46/142.png"
+        },
+        {
+            "id": 143,
+            "name": "Tratando uma resposta AJAX em Javascript (com ou sem jQuery)",
+            "author": "Matt Lunn",
+            "translators": "Matheus",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/tratando-respostas-ajax-com-ou-sem-jquery.md",
+            "image": "https://image.ibb.co/gahxP6/143.png"
+        },
+        {
+            "id": 144,
+            "name": "O que é controle de versão",
+            "author": "Atlassian",
+            "translators": "Phillip Nunes",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-controle-de-versao.md",
+            "image": "https://image.ibb.co/f3qR1m/144.png"
+        },
+        {
+            "id": 145,
+            "name": "O que é Git?",
+            "author": "Atlassian",
+            "translators": "Will Soares e Carolina Pascale Campos",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-git.md",
+            "image": "https://image.ibb.co/gXgS7R/145.png"
         }
     ]
 }

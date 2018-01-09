@@ -1,5 +1,5 @@
 {
-    "totalRows": 131,
+    "totalRows": 145,
     "data": [
         {
             "id": 1,
@@ -1310,6 +1310,146 @@
             "project": "Completed",
             "site": "https://medium.com/@nealio82/the-global-php-community-continues-to-toxify-itself-and-we-need-to-halt-it-for-the-sake-of-our-eabecd21a365",
             "image": "https://image.ibb.co/ncGQh6/131.png"
+        },
+        {
+            "id": 132,
+            "name": "React Documentation",
+            "author": "Facebook",
+            "translators": "Rafael Vianna and Gabriel Pireda (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://reactjs.org",
+            "image": "https://image.ibb.co/bHm7P6/132.png"
+        },
+        {
+            "id": 133,
+            "name": "Testing Partial JSON Responses with Laravel",
+            "author": "Eric L. Barnes",
+            "translators": "Lucas Pires (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://laravel-news.com/testing-partial-json",
+            "image": "https://image.ibb.co/gfUrHR/133.png"
+        },
+        {
+            "id": 134,
+            "name": "How To Use CSS Variables",
+            "author": "ZingChart",
+            "translators": "Larissa Mourullo (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/zingchart/how-to-use-css-variables-2b0b36793ea0",
+            "image": "https://image.ibb.co/ntanrm/134.png"            
+        },
+        {
+            "id": 135,
+            "name": "CSS and 5 mistakes to avoid",
+            "author": "Alex Devero",
+            "translators": "Larissa Mourullo (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@AlexDevero/css-and-5-mistakes-to-avoid-fa0a3ae5ced9",
+            "image": "https://image.ibb.co/maw2rm/135.png"
+        },
+        {
+            "id": 136,
+            "name": "Angular Tutorial for Beginners",
+            "author": "ngGirls",
+            "translators": "ngGirls (PT-BR)",
+            "type": "Others",
+            "project": "Completed",
+            "site": "https://github.com/ng-girls/todo-list-tutorial",
+            "image": "https://image.ibb.co/jxW7P6/136.png"
+        },
+        {
+            "id": 137,
+            "name": "Code Guide by @mdo",
+            "author": "Mark Otto",
+            "translators": "Diego Eis (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "http://codeguide.co",
+            "image": "https://image.ibb.co/ku9K46/137.png"
+        },
+        {
+            "id": 138,
+            "name": "Idiomatic CSS",
+            "author": "Nicolas Gallagher",
+            "translators": "Zeno Rocha (PT-BR)",
+            "type": "Documentation",
+            "project": "Completed",
+            "site": "https://github.com/necolas/idiomatic-css",
+            "image": "https://image.ibb.co/fcFWHR/138.png"
+        },
+        {
+            "id": 139,
+            "name": "How to be* a compiler — make a compiler with JavaScript",
+            "author": "Mariko Kosaka",
+            "translators": "Caique Hitoshi Mitsuoka (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4",
+            "image": "https://image.ibb.co/c5VTWm/139.png"
+        },
+        {
+            "id": 140,
+            "name": "The Promise of a Burger Party",
+            "author": "Mariko Kosaka",
+            "translators": "Caique Hitoshi Mitsuoka (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://kosamari.com/notes/the-promise-of-a-burger-party",
+            "image": "https://image.ibb.co/b1KfBm/140.png"
+        },
+        {
+            "id": 141,
+            "name": "JavaScript For Cats",
+            "author": "Max Ogden",
+            "translators": "Carolina Pascale Campos (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "http://jsforcats.com/",
+            "image": "https://image.ibb.co/dNr5cR/141.png"
+        },
+        {
+            "id": 142,
+            "name": "Is Vanilla JavaScript worth learning? Absolutely",
+            "author": "David Kopal",
+            "translators": "Marina Limeira (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.freecodecamp.org/is-vanilla-javascript-worth-learning-absolutely-c2c67140ac34",
+            "image": "https://image.ibb.co/mQOe46/142.png"
+        },
+        {
+            "id": 143,
+            "name": "Handling an AJAX response in JavaScript (with or without jQuery)",
+            "author": "Matt Lunn",
+            "translators": "Matheus (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://www.mattlunn.me.uk/blog/2011/11/handling-an-ajax-response-in-javascript-with-or-without-jquery/",
+            "image": "https://image.ibb.co/gahxP6/143.png"
+        },
+        {
+            "id": 144,
+            "name": "What is version control",
+            "author": "Atlassian",
+            "translators": "Phillip Nunes (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://www.atlassian.com/git/tutorials/what-is-version-control",
+            "image": "https://image.ibb.co/f3qR1m/144.png"
+        },
+        {
+            "id": 145,
+            "name": "What is Git?",
+            "author": "Atlassian",
+            "translators": "Will Soares e Carolina Pascale Campos (PT-BR)",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://www.atlassian.com/git/tutorials/what-is-git",
+            "image": "https://image.ibb.co/gXgS7R/145.png"
         }
     ]
 }
