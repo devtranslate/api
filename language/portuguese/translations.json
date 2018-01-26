@@ -1450,6 +1450,16 @@
             "project": "Completed",
             "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-git.md",
             "image": "https://image.ibb.co/gXgS7R/145.png"
+        },
+	{
+            "id": 146,
+            "name": "Texto alternativo: o guia definitivo",
+            "author": "Daniel Göransson",
+            "translators": "Bruno Pulis",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/bruno-pulis/texto-alternativo-o-guia-definitivo-ae196e7a1e39",
+            "image": "https://image.ibb.co/kJL7ib/146.png"
         }
     ]
 }
