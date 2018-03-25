@@ -1449,6 +1449,96 @@
             "project": "Completed",
             "site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-git.md",
             "image": "https://image.ibb.co/gXgS7R/145.png"
+        },
+        {
+            "id": 146,
+            "name": "Dica de CSS: Use :not para economizar tempo e linhas de código",
+            "author": "Timothy B. Smith",
+            "translators": "Larissa Mourullo",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/dica-css-use-not-para-economizar-tempo-e-linhas-de-c%C3%B3digo-3cc16468d42f",
+            "image": "https://image.ibb.co/fpiaun/146.png"
+        },
+        {
+            "id": 147,
+            "name": "FSearch",
+            "author": "Christian Boxdörfer",
+            "translators": "-",
+            "type": "Others",
+            "project": "In Progress",
+            "site": "https://hosted.weblate.org/engage/fsearch/?utm_source=widget",
+            "image": "https://image.ibb.co/duXeLS/147.png"
+        },
+        {
+            "id": 148,
+            "name": "DuckDuckGo",
+            "author": "Gabriel Weinberg",
+            "translators": "-",
+            "type": "Others",
+            "project": "In Progress",
+            "site": "https://duck.co/translate",
+            "image": "https://image.ibb.co/gYWTEn/148.png"
+        },
+        {
+            "id": 149,
+            "name": "Tutanota",
+            "author": "-",
+            "translators": "-",
+            "type": "Others",
+            "project": "In Progress",
+            "site": "https://tutanota.com/blog/posts/tutanota-translation-project",
+            "image": "https://image.ibb.co/iETx77/149.png"
+        },
+        {
+            "id": 150,
+            "name": "Ring",
+            "author": "Savoir-faire Linux Inc.",
+            "translators": "-",
+            "type": "Others",
+            "project": "In Progress",
+            "site": "https://ring.cx/en/contribute/translate",
+            "image": "https://image.ibb.co/iETx77/149.png"
+        },
+        {
+            "id": 151,
+            "name": "Querido Designer Jr.",
+            "author": "Elliot Dahl",
+            "translators": "Pri Barella",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://code.likeagirl.io/querido-designer-jr-91e67c8950af",
+            "image": "https://image.ibb.co/mpc777/151.png"
+        },
+        {
+            "id": 152,
+            "name": "As diferenças entre SQL e NoSQL: MySQL x MongoDB",
+            "author": "XplentyBlog",
+            "translators": "Lauren Ferreira",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/diferencas-entre-sql-e-nosql-51311f9069bd",
+            "image": "https://image.ibb.co/nMOrZn/152.png"
+        },
+        {
+            "id": 153,
+            "name": "Como se tornar um super ninja aprendiz de programação",
+            "author": "Marcus Gardiner",
+            "translators": "Vitor Martins",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/como-se-tornar-um-super-ninja-aprendiz-de-programação-b51f2488f96c",
+            "image": "https://image.ibb.co/fCvG0S/153.png"
+        },
+        {
+            "id": 154,
+            "name": "Grafos fantásticos e onde habitam: uma introdução à teoria dos grafos",
+            "author": "Vaidehi Joshi",
+            "translators": "Lauren Ferreira",
+            "type": "Articles",
+            "project": "Completed",
+            "site": "https://medium.com/devtranslate/grafos-fant%C3%A1sticos-e-onde-habitam-uma-introdu%C3%A7%C3%A3o-%C3%A0-teoria-dos-grafos-a7f9d737d5d2",
+            "image": "https://image.ibb.co/gii0un/154.png"
         }
     ]
 }
