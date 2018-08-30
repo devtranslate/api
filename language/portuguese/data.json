@@ -8,7 +8,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
-            "image": "https://image.ibb.co/b9GdKb/1.png" 
+            "image": "https://image.ibb.co/b9GdKb/1.png"
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/escrevendo-html-com-acessibilidade-em-mente-4af1b8599246",
-            "image": "https://image.ibb.co/exTEsw/2.png" 
+            "image": "https://image.ibb.co/exTEsw/2.png"
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173",
-            "image": "https://image.ibb.co/cn49QG/3.png" 
+            "image": "https://image.ibb.co/cn49QG/3.png"
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@leandrw/css-do-odeio-essa-m-a-pode-deixar-comigo-f4203edfaec5",
-            "image": "https://image.ibb.co/jWZXeb/4.png" 
+            "image": "https://image.ibb.co/jWZXeb/4.png"
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/tableless/a-evolu%C3%A7%C3%A3o-do-css-de-arquivos-css-sass-bem-para-css-modules-at%C3%A9-styled-components-b7ad4d16ffc2",
-            "image": "https://image.ibb.co/kKeb5G/5.png" 
+            "image": "https://image.ibb.co/kKeb5G/5.png"
         },
         {
             "id": 6,
@@ -58,7 +58,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/tableless/a-ascens%C3%A3o-do-functional-css-8ae81ac2aa9c",
-            "image": "https://image.ibb.co/i0WZsw/6_OK.png" 
+            "image": "https://image.ibb.co/i0WZsw/6_OK.png"
         },
         {
             "id": 7,
@@ -68,17 +68,17 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@oieduardorabelo/construindo-uma-aplica%C3%A7%C3%A3o-sem-css-os-altos-e-baixos-sobre-isso-33d8a218c72f",
-            "image": "https://image.ibb.co/mECw5G/7.png" 
+            "image": "https://image.ibb.co/mECw5G/7.png"
         },
         {
             "id": 8,
             "name": "CSS e Escalabilidade — Nós deveríamos escrever menos CSS",
-			"author": "Adam Morse",
+    "author": "Adam Morse",
             "translators": "Eduardo Rabelo",
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/tableless/css-e-escalabilidade-n%C3%B3s-dever%C3%ADamos-escrever-menos-css-7bf9d4749519",
-            "image": "https://image.ibb.co/dmifXw/8_OK.png" 
+            "image": "https://image.ibb.co/dmifXw/8_OK.png"
         },
         {
             "id": 9,
@@ -88,7 +88,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/tableless/o-fim-do-css-global-ddcd80bd6334",
-            "image": "https://image.ibb.co/ctEXeb/9.png" 
+            "image": "https://image.ibb.co/ctEXeb/9.png"
         },
         {
             "id": 10,
@@ -98,7 +98,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/tableless/8-regras-simples-para-uma-arquitetura-css-robusta-e-escal%C3%A1vel-545c6dade170",
-            "image": "https://image.ibb.co/krsw5G/10_OK.png" 
+            "image": "https://image.ibb.co/krsw5G/10_OK.png"
         },
         {
             "id": 11,
@@ -108,7 +108,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/tableless/3-novidades-do-css-para-aprender-em-2017-15b65acb85d8",
-            "image": "https://image.ibb.co/bWwZsw/11.png" 
+            "image": "https://image.ibb.co/bWwZsw/11.png"
         },
         {
             "id": 12,
@@ -118,7 +118,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@oieduardorabelo/qual-mudan%C3%A7a-que-web-components-causa-na-arquitetura-css-5a4b6fdb6a98",
-            "image": "https://image.ibb.co/hSe9QG/12.png" 
+            "image": "https://image.ibb.co/hSe9QG/12.png"
         },
         {
             "id": 13,
@@ -128,7 +128,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://codetalks.net/como-%C3%A9-programar-em-javascript-em-2016-9c9b3c12cea8",
-            "image": "https://image.ibb.co/nDv5zb/13_OK.png" 
+            "image": "https://image.ibb.co/nDv5zb/13_OK.png"
         },
         {
             "id": 14,
@@ -138,7 +138,7 @@
             "type": "Books",
             "project": "Completed",
             "site": "https://github.com/felipe-augusto/clean-code-javascript/blob/master/README.md",
-            "image": "https://image.ibb.co/iz4b5G/14_OK.png" 
+            "image": "https://image.ibb.co/iz4b5G/14_OK.png"
         },
         {
             "id": 15,
@@ -148,7 +148,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@osuissa/tudo-sobre-recurs%C3%A3o-ptc-tco-e-stc-em-javascript-58953a5a846a",
-            "image": "https://image.ibb.co/hr9Xeb/15.png" 
+            "image": "https://image.ibb.co/hr9Xeb/15.png"
         },
         {
             "id": 16,
@@ -158,7 +158,7 @@
             "type": "Documentation",
             "project": "Completed",
             "site": "https://medium.com/@osuissa/javascript-promises-671934f08bdf",
-            "image": "https://image.ibb.co/korOkG/16_OK.png" 
+            "image": "https://image.ibb.co/korOkG/16_OK.png"
         },
         {
             "id": 17,
@@ -168,7 +168,7 @@
             "type": "Codes",
             "project": "Completed",
             "site": "https://medium.com/trainingcenter/flow-fundamentos-para-desenvolvedores-javascript-9f0a1da74c4e",
-            "image": "https://image.ibb.co/fwBOkG/17.png" 
+            "image": "https://image.ibb.co/fwBOkG/17.png"
         },
         {
             "id": 18,
@@ -178,7 +178,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@osuissa/aventuras-funcionais-ocasionais-em-javascript-54d3e168c4da",
-            "image": "https://image.ibb.co/gbKnCw/18.png" 
+            "image": "https://image.ibb.co/gbKnCw/18.png"
         },
         {
             "id": 19,
@@ -188,7 +188,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/trainingcenter/novos-campos-de-classe-private-no-javascript-2622d5faa65e",
-            "image": "https://image.ibb.co/jKJQzb/19_OK.png" 
+            "image": "https://image.ibb.co/jKJQzb/19_OK.png"
         },
         {
             "id": 20,
@@ -198,7 +198,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/@walmyrcarvalho/kotlin-1-1-suporte-a-javascript-co-rotinas-e-mais-d84b65ac2f92#.9usvgmws0",
-            "image": "https://image.ibb.co/ctK9QG/20.png" 
+            "image": "https://image.ibb.co/ctK9QG/20.png"
         },
         {
             "id": 21,
@@ -208,7 +208,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/liderar-e-dificil/meu-colega-%C3%A9-um-computador-m%C3%A1quinas-como-for%C3%A7a-de-trabalho-ca83e7f46e93",
-            "image": "https://image.ibb.co/fbCJKb/21.png" 
+            "image": "https://image.ibb.co/fbCJKb/21.png"
         },
         {
             "id": 22,
@@ -228,7 +228,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://feed.itsrio.org/neutralidade-da-rede-você-ama-mesmo-não-sabendo-direito-o-que-é-5743f129563b#.b84or2sqt",
-            "image": "https://image.ibb.co/dxROkG/23.png" 
+            "image": "https://image.ibb.co/dxROkG/23.png"
         },
         {
             "id": 24,
@@ -238,7 +238,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://feed.itsrio.org/por-que-a-internet-no-brasil-é-parcialmente-livre-7b3832a657bd#.mue2uap9k",
-            "image": "https://image.ibb.co/jkC7Cw/24.png" 
+            "image": "https://image.ibb.co/jkC7Cw/24.png"
         },
         {
             "id": 25,
@@ -919,7 +919,7 @@
             "project": "Completed",
             "site": "https://github.com/MeteorBrasil/meteor-docsbr",
             "image": "https://image.ibb.co/mCJo4b/92.png"
-        }, 
+        },
         {
            "id": 93,
             "name": "Documentação Respect / REST",
@@ -1338,7 +1338,7 @@
             "type": "Articles",
             "project": "Completed",
             "site": "https://medium.com/devtranslate/como-usar-vari%C3%A1veis-css-29b5b980794c",
-            "image": "https://image.ibb.co/ntanrm/134.png"            
+            "image": "https://image.ibb.co/ntanrm/134.png"
         },
         {
             "id": 135,
@@ -1539,6 +1539,16 @@
             "project": "Completed",
             "site": "https://medium.com/devtranslate/grafos-fant%C3%A1sticos-e-onde-habitam-uma-introdu%C3%A7%C3%A3o-%C3%A0-teoria-dos-grafos-a7f9d737d5d2",
             "image": "https://image.ibb.co/gii0un/154.png"
+        },
+        {
+            "id": 155,
+            "name": "Documentação do Electron",
+            "author": "Electron",
+            "translators": "-",
+            "type": "Documentation",
+            "project": "In Progress",
+            "site": "https://electronjs.org/docs?lang=pt-BR",
+            "image": "https://impactotecno.files.wordpress.com/2018/02/electron1.jpg?w=640"
         }
     ]
 }
