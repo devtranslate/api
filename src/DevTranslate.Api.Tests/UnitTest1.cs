@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace DevTranslate.Logic.Tests
+namespace DevTranslate.Api.Tests
 {
     public class UnitTest1
     {
