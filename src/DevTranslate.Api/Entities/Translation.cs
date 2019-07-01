@@ -38,6 +38,24 @@ namespace DevTranslate.Api.Entities
             {
                 throw new ArgumentNullException("imageUrl", "An image url must be provided");
             }
+
+            Title = title;
+            Author = author;
+            Translator = translator;
+            Language = language;
+            Url = url;
+            ImageUrl = imageUrl;
+            Status = status;
+            TranslationType = type;
         }
+
+        public string Title { get; private set; }
+        public string Author { get; private set; }
+        public string Translator { get; private set; }
+        public Language Language { get; private set; }
+        public string Url { get; private set; }
+        public string ImageUrl { get; private set; }
+        public Status Status { get; private set; }
+        public TranslationType TranslationType { get; private set; }
     }
 }
