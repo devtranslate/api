@@ -1,4 +1,5 @@
-﻿using DevTranslate.Api.Entities;
+﻿using DevTranslate.Api.Context.Configurations;
+using DevTranslate.Api.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ namespace DevTranslate.Api.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfiguration(new TranslationConfiguration());
 
             modelBuilder.Seed();
         }
