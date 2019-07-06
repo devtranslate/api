@@ -1,6 +1,8 @@
 ﻿using DevTranslate.Api.Entities;
+using DevTranslate.Api.Tests.Builders;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Xunit;
 
@@ -11,16 +13,7 @@ namespace DevTranslate.Api.Tests.Entities
         [Fact]
         public void Should_CreateInstance_When_Instantiating()
         {
-            var translation = new Translation(
-                title: "Pare de usar CSS no JavaScript para desenvolvimento web",
-                author: "Gajus Kuizinas",
-                translator: "Carlos Eduardo Olivieri",
-                language: Language.English,
-                url: "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
-                imageUrl: "https://image.ibb.co/b9GdKb/1.png",
-                status: Status.Completed,
-                type: TranslationType.Articles
-            );
+            var translation = new TranslationBuilder().Build();
 
             Assert.NotNull(translation);
         }
@@ -32,16 +25,9 @@ namespace DevTranslate.Api.Tests.Entities
         {
             Assert.Throws<ArgumentNullException>("title", () =>
             {
-                var translation = new Translation(
-                    title: titulo,
-                    author: "Gajus Kuizinas",
-                    translator: "Carlos Eduardo Olivieri",
-                    language: Language.English,
-                    url: "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
-                    imageUrl: "https://image.ibb.co/b9GdKb/1.png",
-                    status: Status.Completed,
-                    type: TranslationType.Articles
-                );
+                var translation = new TranslationBuilder()
+                    .WithTitle(titulo)
+                    .Build();
             });
         }
 
@@ -52,16 +38,9 @@ namespace DevTranslate.Api.Tests.Entities
         {
             Assert.Throws<ArgumentNullException>("author", () =>
             {
-                var translation = new Translation(
-                    title: "Pare de usar CSS no JavaScript para desenvolvimento web",
-                    author: author,
-                    translator: "Carlos Eduardo Olivieri",
-                    language: Language.English,
-                    url: "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
-                    imageUrl: "https://image.ibb.co/b9GdKb/1.png",
-                    status: Status.Completed,
-                    type: TranslationType.Articles
-                );
+                var translation = new TranslationBuilder()
+                    .WithAuthor(author)
+                    .Build();
             });
         }
 
@@ -72,16 +51,9 @@ namespace DevTranslate.Api.Tests.Entities
         {
             Assert.Throws<ArgumentNullException>("translator", () =>
             {
-                var translation = new Translation(
-                    title: "Pare de usar CSS no JavaScript para desenvolvimento web",
-                    author: "Gajus Kuizinas",
-                    translator: translator,
-                    language: Language.English,
-                    url: "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
-                    imageUrl: "https://image.ibb.co/b9GdKb/1.png",
-                    status: Status.Completed,
-                    type: TranslationType.Articles
-                );
+                var translation = new TranslationBuilder()
+                    .WithTranslator(translator)
+                    .Build();
             });
         }
 
@@ -92,16 +64,9 @@ namespace DevTranslate.Api.Tests.Entities
         {
             Assert.Throws<ArgumentNullException>("url", () =>
             {
-                var translation = new Translation(
-                    title: "Pare de usar CSS no JavaScript para desenvolvimento web",
-                    author: "Gajus Kuizinas",
-                    translator: "Carlos Eduardo Olivieri",
-                    language: Language.English,
-                    url: url,
-                    imageUrl: "https://image.ibb.co/b9GdKb/1.png",
-                    status: Status.Completed,
-                    type: TranslationType.Articles
-                );
+                var translation = new TranslationBuilder()
+                    .WithUrl(url)
+                    .Build();
             });
         }
 
@@ -112,16 +77,9 @@ namespace DevTranslate.Api.Tests.Entities
         {
             Assert.Throws<ArgumentNullException>("imageUrl", () =>
             {
-                var translation = new Translation(
-                    title: "Pare de usar CSS no JavaScript para desenvolvimento web",
-                    author: "Gajus Kuizinas",
-                    translator: "Carlos Eduardo Olivieri",
-                    language: Language.English,
-                    url: "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
-                    imageUrl: imageUrl,
-                    status: Status.Completed,
-                    type: TranslationType.Articles
-                );
+                var translation = new TranslationBuilder()
+                    .WithImageUrl(imageUrl)
+                    .Build();
             });
         }
     }
