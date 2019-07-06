@@ -2,14 +2,16 @@
 using DevTranslate.Api.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DevTranslate.Api.Migrations
 {
     [DbContext(typeof(DevTranslateContext))]
-    partial class DevTranslateContextModelSnapshot : ModelSnapshot
+    [Migration("20190706234432_AddingSeedData")]
+    partial class AddingSeedData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
