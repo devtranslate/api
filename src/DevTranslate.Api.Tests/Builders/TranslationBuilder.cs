@@ -13,7 +13,7 @@ namespace DevTranslate.Api.Tests.Builders
         private Language language;
         private string url;
         private string imageUrl;
-        private Status status;
+        private TranslationStatus status;
         private TranslationType translationType;
 
         public TranslationBuilder()
@@ -24,7 +24,7 @@ namespace DevTranslate.Api.Tests.Builders
             language = Language.Portuguese;
             url = "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e";
             imageUrl = "https://image.ibb.co/b9GdKb/1.png";
-            status = Status.Completed;
+            status = TranslationStatus.Completed;
             translationType = TranslationType.Articles;
         }
 

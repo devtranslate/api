@@ -12,7 +12,7 @@ namespace DevTranslate.Api.Entities
         }
 
         public Translation(string title, string author, string translator, Language language,
-            string url, string imageUrl, Status status, TranslationType type)
+            string url, string imageUrl, TranslationStatus status, TranslationType type)
         {
             if (String.IsNullOrWhiteSpace(title))
             {
@@ -46,7 +46,7 @@ namespace DevTranslate.Api.Entities
             Url = url;
             ImageUrl = imageUrl;
             Status = status;
-            TranslationType = type;
+            Type = type;
         }
 
         public int Id { get; private set; }
@@ -56,7 +56,7 @@ namespace DevTranslate.Api.Entities
         public Language Language { get; private set; }
         public string Url { get; private set; }
         public string ImageUrl { get; private set; }
-        public Status Status { get; private set; }
-        public TranslationType TranslationType { get; private set; }
+        public TranslationStatus Status { get; private set; }
+        public TranslationType Type { get; private set; }
     }
 }

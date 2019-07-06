@@ -17,8 +17,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
                     ImageUrl = "https://image.ibb.co/b9GdKb/1.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -29,8 +29,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/escrevendo-html-com-acessibilidade-em-mente-4af1b8599246",
                     ImageUrl = "https://image.ibb.co/exTEsw/2.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -41,8 +41,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173",
                     ImageUrl = "https://image.ibb.co/cn49QG/3.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -53,8 +53,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@leandrw/css-do-odeio-essa-m-a-pode-deixar-comigo-f4203edfaec5",
                     ImageUrl = "https://image.ibb.co/jWZXeb/4.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -65,8 +65,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/tableless/a-evolu%C3%A7%C3%A3o-do-css-de-arquivos-css-sass-bem-para-css-modules-at%C3%A9-styled-components-b7ad4d16ffc2",
                     ImageUrl = "https://image.ibb.co/kKeb5G/5.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -77,8 +77,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/tableless/a-ascens%C3%A3o-do-functional-css-8ae81ac2aa9c",
                     ImageUrl = "https://image.ibb.co/i0WZsw/6_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -89,8 +89,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@oieduardorabelo/construindo-uma-aplica%C3%A7%C3%A3o-sem-css-os-altos-e-baixos-sobre-isso-33d8a218c72f",
                     ImageUrl = "https://image.ibb.co/mECw5G/7.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -101,8 +101,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/tableless/css-e-escalabilidade-n%C3%B3s-dever%C3%ADamos-escrever-menos-css-7bf9d4749519",
                     ImageUrl = "https://image.ibb.co/dmifXw/8_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -113,8 +113,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/tableless/o-fim-do-css-global-ddcd80bd6334",
                     ImageUrl = "https://image.ibb.co/ctEXeb/9.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -125,8 +125,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/tableless/8-regras-simples-para-uma-arquitetura-css-robusta-e-escal%C3%A1vel-545c6dade170",
                     ImageUrl = "https://image.ibb.co/krsw5G/10_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -137,8 +137,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/tableless/3-novidades-do-css-para-aprender-em-2017-15b65acb85d8",
                     ImageUrl = "https://image.ibb.co/bWwZsw/11.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -149,8 +149,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@oieduardorabelo/qual-mudan%C3%A7a-que-web-components-causa-na-arquitetura-css-5a4b6fdb6a98",
                     ImageUrl = "https://image.ibb.co/hSe9QG/12.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -161,8 +161,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://codetalks.net/como-%C3%A9-programar-em-javascript-em-2016-9c9b3c12cea8",
                     ImageUrl = "https://image.ibb.co/nDv5zb/13_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -173,8 +173,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/felipe-augusto/clean-code-javascript/blob/master/README.md",
                     ImageUrl = "https://image.ibb.co/iz4b5G/14_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -185,8 +185,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@osuissa/tudo-sobre-recurs%C3%A3o-ptc-tco-e-stc-em-javascript-58953a5a846a",
                     ImageUrl = "https://image.ibb.co/hr9Xeb/15.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -197,8 +197,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@osuissa/javascript-promises-671934f08bdf",
                     ImageUrl = "https://image.ibb.co/korOkG/16_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -209,8 +209,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/trainingcenter/flow-fundamentos-para-desenvolvedores-javascript-9f0a1da74c4e",
                     ImageUrl = "https://image.ibb.co/fwBOkG/17.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -221,8 +221,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@osuissa/aventuras-funcionais-ocasionais-em-javascript-54d3e168c4da",
                     ImageUrl = "https://image.ibb.co/gbKnCw/18.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -233,8 +233,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/trainingcenter/novos-campos-de-classe-private-no-javascript-2622d5faa65e",
                     ImageUrl = "https://image.ibb.co/jKJQzb/19_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -245,8 +245,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@walmyrcarvalho/kotlin-1-1-suporte-a-javascript-co-rotinas-e-mais-d84b65ac2f92#.9usvgmws0",
                     ImageUrl = "https://image.ibb.co/ctK9QG/20.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -257,8 +257,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/liderar-e-dificil/meu-colega-%C3%A9-um-computador-m%C3%A1quinas-como-for%C3%A7a-de-trabalho-ca83e7f46e93",
                     ImageUrl = "https://image.ibb.co/fbCJKb/21.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -269,8 +269,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@r_mdias/por-favor-pare-de-se-preocupar-com-o-angular-3-c54e8e79f1fc#.i3ypcg3jb",
                     ImageUrl = "https://image.ibb.co/jbASCw/22.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -281,8 +281,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://feed.itsrio.org/neutralidade-da-rede-você-ama-mesmo-não-sabendo-direito-o-que-é-5743f129563b#.b84or2sqt",
                     ImageUrl = "https://image.ibb.co/dxROkG/23.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -293,8 +293,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://feed.itsrio.org/por-que-a-internet-no-brasil-é-parcialmente-livre-7b3832a657bd#.mue2uap9k",
                     ImageUrl = "https://image.ibb.co/jkC7Cw/24.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -305,8 +305,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://feed.itsrio.org/os-futuros-da-internet-8f629673efcd#.to0ilvw4t",
                     ImageUrl = "https://image.ibb.co/kBr0Xw/25.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -317,8 +317,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/ux-traduzido/ux-rolagem-infinita-vs-paginação-b7da06e72662#.o43hfullt",
                     ImageUrl = "https://image.ibb.co/gTrOkG/26.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -329,8 +329,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@simaodeveloper/como-funcionam-os-servidores-da-web-736542c386fa#.75jv8d7dc",
                     ImageUrl = "https://image.ibb.co/ntTQzb/27.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -341,8 +341,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@wellmarion/metodologia-tradicional-versus-ágil-e23bac9b12cb#.54cpdbvnq",
                     ImageUrl = "https://image.ibb.co/hsmZsw/28.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -353,8 +353,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@mdm.exe/programar-não-requer-talento-ou-paixão-36b0ae176782#.t24kokdrj",
                     ImageUrl = "https://image.ibb.co/h9WOkG/29.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -365,8 +365,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/como-let-const-sao-escopados-f190b632879b#.s1p2hbnp1",
                     ImageUrl = "https://image.ibb.co/nepnCw/30.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -377,8 +377,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-let-vs-const-f521beef074a#.kcmvimmze",
                     ImageUrl = "https://image.ibb.co/cBrEcw/31.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -389,8 +389,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-use-let-com-for-loops-em-javascript-891922dcea49#.dv05gwm0f",
                     ImageUrl = "https://image.ibb.co/fjPBPb/32.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -401,8 +401,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/escrevendo-javascript-com-acessibilidade-em-mente-3720e9779969#.mmux2td5q",
                     ImageUrl = "https://image.ibb.co/e0e0Hw/33.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -413,8 +413,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/reflex%C3%A3o-em-padr%C3%B5es-de-projeto-para-node-js-b7344f2529c7#.gy5lnmau4",
                     ImageUrl = "https://image.ibb.co/nbf7xw/34.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -425,8 +425,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/emanuelg-blog/4-novos-m%C3%A9todos-de-string-em-es6-que-voc%C3%AA-deveria-conhecer-e85c7262123c#.o8tvbjyke",
                     ImageUrl = "https://image.ibb.co/fnUNVG/35.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -437,8 +437,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/khaosdoctor/design-patterns-for-humans/tree/translation",
                     ImageUrl = "https://image.ibb.co/dXsLHw/36.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -449,8 +449,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@lucasjs/como-o-flexbox-funciona-explicado-com-gifs-grandes-e-coloridos-26c42a0bcdc",
                     ImageUrl = "https://image.ibb.co/jp07xw/37.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -461,8 +461,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/khaosdoctor/learn-istanbul",
                     ImageUrl = "https://image.ibb.co/dJz0Hw/38.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -473,8 +473,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/suissa/blog/tree/master/traducoes/What%20does%20const%20stand%20for%20in%20ES6%3F",
                     ImageUrl = "https://image.ibb.co/e58hVG/39.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -485,8 +485,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/woliveiras/front-end-career/blob/master/translations/pt-br/README.md",
                     ImageUrl = "https://image.ibb.co/jjgfHw/40.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -497,8 +497,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://blog.wgbn.com.br/vue-js-vale-a-tentativa-6e63b6e74a3b",
                     ImageUrl = "https://image.ibb.co/eboSxw/41.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -509,8 +509,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://blog.wgbn.com.br/fire-stack-uma-nova-arquitetura-11f33b4fb3f",
                     ImageUrl = "https://image.ibb.co/naySxw/42.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -521,8 +521,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/blog-do-mitrut/como-kotlin-se-tornou-a-nossa-linguagem-principal-para-android-24c9492fa273",
                     ImageUrl = "https://image.ibb.co/g4xLHw/43.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -533,8 +533,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/blog-do-mitrut/xamarin-vs-nativo-36e46ec2c566",
                     ImageUrl = "https://image.ibb.co/ed7LHw/44.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -545,8 +545,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@mapaiva/ent%C3%A3o-voc%C3%AA-quer-ser-um-programador-funcional-parte-1-f3bdb7baeedb",
                     ImageUrl = "https://image.ibb.co/hFxbqG/45.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -557,8 +557,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@cadu_leite/mantendo-o-%C3%ADndice-de-pacotes-python-pypi-deb403b0d984",
                     ImageUrl = "https://image.ibb.co/kabEcw/46.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -569,8 +569,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@viliamjr/como-escrever-codigo-go-95381b84ba82",
                     ImageUrl = "https://image.ibb.co/dAMfHw/47.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -581,8 +581,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@viliamjr/as-5-regras-da-programacao-segundo-rob-pike-ae3c8b599f50",
                     ImageUrl = "https://image.ibb.co/jMZpAG/48.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -593,8 +593,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@narriral/como-dar-um-treinamento-de-seguran%C3%A7a-digital-48c1df2f0b35",
                     ImageUrl = "https://image.ibb.co/e94pAG/49.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -605,8 +605,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@junior_pires/saaripar-valida%C3%A7%C3%A3o-de-campos-no-android-9d35821a493d",
                     ImageUrl = "https://image.ibb.co/cx79AG/50.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -617,8 +617,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@julianopadilha/como-usar-o-github-como-um-ser-humano-adequado-5a0a2e1afd18",
                     ImageUrl = "https://image.ibb.co/d86Qjb/51.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -629,8 +629,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://blog.arturafonso.com.br/psr-2-pt-br-classes-fe332b6421fd",
                     ImageUrl = "https://image.ibb.co/iv9d4b/52.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -641,8 +641,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/@osuissa/substituindo-instru%C3%A7%C3%B5es-de-switch-por-objetos-literais-93a3a78463a1",
                     ImageUrl = "https://image.ibb.co/mtO5jb/53.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -653,8 +653,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://code.likeagirl.io/garotas-precisam-de-bons-exemplos-5c4ba026bacf",
                     ImageUrl = "https://image.ibb.co/meo5jb/54.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -665,8 +665,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://code.likeagirl.io/como-os-homens-podem-ajudar-as-mulheres-em-ti-ec6f75cacdf8",
                     ImageUrl = "https://image.ibb.co/hSfJ4b/55.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -677,8 +677,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/braziljs/eloquente-javascript",
                     ImageUrl = "https://image.ibb.co/gYRrPb/56.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -689,8 +689,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/CocoaHeadsBrasil/the-swift-programming-language-in-portuguese-br",
                     ImageUrl = "https://image.ibb.co/kn6Ecw/57.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -701,8 +701,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/fhferreira/aprendendo-padroes-de-projeto-javascript",
                     ImageUrl = "https://image.ibb.co/jeC9AG/58.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -713,8 +713,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/carlosbrando/poignant-br",
                     ImageUrl = "https://image.ibb.co/n1aUAG/59_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -725,8 +725,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/PenseAllen/PensePython2e",
                     ImageUrl = "https://image.ibb.co/iY2nxw/60_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -737,8 +737,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/lucasfcosta/learnyounode-pt-br",
                     ImageUrl = "https://image.ibb.co/dAjd4b/61_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -749,8 +749,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/hc3/essencial-js-padroes-de-projeto",
                     ImageUrl = "https://image.ibb.co/jMs9AG/62_OK.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -761,8 +761,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/taylorrf/sinatra-book-pt-br",
                     ImageUrl = "https://image.ibb.co/dfU0Hw/63.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -773,8 +773,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/gilsondev/angular-styleguide-pt-br/blob/master/SUMMARY.md",
                     ImageUrl = "https://image.ibb.co/fc0kjb/64.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -785,8 +785,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/mandado/Experimente-Git",
                     ImageUrl = "https://image.ibb.co/jtA7xw/65.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -797,8 +797,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://csssustentavel.com.br/",
                     ImageUrl = "https://image.ibb.co/eNL7xw/66.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -809,8 +809,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://df.python.org.br/pycubator/",
                     ImageUrl = "https://image.ibb.co/mxPpAG/67.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -821,8 +821,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/IuryAlves/pygame-book-translation",
                     ImageUrl = "https://image.ibb.co/gDfUAG/68_OK.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -833,8 +833,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/taylorrf/learnhaskell",
                     ImageUrl = "https://image.ibb.co/iY6Qjb/69_OK.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -845,8 +845,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/GDGDuqueDeCaxias/cssguideline-translate-ptbr",
                     ImageUrl = "https://image.ibb.co/dQEBPb/70.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -857,8 +857,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/elementary-br/the-vala-tutorial",
                     ImageUrl = "https://image.ibb.co/j6NFjb/71_OK.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -869,8 +869,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/erichideki/djangobook",
                     ImageUrl = "https://image.ibb.co/exsLHw/72_OK.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -881,8 +881,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/aaoliveira/PSR_PT-BR",
                     ImageUrl = "https://image.ibb.co/jytzAG/73_OK.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -893,8 +893,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/jekyll-brasil/jekyll-brasil.github.io",
                     ImageUrl = "https://image.ibb.co/jzRajb/74.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -905,8 +905,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/willianmano/reactdocs-pt_br",
                     ImageUrl = "https://image.ibb.co/gnJo4b/75.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -917,8 +917,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/NandoKstroNet/docs-composer-pt-br",
                     ImageUrl = "https://image.ibb.co/ju1VHw/76.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -929,8 +929,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/angelobelchior/prism-xamarin-forms",
                     ImageUrl = "https://image.ibb.co/hs7gPb/77.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -941,8 +941,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/lucianobarauna/dochexo",
                     ImageUrl = "https://image.ibb.co/httzAG/78.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -953,8 +953,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/shonorio/beginning-perl",
                     ImageUrl = "https://image.ibb.co/eCc4cw/79.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -965,8 +965,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/pedronauck/promiseJS.br",
                     ImageUrl = "https://image.ibb.co/jyycxw/80.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -977,8 +977,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/reginaldojunior/wisdom-of-the-elephant",
                     ImageUrl = "https://image.ibb.co/iadcxw/81.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Books
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Books
                 },
                 new
                 {
@@ -989,8 +989,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/kaiocesar/laravel4-docs-ptbr",
                     ImageUrl = "https://image.ibb.co/fGWajb/82.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1001,8 +1001,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/nandomoreirame/open-source-guide",
                     ImageUrl = "https://image.ibb.co/mp4Hxw/83.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1013,8 +1013,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/avizmarlon/google-interview-university",
                     ImageUrl = "https://image.ibb.co/cxR84b/84.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -1025,8 +1025,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/phpdocbrbridge/traducao/wiki/Guia-de-edi%C3%A7%C3%A3o-do-manual",
                     ImageUrl = "https://image.ibb.co/idU6qG/85.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1037,8 +1037,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/AnthonyMRodrigues/docsreactnative",
                     ImageUrl = "https://image.ibb.co/eKdMPb/86.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1049,8 +1049,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://www.ruby-lang.org/pt/documentation/",
                     ImageUrl = "https://image.ibb.co/fM8MPb/87.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1061,8 +1061,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/yiisoft/yii2/tree/master/docs/guide-pt-BR",
                     ImageUrl = "https://image.ibb.co/fzqPcw/88.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1073,8 +1073,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://www.postgresql.org.br/pages/documentacao.html",
                     ImageUrl = "https://image.ibb.co/kcOMPb/89.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1085,8 +1085,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://getbootstrap.com.br/",
                     ImageUrl = "https://image.ibb.co/dgVeAG/90.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1097,8 +1097,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/andreia/symfony-docs-pt-BR",
                     ImageUrl = "https://image.ibb.co/ftRKAG/91.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1109,8 +1109,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/MeteorBrasil/meteor-docsbr",
                     ImageUrl = "https://image.ibb.co/mCJo4b/92.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1121,8 +1121,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/NandoKstroNet/docptbrrespectrest",
                     ImageUrl = "https://image.ibb.co/hUJAHw/93.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1133,8 +1133,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
                     ImageUrl = "https://image.ibb.co/dcssVG/94.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1145,8 +1145,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/NandoKstroNet/docsptbrrespectvalidation",
                     ImageUrl = "https://image.ibb.co/mrTo4b/95.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1157,8 +1157,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/artesaos/laravel-docs",
                     ImageUrl = "https://image.ibb.co/mcoAHw/96.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1169,8 +1169,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://ericdouglas.github.io/jasmine-br-docs/",
                     ImageUrl = "https://image.ibb.co/fidAHw/97.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1181,8 +1181,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://docs.joomla.org/Joomla_info_page/pt-BR",
                     ImageUrl = "https://image.ibb.co/gG5eAG/98.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1193,8 +1193,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://br.vuejs.org/",
                     ImageUrl = "https://image.ibb.co/iT1KAG/99.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1205,8 +1205,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://silvamateus.gitbooks.io/rscss/content/",
                     ImageUrl = "https://image.ibb.co/cR8MPb/100.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1217,8 +1217,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://facebook.github.io/jest/pt-BR/",
                     ImageUrl = "https://image.ibb.co/nyuvjb/101.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1229,8 +1229,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://www.lua.org/manual/5.2/pt/",
                     ImageUrl = "https://image.ibb.co/niEHxw/102.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1241,8 +1241,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://docs.djangoproject.com/pt-br/1.11/",
                     ImageUrl = "https://image.ibb.co/d724cw/103.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1253,8 +1253,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/tree/master/series/voce-nao-precisa-de-jquery",
                     ImageUrl = "https://image.ibb.co/h70CVG/104.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1265,8 +1265,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/tree/master/series/entao-voce-quer-ser-um-programador-funcional",
                     ImageUrl = "https://image.ibb.co/ndqCVG/105.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1277,8 +1277,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/001-guia-definitivo-para-aprender-angularjs.md",
                     ImageUrl = "https://image.ibb.co/ieQeAG/106.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1289,8 +1289,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/002-aprenda-angularjs-com-5-exemplos.md",
                     ImageUrl = "https://image.ibb.co/gcZT4b/107.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1301,8 +1301,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/003-use-angularjs-para-potencializar-sua-webapp.md#use-angularjs-para-potencializar-suas-aplica%C3%A7%C3%B5es-web",
                     ImageUrl = "https://image.ibb.co/cA1mqG/108.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1313,8 +1313,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/004-mais-magicas-angularjs-para-turbinar-sua-webapp.md#mais-m%C3%A1gicas-do-angularjs-para-turbinar-sua-webapp",
                     ImageUrl = "https://image.ibb.co/eNxRqG/109.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1325,8 +1325,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/005-entendendo-diretivas.md",
                     ImageUrl = "https://image.ibb.co/coPT4b/110.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1337,8 +1337,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/bdd/001-bdd-with-js.md",
                     ImageUrl = "https://image.ibb.co/etdAHw/111.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1349,8 +1349,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/handlebars/001-aprenda-tudo-sobre-handlebars.md#aprenda-tudo-sobre-handlebarsjs-templating-javascript",
                     ImageUrl = "https://image.ibb.co/dGbxxw/112.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1361,8 +1361,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://javascriptissexy.com/how-to-learn-javascript-properly/",
                     ImageUrl = "https://image.ibb.co/mzL1Pb/113.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1373,8 +1373,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/002-objetos-js-em-detalhe.md#objetos-javascript-em-detalhe",
                     ImageUrl = "https://image.ibb.co/ieUHxw/114.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1385,8 +1385,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/003-escopo-de-variavel-js-e-hoisting-explicado.md#escopo-de-vari%C3%A1vel-javascript-e-hoisting-explicado",
                     ImageUrl = "https://image.ibb.co/mdjjcw/115.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1397,8 +1397,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/004-entenda-closures-no-javaScript-com-facilidade.md#entenda-closures-no-javascript-com-facilidade",
                     ImageUrl = "https://image.ibb.co/hJycxw/116.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1409,8 +1409,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/005-prototipos-javascript-em-uma-linguagem-simples.md#prot%C3%B3tipos-javascript-em-uma-linguagem-simples",
                     ImageUrl = "https://image.ibb.co/fchgPb/117.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1421,8 +1421,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/006-entenda-callbacks-js.md",
                     ImageUrl = "https://image.ibb.co/k1XRqG/118.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1433,8 +1433,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/007-um-mergulho-no-javascript-puro.md",
                     ImageUrl = "https://image.ibb.co/gJYo4b/119.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1445,8 +1445,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/008-programacao-funcional-prioridade-2015.md",
                     ImageUrl = "https://image.ibb.co/kKHFjb/120.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1457,8 +1457,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/009-uma-suave-introducao-ao-javascript-parte-1.md",
                     ImageUrl = "https://image.ibb.co/mrvPcw/121.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1469,8 +1469,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/MongoDB/001-uma-introduc%CC%A7a%CC%83o-ao-mongodb.md",
                     ImageUrl = "https://image.ibb.co/jSp6qG/122.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1481,8 +1481,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/001-guia-para-iniciantes-absolutos-em-nodejs.md",
                     ImageUrl = "https://image.ibb.co/byLqHw/123.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1493,8 +1493,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/002-simples-guia-nodejs-jade-express-mongodb.md",
                     ImageUrl = "https://image.ibb.co/k7wVHw/124.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1505,8 +1505,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/react/01-sua-linha-do-tempo-para-aprender-react.md",
                     ImageUrl = "https://image.ibb.co/mmNFjb/125.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1517,8 +1517,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ericdouglas/traduz-ai/blob/master/react/02-introducao-ao-react-para-pessoas-que-sabem-apenas-jquery.md",
                     ImageUrl = "https://image.ibb.co/k2c4cw/126.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1529,8 +1529,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/nossa-coletividad/por-que-voc%C3%AA-deve-escolher-python-ad187b9783d0",
                     ImageUrl = "https://image.ibb.co/i7QCVG/127.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1541,8 +1541,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://allythy.github.io/Como-instalar-o-pip-para-gerenciar-pacotes-do-Python-no-GNU-Linux",
                     ImageUrl = "https://image.ibb.co/n7OMPb/128.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1553,8 +1553,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://www.python.org/doc/",
                     ImageUrl = "https://image.ibb.co/kTr84b/129.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1565,8 +1565,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://panda.ime.usp.br/pensepy/static/pensepy/index.html",
                     ImageUrl = "https://image.ibb.co/eZg84b/130.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1577,8 +1577,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/a-comunidade-global-de-php-continua-se-intoxicando-e-precisamos-reverter-isso-antes-que-afete-da50ee793f8b",
                     ImageUrl = "https://image.ibb.co/ncGQh6/131.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1589,8 +1589,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/rafaelvianna/ReactJs-Docs-PT-BR",
                     ImageUrl = "https://image.ibb.co/bHm7P6/132.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1601,8 +1601,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/laravel-testando-parcialmente-respostas-json-320c6dc267d7",
                     ImageUrl = "https://image.ibb.co/gfUrHR/133.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1613,8 +1613,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/como-usar-vari%C3%A1veis-css-29b5b980794c",
                     ImageUrl = "https://image.ibb.co/ntanrm/134.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1625,8 +1625,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/css-e-5-erros-que-voc%C3%AA-deve-evitar-91b9872f63f4",
                     ImageUrl = "https://image.ibb.co/maw2rm/135.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1637,8 +1637,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/ng-girls/todo-list-tutorial-portuguese",
                     ImageUrl = "https://image.ibb.co/jxW7P6/136.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -1649,8 +1649,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "http://diegoeis.github.io/code-guide/",
                     ImageUrl = "https://image.ibb.co/ku9K46/137.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1661,8 +1661,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/necolas/idiomatic-css/blob/master/translations/pt-BR/README.md",
                     ImageUrl = "https://image.ibb.co/fcFWHR/138.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1673,8 +1673,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/como-ser-um-compilador--faca-um-compilador-com-javascript/artigo.md",
                     ImageUrl = "https://image.ibb.co/c5VTWm/139.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1685,8 +1685,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/promessa-festa-hamburguer/artigo.md",
                     ImageUrl = "https://image.ibb.co/b1KfBm/140.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1697,8 +1697,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/5eac7f0977fa3c669c521ae9a39f8e1faffb6627/javascript/javascript-para-gatos.md",
                     ImageUrl = "https://image.ibb.co/dNr5cR/141.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1709,8 +1709,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/vale-a-pena-aprender-vanillajs--com-certeza.md",
                     ImageUrl = "https://image.ibb.co/mQOe46/142.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1721,8 +1721,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/tratando-respostas-ajax-com-ou-sem-jquery.md",
                     ImageUrl = "https://image.ibb.co/gahxP6/143.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1733,8 +1733,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-controle-de-versao.md",
                     ImageUrl = "https://image.ibb.co/f3qR1m/144.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1745,8 +1745,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-git.md",
                     ImageUrl = "https://image.ibb.co/gXgS7R/145.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1757,8 +1757,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/dica-css-use-not-para-economizar-tempo-e-linhas-de-c%C3%B3digo-3cc16468d42f",
                     ImageUrl = "https://image.ibb.co/fpiaun/146.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1769,8 +1769,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://hosted.weblate.org/engage/fsearch/?utm_source=widget",
                     ImageUrl = "https://image.ibb.co/duXeLS/147.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -1781,8 +1781,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://duck.co/translate",
                     ImageUrl = "https://image.ibb.co/gYWTEn/148.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -1793,8 +1793,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://tutanota.com/blog/posts/tutanota-translation-project",
                     ImageUrl = "https://image.ibb.co/iETx77/149.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -1805,8 +1805,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://ring.cx/en/contribute/translate",
                     ImageUrl = "https://image.ibb.co/iPPOEn/150.png",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Others
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Others
                 },
                 new
                 {
@@ -1817,8 +1817,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://code.likeagirl.io/querido-designer-jr-91e67c8950af",
                     ImageUrl = "https://image.ibb.co/mpc777/151.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1829,8 +1829,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/diferencas-entre-sql-e-nosql-51311f9069bd",
                     ImageUrl = "https://image.ibb.co/nMOrZn/152.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1841,8 +1841,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/como-se-tornar-um-super-ninja-aprendiz-de-programação-b51f2488f96c",
                     ImageUrl = "https://image.ibb.co/fCvG0S/153.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1853,8 +1853,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/grafos-fant%C3%A1sticos-e-onde-habitam-uma-introdu%C3%A7%C3%A3o-%C3%A0-teoria-dos-grafos-a7f9d737d5d2",
                     ImageUrl = "https://image.ibb.co/gii0un/154.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1865,8 +1865,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://electronjs.org/docs?lang=pt-BR",
                     ImageUrl = "https://impactotecno.files.wordpress.com/2018/02/electron1.jpg?w=640",
-                    Status = Status.InProgress,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.InProgress,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1877,8 +1877,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://vuex.vuejs.org/ptbr/",
                     ImageUrl = "https://i.ibb.co/qYL9Wzr/156.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Documentation
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Documentation
                 },
                 new
                 {
@@ -1889,8 +1889,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.Portuguese,
                     Url = "https://medium.com/devtranslate/o-que-voc%C3%AA-t%C3%A1-esperando-para-falar-em-p%C3%BAblico-f75d12df1355",
                     ImageUrl = "https://i.ibb.co/wrf0jBc/157.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1901,8 +1901,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.English,
                     Url = "https://medium.com/@WordcorpGlobal/programming-doesnt-require-talent-or-even-passion-11422270e1e4",
                     ImageUrl = "https://image.ibb.co/h9WOkG/29.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Articles
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Articles
                 },
                 new
                 {
@@ -1913,8 +1913,8 @@ namespace DevTranslate.Api.Context
                     Language = Language.English,
                     Url = "https://github.com/woliveiras/front-end-career/tree/master/translations/en",
                     ImageUrl = "https://image.ibb.co/jjgfHw/40.png",
-                    Status = Status.Completed,
-                    TranslationType = TranslationType.Others,
+                    Status = TranslationStatus.Completed,
+                    Type = TranslationType.Others,
                 }
             );
         }

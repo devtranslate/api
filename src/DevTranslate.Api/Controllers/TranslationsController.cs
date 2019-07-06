@@ -30,7 +30,7 @@ namespace DevTranslate.Api.Controllers
                 t.Url,
                 t.ImageUrl,
                 t.Status,
-                t.TranslationType
+                t.Type
             }).ToList();
 
             return Ok(query);
