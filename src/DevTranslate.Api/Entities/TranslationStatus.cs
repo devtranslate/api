@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DevTranslate.Api.Entities
 {
-    public enum Status
+    public enum TranslationStatus
     {
         Completed = 1,
         InProgress
