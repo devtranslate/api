@@ -49,6 +49,7 @@ namespace DevTranslate.Api.Entities
             TranslationType = type;
         }
 
+        public int Id { get; private set; }
         public string Title { get; private set; }
         public string Author { get; private set; }
         public string Translator { get; private set; }
