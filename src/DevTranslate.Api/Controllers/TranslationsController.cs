@@ -18,8 +18,13 @@ namespace DevTranslate.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult SearchTranslations()
+        public IActionResult SearchTranslations(int? page = 1, int? recordsPerPage = 10)
         {
+            if (recordsPerPage.HasValue && recordsPerPage.Value > 10)
+            {
+                recordsPerPage = 10;
+            }
+
             var query = _context.Translations.Select(t => new
             {
                 t.Id,
@@ -31,7 +36,10 @@ namespace DevTranslate.Api.Controllers
                 t.ImageUrl,
                 t.Status,
                 t.Type
-            }).ToList();
+            })
+            .Skip(recordsPerPage.Value * (page.Value - 1))
+            .Take(recordsPerPage.Value)
+            .ToList();
 
             return Ok(query);
         }
