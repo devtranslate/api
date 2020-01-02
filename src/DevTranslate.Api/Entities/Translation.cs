@@ -18,6 +18,26 @@ namespace DevTranslate.Api.Entities
             {
                 throw new ArgumentNullException("title", "A title must be provided");
             }
+
+            if (String.IsNullOrWhiteSpace(author))
+            {
+                throw new ArgumentNullException("author", "An author must be provided");
+            }
+
+            if (String.IsNullOrWhiteSpace(translator))
+            {
+                throw new ArgumentNullException("translator", "A translator must be provided");
+            }
+
+            if (String.IsNullOrWhiteSpace(url))
+            {
+                throw new ArgumentNullException("url", "A url must be provided");
+            }
+
+            if (String.IsNullOrWhiteSpace(imageUrl))
+            {
+                throw new ArgumentNullException("imageUrl", "An image url must be provided");
+            }
         }
     }
 }
