@@ -21,7 +21,7 @@ namespace DevTranslate.Api.Tests.Builders
             title = "Pare de usar CSS no JavaScript para desenvolvimento web";
             author = "Gajus Kuizinas";
             translator = "Carlos Eduardo Olivieri";
-            language = Language.English;
+            language = Language.Portuguese;
             url = "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e";
             imageUrl = "https://image.ibb.co/b9GdKb/1.png";
             status = Status.Completed;
