@@ -1,0 +1,1573 @@
+{
+	"data": [{
+			"id": 1,
+			"name": "Pare de usar CSS no JavaScript para desenvolvimento web",
+			"author": "Gajus Kuizinas",
+			"translators": "Carlos Eduardo Olivieri",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@cadutech/pare-de-usar-css-no-javascript-para-desenvolvimento-web-b4a2e8fbb85e",
+			"image": "https://image.ibb.co/b9GdKb/1.png"
+		},
+		{
+			"id": 2,
+			"name": "Escrevendo HTML com acessibilidade em mente",
+			"author": "Manuel Matuzovic",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/escrevendo-html-com-acessibilidade-em-mente-4af1b8599246",
+			"image": "https://image.ibb.co/exTEsw/2.png"
+		},
+		{
+			"id": 3,
+			"name": "Entendendo a precedência de estilo em CSS: Especificidade, Herança e Efeito Cascata",
+			"author": "Steven Bradley",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/entendendo-a-preced%C3%AAncia-de-estilo-em-css-especificidade-heran%C3%A7a-e-efeito-cascata-a437c4929173",
+			"image": "https://image.ibb.co/cn49QG/3.png"
+		},
+		{
+			"id": 4,
+			"name": "CSS: do ‘Odeio essa m**’ a ‘pode deixar comigo!’",
+			"author": "Ignacio Piantanida",
+			"translators": "Leandro Cavalcante",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@leandrw/css-do-odeio-essa-m-a-pode-deixar-comigo-f4203edfaec5",
+			"image": "https://image.ibb.co/jWZXeb/4.png"
+		},
+		{
+			"id": 5,
+			"name": "A evolução do CSS: De arquivos CSS, SASS, BEM para CSS Modules até Styled Components",
+			"author": "Perez Priego",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/tableless/a-evolu%C3%A7%C3%A3o-do-css-de-arquivos-css-sass-bem-para-css-modules-at%C3%A9-styled-components-b7ad4d16ffc2",
+			"image": "https://image.ibb.co/kKeb5G/5.png"
+		},
+		{
+			"id": 6,
+			"name": "A ascensão do Functional CSS",
+			"author": "Marcelo Somers",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/tableless/a-ascens%C3%A3o-do-functional-css-8ae81ac2aa9c",
+			"image": "https://image.ibb.co/i0WZsw/6_OK.png"
+		},
+		{
+			"id": 7,
+			"name": "Construindo uma aplicação sem CSS — Os altos e baixos sobre isso",
+			"author": "Krasimir Tsonev",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@oieduardorabelo/construindo-uma-aplica%C3%A7%C3%A3o-sem-css-os-altos-e-baixos-sobre-isso-33d8a218c72f",
+			"image": "https://image.ibb.co/mECw5G/7.png"
+		},
+		{
+			"id": 8,
+			"name": "CSS e Escalabilidade — Nós deveríamos escrever menos CSS",
+			"author": "Adam Morse",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/tableless/css-e-escalabilidade-n%C3%B3s-dever%C3%ADamos-escrever-menos-css-7bf9d4749519",
+			"image": "https://image.ibb.co/dmifXw/8_OK.png"
+		},
+		{
+			"id": 9,
+			"name": "O fim do CSS global",
+			"author": "Mark Dalgleish",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/tableless/o-fim-do-css-global-ddcd80bd6334",
+			"image": "https://image.ibb.co/ctEXeb/9.png"
+		},
+		{
+			"id": 10,
+			"name": "8 regras simples para uma arquitetura CSS robusta e escalável",
+			"author": "Jarno Rantanen",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/tableless/8-regras-simples-para-uma-arquitetura-css-robusta-e-escal%C3%A1vel-545c6dade170",
+			"image": "https://image.ibb.co/krsw5G/10_OK.png"
+		},
+		{
+			"id": 11,
+			"name": "3 novidades do CSS para aprender em 2017",
+			"author": "Ire Aderinokun",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/tableless/3-novidades-do-css-para-aprender-em-2017-15b65acb85d8",
+			"image": "https://image.ibb.co/bWwZsw/11.png"
+		},
+		{
+			"id": 12,
+			"name": "Qual mudança que Web Components causa na arquitetura CSS?",
+			"author": "Jonathan Snook",
+			"translators": "Eduardo Rabelo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@oieduardorabelo/qual-mudan%C3%A7a-que-web-components-causa-na-arquitetura-css-5a4b6fdb6a98",
+			"image": "https://image.ibb.co/hSe9QG/12.png"
+		},
+		{
+			"id": 13,
+			"name": "Como é programar em JavaScript em 2016",
+			"author": "Jose Aguinaga",
+			"translators": "Joselito Júnior (PT-BR)",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://codetalks.net/como-%C3%A9-programar-em-javascript-em-2016-9c9b3c12cea8",
+			"image": "https://image.ibb.co/nDv5zb/13_OK.png"
+		},
+		{
+			"id": 14,
+			"name": "Código Limpo em Javascript",
+			"author": "Ryan McDermott",
+			"translators": "Felipe Augusto",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/felipe-augusto/clean-code-javascript/blob/master/README.md",
+			"image": "https://image.ibb.co/iz4b5G/14_OK.png"
+		},
+		{
+			"id": 15,
+			"name": "Tudo sobre Recursão, PTC, TCO e STC em JavaScript",
+			"author": "Lucas Fernandes da Costa",
+			"translators": "Jean Carlo Nascimento",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@osuissa/tudo-sobre-recurs%C3%A3o-ptc-tco-e-stc-em-javascript-58953a5a846a",
+			"image": "https://image.ibb.co/hr9Xeb/15.png"
+		},
+		{
+			"id": 16,
+			"name": "JavaScript - Promises",
+			"author": "Forbes Lindesay",
+			"translators": "Jean Carlo Nascimento",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://medium.com/@osuissa/javascript-promises-671934f08bdf",
+			"image": "https://image.ibb.co/korOkG/16_OK.png"
+		},
+		{
+			"id": 17,
+			"name": "Flow: Fundamentos para Desenvolvedores JavaScript",
+			"author": "A. Sharif",
+			"translators": "Eduardo Rabelo",
+			"type": "Codes",
+			"project": "Completed",
+			"site": "https://medium.com/trainingcenter/flow-fundamentos-para-desenvolvedores-javascript-9f0a1da74c4e",
+			"image": "https://image.ibb.co/fwBOkG/17.png"
+		},
+		{
+			"id": 18,
+			"name": "Aventuras funcionais ocasionais em JavaScript",
+			"author": "Štefan Maric",
+			"translators": "Jean Carlo Nascimento",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@osuissa/aventuras-funcionais-ocasionais-em-javascript-54d3e168c4da",
+			"image": "https://image.ibb.co/gbKnCw/18.png"
+		},
+		{
+			"id": 19,
+			"name": "Novos campos de classe #private no JavaScript",
+			"author": "James Kyle",
+			"translators": "Danilo Vaz",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/trainingcenter/novos-campos-de-classe-private-no-javascript-2622d5faa65e",
+			"image": "https://image.ibb.co/jKJQzb/19_OK.png"
+		},
+		{
+			"id": 20,
+			"name": "Kotlin 1.1 - Suporte a Javascript, Coroutines e mais",
+			"author": "JetBrains",
+			"translators": "Walmyr Carvalho",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@walmyrcarvalho/kotlin-1-1-suporte-a-javascript-co-rotinas-e-mais-d84b65ac2f92#.9usvgmws0",
+			"image": "https://image.ibb.co/ctK9QG/20.png"
+		},
+		{
+			"id": 21,
+			"name": "Meu colega é um computador: Máquinas como força de trabalho",
+			"author": "Tony C.",
+			"translators": "Runrun.it",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/liderar-e-dificil/meu-colega-%C3%A9-um-computador-m%C3%A1quinas-como-for%C3%A7a-de-trabalho-ca83e7f46e93",
+			"image": "https://image.ibb.co/fbCJKb/21.png"
+		},
+		{
+			"id": 22,
+			"name": "Por favor pare de se preocupar com o Angular 3",
+			"author": "Todd Motto",
+			"translators": "Rodolfo Dias",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@r_mdias/por-favor-pare-de-se-preocupar-com-o-angular-3-c54e8e79f1fc#.i3ypcg3jb",
+			"image": "https://image.ibb.co/jbASCw/22.png"
+		},
+		{
+			"id": 23,
+			"name": "Neutralidade da rede: você ama, mesmo não sabendo direito o que é",
+			"author": "Sérgio Branco",
+			"translators": "Marianna Jardim",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://feed.itsrio.org/neutralidade-da-rede-você-ama-mesmo-não-sabendo-direito-o-que-é-5743f129563b#.b84or2sqt",
+			"image": "https://image.ibb.co/dxROkG/23.png"
+		},
+		{
+			"id": 24,
+			"name": "Por que a Internet no Brasil é parcialmente livre?",
+			"author": "Sérgio Branco",
+			"translators": "Beatriz Nunes",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://feed.itsrio.org/por-que-a-internet-no-brasil-é-parcialmente-livre-7b3832a657bd#.mue2uap9k",
+			"image": "https://image.ibb.co/jkC7Cw/24.png"
+		},
+		{
+			"id": 25,
+			"name": "Os Futuros da Internet",
+			"author": "Sérgio Branco",
+			"translators": "Beatriz Nunes",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://feed.itsrio.org/os-futuros-da-internet-8f629673efcd#.to0ilvw4t",
+			"image": "https://image.ibb.co/kBr0Xw/25.png"
+		},
+		{
+			"id": 26,
+			"name": "UX: Rolagem infinita vs. Paginação",
+			"author": "Nick Babich",
+			"translators": "Renan C. Araujo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/ux-traduzido/ux-rolagem-infinita-vs-paginação-b7da06e72662#.o43hfullt",
+			"image": "https://image.ibb.co/gTrOkG/26.png"
+		},
+		{
+			"id": 27,
+			"name": "Como funcionam os servidores da Web",
+			"author": "Marshall Brain",
+			"translators": "Daniel Simão",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@simaodeveloper/como-funcionam-os-servidores-da-web-736542c386fa#.75jv8d7dc",
+			"image": "https://image.ibb.co/ntTQzb/27.png"
+		},
+		{
+			"id": 28,
+			"name": "Metodologia Tradicional versus Ágil",
+			"author": "Testing Experience",
+			"translators": "Wellington Marion",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@wellmarion/metodologia-tradicional-versus-ágil-e23bac9b12cb#.54cpdbvnq",
+			"image": "https://image.ibb.co/hsmZsw/28.png"
+		},
+		{
+			"id": 29,
+			"name": "Programming Doesn’t Require Talent or Even Passion",
+			"author": "Tony You",
+			"translators": "Manuel Mendes",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@mdm.exe/programar-não-requer-talento-ou-paixão-36b0ae176782#.t24kokdrj",
+			"image": "https://image.ibb.co/h9WOkG/29.png"
+		},
+		{
+			"id": 30,
+			"name": "Série ES6 by Wes Bos — Como let e const são ‘escopados’ em JavaScript parte 1",
+			"author": "Wes Bos",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/como-let-const-sao-escopados-f190b632879b#.s1p2hbnp1",
+			"image": "https://image.ibb.co/nepnCw/30.png"
+		},
+		{
+			"id": 31,
+			"name": "Série ES6 by Wes Bos — Let vs const",
+			"author": "Wes Bos",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-let-vs-const-f521beef074a#.kcmvimmze",
+			"image": "https://image.ibb.co/cBrEcw/31.png"
+		},
+		{
+			"id": 32,
+			"name": "Série ES6 by Wes Bos — Use let com for loops em JavaScript",
+			"author": "Wes Bos",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/série-es6-by-wes-bos-use-let-com-for-loops-em-javascript-891922dcea49#.dv05gwm0f",
+			"image": "https://image.ibb.co/fjPBPb/32.png"
+		},
+		{
+			"id": 33,
+			"name": "Escrevendo JavaScript com acessibilidade em mente",
+			"author": "Manuel Matuzovic",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/escrevendo-javascript-com-acessibilidade-em-mente-3720e9779969#.mmux2td5q",
+			"image": "https://image.ibb.co/e0e0Hw/33.png"
+		},
+		{
+			"id": 34,
+			"name": "Reflexão em padrões de projeto para Node.js",
+			"author": "Kalin Chernev",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/reflex%C3%A3o-em-padr%C3%B5es-de-projeto-para-node-js-b7344f2529c7#.gy5lnmau4",
+			"image": "https://image.ibb.co/nbf7xw/34.png"
+		},
+		{
+			"id": 35,
+			"name": "4 novos métodos de string em ES6 que você deveria conhecer",
+			"author": "Wes Bos",
+			"translators": "Emanuel G de Souza",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/emanuelg-blog/4-novos-m%C3%A9todos-de-string-em-es6-que-voc%C3%AA-deveria-conhecer-e85c7262123c#.o8tvbjyke",
+			"image": "https://image.ibb.co/fnUNVG/35.png"
+		},
+		{
+			"id": 36,
+			"name": "Design Patterns para Humanos",
+			"author": "Kamran Ahmed",
+			"translators": "Lucas Santos",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/khaosdoctor/design-patterns-for-humans/tree/translation",
+			"image": "https://image.ibb.co/dXsLHw/36.png"
+		},
+		{
+			"id": 37,
+			"name": "Como o Flexbox funciona— explicado com gifs grandes e coloridos",
+			"author": "Scott Domes",
+			"translators": "Lucas Silva",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@lucasjs/como-o-flexbox-funciona-explicado-com-gifs-grandes-e-coloridos-26c42a0bcdc",
+			"image": "https://image.ibb.co/jp07xw/37.png"
+		},
+		{
+			"id": 38,
+			"name": "Aprenda Istanbul",
+			"author": "DWYL",
+			"translators": "Lucas Santos",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/khaosdoctor/learn-istanbul",
+			"image": "https://image.ibb.co/dJz0Hw/38.png"
+		},
+		{
+			"id": 39,
+			"name": "O que significa const no ES6?",
+			"author": "Jacopo Daeli",
+			"translators": "Jean Carlo Nascimento",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/suissa/blog/tree/master/traducoes/What%20does%20const%20stand%20for%20in%20ES6%3F",
+			"image": "https://image.ibb.co/e58hVG/39.png"
+		},
+		{
+			"id": 40,
+			"name": "Carreira Front-End",
+			"author": "William Oliveira",
+			"translators": "William Oliveira, Bruno Silva, Ricardo Shiota Yasuda, Gabriel Brito e Danilo Vaz",
+			"type": "Others",
+			"project": "Completed",
+			"site": "https://github.com/woliveiras/front-end-career/blob/master/translations/pt-br/README.md",
+			"image": "https://image.ibb.co/jjgfHw/40.png"
+		},
+		{
+			"id": 41,
+			"name": "Vue.js vale a tentativa?",
+			"author": "Lukas Zkups",
+			"translators": "Walter Gandarella",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://blog.wgbn.com.br/vue-js-vale-a-tentativa-6e63b6e74a3b",
+			"image": "https://image.ibb.co/eboSxw/41.png"
+		},
+		{
+			"id": 42,
+			"name": "FIRE Stack, uma nova arquitetura",
+			"author": "Chris Esplin",
+			"translators": "Walter Gandarella",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://blog.wgbn.com.br/fire-stack-uma-nova-arquitetura-11f33b4fb3f",
+			"image": "https://image.ibb.co/naySxw/42.png"
+		},
+		{
+			"id": 43,
+			"name": "Como Kotlin se tornou a nossa linguagem principal para Android",
+			"author": "Dima Kovalenko",
+			"translators": "Wellington Mitrut",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/blog-do-mitrut/como-kotlin-se-tornou-a-nossa-linguagem-principal-para-android-24c9492fa273",
+			"image": "https://image.ibb.co/g4xLHw/43.png"
+		},
+		{
+			"id": 44,
+			"name": "Xamarin vs. Nativo",
+			"author": "Colby Williams",
+			"translators": "Wellington Mitrut",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/blog-do-mitrut/xamarin-vs-nativo-36e46ec2c566",
+			"image": "https://image.ibb.co/ed7LHw/44.png"
+		},
+		{
+			"id": 45,
+			"name": "Então Você Quer Ser um Programador Funcional (Parte 1)",
+			"author": "Colby Williams",
+			"translators": "Charles Scalfani",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@mapaiva/ent%C3%A3o-voc%C3%AA-quer-ser-um-programador-funcional-parte-1-f3bdb7baeedb",
+			"image": "https://image.ibb.co/hFxbqG/45.png"
+		},
+		{
+			"id": 46,
+			"name": "PyPi — Quem mantém e como",
+			"author": "Donald Stuff",
+			"translators": "Cadu Leite",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@cadu_leite/mantendo-o-%C3%ADndice-de-pacotes-python-pypi-deb403b0d984",
+			"image": "https://image.ibb.co/kabEcw/46.png"
+		},
+		{
+			"id": 47,
+			"name": "Como escrever código Go",
+			"author": "Golang",
+			"translators": "Viliam",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://medium.com/@viliamjr/como-escrever-codigo-go-95381b84ba82",
+			"image": "https://image.ibb.co/dAMfHw/47.png"
+		},
+		{
+			"id": 48,
+			"name": "As 5 Regras da Programação - Segundo Rob Pike",
+			"author": "Rob Pike",
+			"translators": "Viliam",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@viliamjr/as-5-regras-da-programacao-segundo-rob-pike-ae3c8b599f50",
+			"image": "https://image.ibb.co/jMZpAG/48.png"
+		},
+		{
+			"id": 49,
+			"name": "Como dar um treinamento de segurança digital",
+			"author": "Rachel Weidinger, Cooper Quintin, Martin Shelton e Matt Mitchell",
+			"translators": "Narrira Lemos",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@narriral/como-dar-um-treinamento-de-seguran%C3%A7a-digital-48c1df2f0b35",
+			"image": "https://image.ibb.co/e94pAG/49.png"
+		},
+		{
+			"id": 50,
+			"name": "Aprenda lua em 15 minutos",
+			"author": "Corona Labs",
+			"translators": "Júnior Pires",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@junior_pires/saaripar-valida%C3%A7%C3%A3o-de-campos-no-android-9d35821a493d",
+			"image": "https://image.ibb.co/cx79AG/50.png"
+		},
+		{
+			"id": 51,
+			"name": "Como usar o GitHub como um ser humano adequado",
+			"author": "Daniel Gallegos",
+			"translators": "Juliano Padilha",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@julianopadilha/como-usar-o-github-como-um-ser-humano-adequado-5a0a2e1afd18",
+			"image": "https://image.ibb.co/d86Qjb/51.png"
+		},
+		{
+			"id": 52,
+			"name": "PSR-2 pt-BR Classes",
+			"author": "PHP-Fig",
+			"translators": "Artur Afonso",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://blog.arturafonso.com.br/psr-2-pt-br-classes-fe332b6421fd",
+			"image": "https://image.ibb.co/iv9d4b/52.png"
+		},
+		{
+			"id": 53,
+			"name": "Substituindo instruções de switch por objetos literais",
+			"author": "Todd Motto",
+			"translators": "Jean Carlo Nascimento",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/@osuissa/substituindo-instru%C3%A7%C3%B5es-de-switch-por-objetos-literais-93a3a78463a1",
+			"image": "https://image.ibb.co/mtO5jb/53.png"
+		},
+		{
+			"id": 54,
+			"name": "Garotas precisam de bons exemplos",
+			"author": "Dinah Davis",
+			"translators": "Andressa Chiara",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://code.likeagirl.io/garotas-precisam-de-bons-exemplos-5c4ba026bacf",
+			"image": "https://image.ibb.co/meo5jb/54.png"
+		},
+		{
+			"id": 55,
+			"name": "Como os homens podem ajudar as mulheres em TI?",
+			"author": "Jonathan Howard",
+			"translators": "Marco Dubovski",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://code.likeagirl.io/como-os-homens-podem-ajudar-as-mulheres-em-ti-ec6f75cacdf8",
+			"image": "https://image.ibb.co/hSfJ4b/55.png"
+		},
+		{
+			"id": 56,
+			"name": "Eloquente JavaScript",
+			"author": "Marijn Haverbeke",
+			"translators": "Eric Douglas, Saulo Santiago, Joao Stein, etc",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/braziljs/eloquente-javascript",
+			"image": "https://image.ibb.co/gYRrPb/56.png"
+		},
+		{
+			"id": 57,
+			"name": "The Swift Programming Language",
+			"author": "Apple",
+			"translators": "CocoaHeadsBrasil",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/CocoaHeadsBrasil/the-swift-programming-language-in-portuguese-br",
+			"image": "https://image.ibb.co/kn6Ecw/57.png"
+		},
+		{
+			"id": 58,
+			"name": "Padrões de Projeto JavaScript",
+			"author": "Addy Osmani",
+			"translators": "Eric Oliveira",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/fhferreira/aprendendo-padroes-de-projeto-javascript",
+			"image": "https://image.ibb.co/jeC9AG/58.png"
+		},
+		{
+			"id": 59,
+			"name": "Why's (Poignant) Guide to Ruby",
+			"author": "Mislav Marohnić",
+			"translators": "Carlos Brando, Hugo Borges, Marcos Piccinini, etc",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/carlosbrando/poignant-br",
+			"image": "https://image.ibb.co/n1aUAG/59_OK.png"
+		},
+		{
+			"id": 60,
+			"name": "Pense em Python",
+			"author": "Allen B. Downey",
+			"translators": "Diego Rocha, Luciano Ramalho e Wellington Moraes",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/PenseAllen/PensePython2e",
+			"image": "https://image.ibb.co/iY2nxw/60_OK.png"
+		},
+		{
+			"id": 61,
+			"name": "Learn You Node",
+			"author": "Node School",
+			"translators": "Lucas Fernandes da Costa, Eric Douglas, Lucas Vieira, etc",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/lucasfcosta/learnyounode-pt-br",
+			"image": "https://image.ibb.co/dAjd4b/61_OK.png"
+		},
+		{
+			"id": 62,
+			"name": "Learning JavaScript Design Patterns",
+			"author": "Addy Osmani",
+			"translators": "Eliel das Virgens Santos",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/hc3/essencial-js-padroes-de-projeto",
+			"image": "https://image.ibb.co/jMs9AG/62_OK.png"
+		},
+		{
+			"id": 63,
+			"name": "Sinatra Book",
+			"author": "Chris Schneider",
+			"translators": "Tailor Fontela e Giovani Generali",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/taylorrf/sinatra-book-pt-br",
+			"image": "https://image.ibb.co/dfU0Hw/63.png"
+		},
+		{
+			"id": 64,
+			"name": "Guia de Estilo AngularJS",
+			"author": "John Papa",
+			"translators": "Lennon Jesus, Lucas Moreira e Bruno Wego",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/gilsondev/angular-styleguide-pt-br/blob/master/SUMMARY.md",
+			"image": "https://image.ibb.co/fc0kjb/64.png"
+		},
+		{
+			"id": 65,
+			"name": "Experimente Git",
+			"author": "Code School",
+			"translators": "Gustavo Franco",
+			"type": "Books",
+			"project": "Completed",
+			"site": "https://github.com/mandado/Experimente-Git",
+			"image": "https://image.ibb.co/jtA7xw/65.png"
+		},
+		{
+			"id": 66,
+			"name": "CSS Sustentável",
+			"author": "Adam Silver",
+			"translators": "Ayrton Fidélis, Gabriel Bastos e Talita Pagani",
+			"type": "Books",
+			"project": "Completed",
+			"site": "http://csssustentavel.com.br/",
+			"image": "https://image.ibb.co/eNL7xw/66.png"
+		},
+		{
+			"id": 67,
+			"name": "Pycubator",
+			"author": "Noam Elfanbaum e Udi Oron",
+			"translators": "Gilson Filho, Noam Elfanbaum, James Peres, etc",
+			"type": "Books",
+			"project": "Completed",
+			"site": "http://df.python.org.br/pycubator/",
+			"image": "https://image.ibb.co/mxPpAG/67.png"
+		},
+		{
+			"id": 68,
+			"name": "Making Games With Python & Pygame",
+			"author": "Al Sweigart",
+			"translators": "Iury Alves e Eduardo Saito",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/IuryAlves/pygame-book-translation",
+			"image": "https://image.ibb.co/gDfUAG/68_OK.png"
+		},
+		{
+			"id": 69,
+			"name": "Aprender Haskell Será um Grande Bem Para Você",
+			"author": "Miran Lipovaca",
+			"translators": "Tailor Fontela, Bruno Soares da Silva, etc",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/taylorrf/learnhaskell",
+			"image": "https://image.ibb.co/iY6Qjb/69_OK.png"
+		},
+		{
+			"id": 70,
+			"name": "CSS Guideline",
+			"author": "Harry Roberts",
+			"translators": "Jhon Donavan, Lucas da Silva Trindade, Larissa Mourullo, etc",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/GDGDuqueDeCaxias/cssguideline-translate-ptbr",
+			"image": "https://image.ibb.co/dQEBPb/70.png"
+		},
+		{
+			"id": 71,
+			"name": "The Vala Tutorial",
+			"author": "Chris Daley",
+			"translators": "Fernando da Silva Sousa, Leonardo Lemos, etc",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/elementary-br/the-vala-tutorial",
+			"image": "https://image.ibb.co/j6NFjb/71_OK.png"
+		},
+		{
+			"id": 72,
+			"name": "The Django Book",
+			"author": "Nigel George",
+			"translators": "Douglas Miranda, Marcelo J. Both, Londerson, etc",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/erichideki/djangobook",
+			"image": "https://image.ibb.co/exsLHw/72_OK.png"
+		},
+		{
+			"id": 73,
+			"name": "PHP Standards Recommendations",
+			"author": "Matthew Weier O'Phinney",
+			"translators": "Enrico Pereira",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/aaoliveira/PSR_PT-BR",
+			"image": "https://image.ibb.co/jytzAG/73_OK.png"
+		},
+		{
+			"id": 74,
+			"name": "Documentação do Jekyll",
+			"author": "Jekyll",
+			"translators": "Fernando Moreira, Raphael Barreto, etc",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/jekyll-brasil/jekyll-brasil.github.io",
+			"image": "https://image.ibb.co/jzRajb/74.png"
+		},
+		{
+			"id": 75,
+			"name": "Documentação do React",
+			"author": "Facebook",
+			"translators": "Willian Mano e Fabio Soares",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/willianmano/reactdocs-pt_br",
+			"image": "https://image.ibb.co/gnJo4b/75.png"
+		},
+		{
+			"id": 76,
+			"name": "Documentação do Composer",
+			"author": "Composer",
+			"translators": "Nando Kstro, Alfredo Braga e Gustavo Pereira",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/NandoKstroNet/docs-composer-pt-br",
+			"image": "https://image.ibb.co/ju1VHw/76.png"
+		},
+		{
+			"id": 77,
+			"name": "Prism for Xamarin Forms",
+			"author": "Prism",
+			"translators": "Angelo Luis, Ronildo N. Souza e Jonathan Braga",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/angelobelchior/prism-xamarin-forms",
+			"image": "https://image.ibb.co/hs7gPb/77.png"
+		},
+		{
+			"id": 78,
+			"name": "Documentação Hexo - Template Estático em Node.js",
+			"author": "Hexo",
+			"translators": "Luciano Baraúna",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/lucianobarauna/dochexo",
+			"image": "https://image.ibb.co/httzAG/78.png"
+		},
+		{
+			"id": 79,
+			"name": "Beginning Perl",
+			"author": "Simon Cozens",
+			"translators": "Blabos de Blebe, Solli Moreira, etc",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/shonorio/beginning-perl",
+			"image": "https://image.ibb.co/eCc4cw/79.png"
+		},
+		{
+			"id": 80,
+			"name": "PromiseJS",
+			"author": "Forbes Lindesay",
+			"translators": "Pedro Nauck, Eric Douglas, etc",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/pedronauck/promiseJS.br",
+			"image": "https://image.ibb.co/jyycxw/80.png"
+		},
+		{
+			"id": 81,
+			"name": "Sabedoria do Elefante (Wisdom of the ElePHPant)",
+			"author": "Jeff Carouth",
+			"translators": "Reginaldo Junior e Vitor Capretz",
+			"type": "Books",
+			"project": "In Progress",
+			"site": "https://github.com/reginaldojunior/wisdom-of-the-elephant",
+			"image": "https://image.ibb.co/iadcxw/81.png"
+		},
+		{
+			"id": 82,
+			"name": "Laravel 4 Docs",
+			"author": "Taylor Otwel",
+			"translators": "Kaio Cesar",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/kaiocesar/laravel4-docs-ptbr",
+			"image": "https://image.ibb.co/fGWajb/82.png"
+		},
+		{
+			"id": 83,
+			"name": "Open Source Guides",
+			"author": "Github",
+			"translators": "Fernando Moreira",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/nandomoreirame/open-source-guide",
+			"image": "https://image.ibb.co/mp4Hxw/83.png"
+		},
+		{
+			"id": 84,
+			"name": "Google Interview University",
+			"author": "John Washam",
+			"translators": "Marlon Aviz",
+			"type": "Others",
+			"project": "In Progress",
+			"site": "https://github.com/avizmarlon/google-interview-university",
+			"image": "https://image.ibb.co/cxR84b/84.png"
+		},
+		{
+			"id": 85,
+			"name": "Guia de Edição do Manual de PHP",
+			"author": "PHP Group",
+			"translators": "Anderson Mamede, Fabio Abrantes, etc",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/phpdocbrbridge/traducao/wiki/Guia-de-edi%C3%A7%C3%A3o-do-manual",
+			"image": "https://image.ibb.co/idU6qG/85.png"
+		},
+		{
+			"id": 86,
+			"name": "Documentação React Native",
+			"author": "Facebook",
+			"translators": "Anthony Conceição e Lorhana Trindade",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/AnthonyMRodrigues/docsreactnative",
+			"image": "https://image.ibb.co/eKdMPb/86.png"
+		},
+		{
+			"id": 87,
+			"name": "Documentação - Ruby",
+			"author": "Ruby",
+			"translators": "-",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://www.ruby-lang.org/pt/documentation/",
+			"image": "https://image.ibb.co/fM8MPb/87.png"
+		},
+		{
+			"id": 88,
+			"name": "Guia Definitivo para Yii 2.0",
+			"author": "Yii Software LLC",
+			"translators": "Davidson Alencar, Jan Silva, etc",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/yiisoft/yii2/tree/master/docs/guide-pt-BR",
+			"image": "https://image.ibb.co/fzqPcw/88.png"
+		},
+		{
+			"id": 89,
+			"name": "Documentação de PostgreSQL",
+			"author": "The PostgreSQL Global Development Group",
+			"translators": "Comunidade do PostgreSQL",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://www.postgresql.org.br/pages/documentacao.html",
+			"image": "https://image.ibb.co/kcOMPb/89.png"
+		},
+		{
+			"id": 90,
+			"name": "Documentação do Bootstrap",
+			"author": "Mark Otto e Jacob",
+			"translators": "-",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "http://getbootstrap.com.br/",
+			"image": "https://image.ibb.co/dgVeAG/90.png"
+		},
+		{
+			"id": 91,
+			"name": "Documentação do Symfony",
+			"author": "SensioLabs",
+			"translators": "Andréia Bohner",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://github.com/andreia/symfony-docs-pt-BR",
+			"image": "https://image.ibb.co/ftRKAG/91.png"
+		},
+		{
+			"id": 92,
+			"name": "Documentação do Framework Meteor",
+			"author": "Meteor Development Group Inc.",
+			"translators": "Guilherme Decampo",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://github.com/MeteorBrasil/meteor-docsbr",
+			"image": "https://image.ibb.co/mCJo4b/92.png"
+		},
+		{
+			"id": 93,
+			"name": "Documentação Respect / REST",
+			"author": "Alexandre Gomes Gaigalas",
+			"translators": "Nando Kstro, Eduardo Lopes e Eric Cristhiano",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://github.com/NandoKstroNet/docptbrrespectrest",
+			"image": "https://image.ibb.co/hUJAHw/93.png"
+		},
+		{
+			"id": 94,
+			"name": "Documentação de JavaScript",
+			"author": "Mozilla",
+			"translators": "Comunidade MDN",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+			"image": "https://image.ibb.co/dcssVG/94.png"
+		},
+		{
+			"id": 95,
+			"name": "Documentação do Respect\\Validation",
+			"author": "Alexandre Gomes Gaigalas",
+			"translators": "Nando Kstro",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://github.com/NandoKstroNet/docsptbrrespectvalidation",
+			"image": "https://image.ibb.co/mrTo4b/95.png"
+		},
+		{
+			"id": 96,
+			"name": "Laravel Docs",
+			"author": "Taylor Otwel",
+			"translators": "Vinicius Reis, Leandro Sanches, Hely de Sousa, etc",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://github.com/artesaos/laravel-docs",
+			"image": "https://image.ibb.co/mcoAHw/96.png"
+		},
+		{
+			"id": 97,
+			"name": "Documentação do Framework Jasmine 2.0",
+			"author": "Michael Jackson",
+			"translators": "Eric Douglas",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "http://ericdouglas.github.io/jasmine-br-docs/",
+			"image": "https://image.ibb.co/fidAHw/97.png"
+		},
+		{
+			"id": 98,
+			"name": "Documentação do Joomla",
+			"author": "Joomla! EDL",
+			"translators": "Comunidade Joomla",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://docs.joomla.org/Joomla_info_page/pt-BR",
+			"image": "https://image.ibb.co/gG5eAG/98.png"
+		},
+		{
+			"id": 99,
+			"name": "Documentação do Vue.js",
+			"author": "Evan You",
+			"translators": "-",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://br.vuejs.org/",
+			"image": "https://image.ibb.co/iT1KAG/99.png"
+		},
+		{
+			"id": 100,
+			"name": "Documentação de RSCSS",
+			"author": "Rico Sta. Cruz",
+			"translators": "Mateus da Silva Sousa",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://silvamateus.gitbooks.io/rscss/content/",
+			"image": "https://image.ibb.co/cR8MPb/100.png"
+		},
+		{
+			"id": 101,
+			"name": "Documentação do Jest",
+			"author": "Facebook",
+			"translators": "-",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "http://facebook.github.io/jest/pt-BR/",
+			"image": "https://image.ibb.co/nyuvjb/101.png"
+		},
+		{
+			"id": 102,
+			"name": "Documentação de Lua 5.2",
+			"author": "Lua.org",
+			"translators": "Sérgio Queiroz de Medeiros e Roberto Ierusalimschy",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://www.lua.org/manual/5.2/pt/",
+			"image": "https://image.ibb.co/niEHxw/102.png"
+		},
+		{
+			"id": 103,
+			"name": "Documentação do Django",
+			"author": "Django Software Foundation",
+			"translators": "Comunidade Django",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://docs.djangoproject.com/pt-br/1.11/",
+			"image": "https://image.ibb.co/d724cw/103.png"
+		},
+		{
+			"id": 104,
+			"name": "Você não precisa de jQuery (Não mais)",
+			"author": "Ray Nicholus",
+			"translators": "Gabriel Ribeiro e Eric Cristhiano",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/tree/master/series/voce-nao-precisa-de-jquery",
+			"image": "https://image.ibb.co/h70CVG/104.png"
+		},
+		{
+			"id": 105,
+			"name": "Então você quer ser um Programador Funcional?",
+			"author": "Charles Scalfani",
+			"translators": "Gabriel Ribeiro",
+			"type": "Articles",
+			"project": "In Progress",
+			"site": "https://github.com/ericdouglas/traduz-ai/tree/master/series/entao-voce-quer-ser-um-programador-funcional",
+			"image": "https://image.ibb.co/ndqCVG/105.png"
+		},
+		{
+			"id": 106,
+			"name": "Guia Definitivo para Aprender Angularjs em 1 Dia",
+			"author": "Todd Motto",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/001-guia-definitivo-para-aprender-angularjs.md",
+			"image": "https://image.ibb.co/ieQeAG/106.png"
+		},
+		{
+			"id": 107,
+			"name": "Aprenda AngularJS com 5 Exemplos",
+			"author": "Danny Markov",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/002-aprenda-angularjs-com-5-exemplos.md",
+			"image": "https://image.ibb.co/gcZT4b/107.png"
+		},
+		{
+			"id": 108,
+			"name": "Use AngularJS para Potencializar suas Aplicações Web",
+			"author": "Year Of Moo",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/003-use-angularjs-para-potencializar-sua-webapp.md#use-angularjs-para-potencializar-suas-aplica%C3%A7%C3%B5es-web",
+			"image": "https://image.ibb.co/cA1mqG/108.png"
+		},
+		{
+			"id": 109,
+			"name": "Mais Mágicas do AngularJS para Turbinar sua Webapp",
+			"author": "Year Of Moo",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/004-mais-magicas-angularjs-para-turbinar-sua-webapp.md#mais-m%C3%A1gicas-do-angularjs-para-turbinar-sua-webapp",
+			"image": "https://image.ibb.co/eNxRqG/109.png"
+		},
+		{
+			"id": 110,
+			"name": "Entendendo Diretivas",
+			"author": "AngularJS",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/angularjs/005-entendendo-diretivas.md",
+			"image": "https://image.ibb.co/coPT4b/110.png"
+		},
+		{
+			"id": 111,
+			"name": "Behaviour Driven Development com JavaScript",
+			"author": "Gajus Kuizinas",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/bdd/001-bdd-with-js.md",
+			"image": "https://image.ibb.co/etdAHw/111.png"
+		},
+		{
+			"id": 112,
+			"name": "Aprenda Tudo sobre Handlebars.js Templating JavaScript",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas e Thulio Philipe",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/handlebars/001-aprenda-tudo-sobre-handlebars.md#aprenda-tudo-sobre-handlebarsjs-templating-javascript",
+			"image": "https://image.ibb.co/dGbxxw/112.png"
+		},
+		{
+			"id": 113,
+			"name": "Como aprender Javascript Corretamente! – JavaScript.is (Sexy)",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "http://javascriptissexy.com/how-to-learn-javascript-properly/",
+			"image": "https://image.ibb.co/mzL1Pb/113.png"
+		},
+		{
+			"id": 114,
+			"name": "Objetos JavaScript em Detalhe",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/002-objetos-js-em-detalhe.md#objetos-javascript-em-detalhe",
+			"image": "https://image.ibb.co/ieUHxw/114.png"
+		},
+		{
+			"id": 115,
+			"name": "Escopo e Hoisting de Variáveis no JavaScript Explicados",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/003-escopo-de-variavel-js-e-hoisting-explicado.md#escopo-de-vari%C3%A1vel-javascript-e-hoisting-explicado",
+			"image": "https://image.ibb.co/mdjjcw/115.png"
+		},
+		{
+			"id": 116,
+			"name": "Entenda Closures no JavaScript com Facilidade",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/004-entenda-closures-no-javaScript-com-facilidade.md#entenda-closures-no-javascript-com-facilidade",
+			"image": "https://image.ibb.co/hJycxw/116.png"
+		},
+		{
+			"id": 117,
+			"name": "Protótipos Javascript em uma Linguagem Simples",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/005-prototipos-javascript-em-uma-linguagem-simples.md#prot%C3%B3tipos-javascript-em-uma-linguagem-simples",
+			"image": "https://image.ibb.co/fchgPb/117.png"
+		},
+		{
+			"id": 118,
+			"name": "Aprenda Funções JavaScript de Ordem Superior - Funções Callback",
+			"author": "Javascript is Sexy",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/006-entenda-callbacks-js.md",
+			"image": "https://image.ibb.co/k1XRqG/118.png"
+		},
+		{
+			"id": 119,
+			"name": "Um Mergulho no JavaScript Puro",
+			"author": "Adtile Technologies Inc.",
+			"translators": "Lucas F. Costa",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/007-um-mergulho-no-javascript-puro.md",
+			"image": "https://image.ibb.co/gJYo4b/119.png"
+		},
+		{
+			"id": 120,
+			"name": "Programação Funcional Deve Ser Sua Prioridade número #1 em 2015",
+			"author": "Ju Gonçalves",
+			"translators": "Eric Douglas e Diogo Beato",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/008-programacao-funcional-prioridade-2015.md",
+			"image": "https://image.ibb.co/kKHFjb/120.png"
+		},
+		{
+			"id": 121,
+			"name": "Uma Suave Introdução ao JavaScript Funcional",
+			"author": "James Sinclair",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/javascript/009-uma-suave-introducao-ao-javascript-parte-1.md",
+			"image": "https://image.ibb.co/mrvPcw/121.png"
+		},
+		{
+			"id": 122,
+			"name": "Uma introdução ao MongoDB",
+			"author": "Chris Sevilleja",
+			"translators": "Felipe Batista",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/MongoDB/001-uma-introduc%CC%A7a%CC%83o-ao-mongodb.md",
+			"image": "https://image.ibb.co/jSp6qG/122.png"
+		},
+		{
+			"id": 123,
+			"name": "Guia Para Absolutos Iniciantes em Node.js",
+			"author": "Brandon Satrom",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/001-guia-para-iniciantes-absolutos-em-nodejs.md",
+			"image": "https://image.ibb.co/byLqHw/123.png"
+		},
+		{
+			"id": 124,
+			"name": "Simples Guia Passo-a-Passo Para Desenvolvedores Front-End Iniciarem Com Node.js, Express, Jade e MongoDB",
+			"author": "Christopher Buecheler",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/nodejs/002-simples-guia-nodejs-jade-express-mongodb.md",
+			"image": "https://image.ibb.co/k7wVHw/124.png"
+		},
+		{
+			"id": 125,
+			"name": "Sua Linha do Tempo para Aprender React",
+			"author": "Dave Ceddia",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/react/01-sua-linha-do-tempo-para-aprender-react.md",
+			"image": "https://image.ibb.co/mmNFjb/125.png"
+		},
+		{
+			"id": 126,
+			"name": "Introdução ao React para pessoas que sabem apenas o suficiente de jQuery para sobreviver",
+			"author": "Robin Rendle",
+			"translators": "Eric Douglas",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/ericdouglas/traduz-ai/blob/master/react/02-introducao-ao-react-para-pessoas-que-sabem-apenas-jquery.md",
+			"image": "https://image.ibb.co/k2c4cw/126.png"
+		},
+		{
+			"id": 127,
+			"name": "Por que VOCÊ deve escolher Python?",
+			"author": "Naomi Ceder",
+			"translators": "Débora Azevedo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/nossa-coletividad/por-que-voc%C3%AA-deve-escolher-python-ad187b9783d0",
+			"image": "https://image.ibb.co/i7QCVG/127.png"
+		},
+		{
+			"id": 128,
+			"name": "Como instalar o pip para gerenciar pacotes do Python no GNU/Linux",
+			"author": "Aaron Kili",
+			"translators": "Allythy",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://allythy.github.io/Como-instalar-o-pip-para-gerenciar-pacotes-do-Python-no-GNU-Linux",
+			"image": "https://image.ibb.co/n7OMPb/128.png"
+		},
+		{
+			"id": 129,
+			"name": "Documentação do Python",
+			"author": "Python Software Foundation",
+			"translators": "Comunidade Python",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://www.python.org/doc/",
+			"image": "https://image.ibb.co/kTr84b/129.png"
+		},
+		{
+			"id": 130,
+			"name": "Como Pensar Como um Cientista da Computação",
+			"author": "Brad Miller e David Ranum",
+			"translators": "USP - Universidade de São Paulo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://panda.ime.usp.br/pensepy/static/pensepy/index.html",
+			"image": "https://image.ibb.co/eZg84b/130.png"
+		},
+		{
+			"id": 131,
+			"name": "A comunidade global de PHP continua se intoxicando, e precisamos reverter isso antes que afete outros de nós",
+			"author": "Neal Brooks",
+			"translators": "William Oliveira",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/a-comunidade-global-de-php-continua-se-intoxicando-e-precisamos-reverter-isso-antes-que-afete-da50ee793f8b",
+			"image": "https://image.ibb.co/ncGQh6/131.png"
+		},
+		{
+			"id": 132,
+			"name": "Documentação do ReactJs",
+			"author": "Facebook",
+			"translators": "Rafael Vianna e Gabriel Pireda",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://github.com/rafaelvianna/ReactJs-Docs-PT-BR",
+			"image": "https://image.ibb.co/bHm7P6/132.png"
+		},
+		{
+			"id": 133,
+			"name": "Laravel: Testando Parcialmente Respostas JSON",
+			"author": "Eric L. Barnes",
+			"translators": "Lucas Pires",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/laravel-testando-parcialmente-respostas-json-320c6dc267d7",
+			"image": "https://image.ibb.co/gfUrHR/133.png"
+		},
+		{
+			"id": 134,
+			"name": "Como Usar Variáveis CSS",
+			"author": "ZingChart",
+			"translators": "Larissa Mourullo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/como-usar-vari%C3%A1veis-css-29b5b980794c",
+			"image": "https://image.ibb.co/ntanrm/134.png"
+		},
+		{
+			"id": 135,
+			"name": "CSS e 5 Erros Que Você Deve Evitar",
+			"author": "Alex Devero",
+			"translators": "Larissa Mourullo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/css-e-5-erros-que-voc%C3%AA-deve-evitar-91b9872f63f4",
+			"image": "https://image.ibb.co/maw2rm/135.png"
+		},
+		{
+			"id": 136,
+			"name": "Tutorial Angular para Iniciantes",
+			"author": "ngGirls",
+			"translators": "ngGirls",
+			"type": "Others",
+			"project": "Completed",
+			"site": "https://github.com/ng-girls/todo-list-tutorial-portuguese",
+			"image": "https://image.ibb.co/jxW7P6/136.png"
+		},
+		{
+			"id": 137,
+			"name": "Guia de Código do @mdo",
+			"author": "Mark Otto",
+			"translators": "Diego Eis",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "http://diegoeis.github.io/code-guide/",
+			"image": "https://image.ibb.co/ku9K46/137.png"
+		},
+		{
+			"id": 138,
+			"name": "CSS Idiomático",
+			"author": "Nicolas Gallagher",
+			"translators": "Zeno Rocha",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://github.com/necolas/idiomatic-css/blob/master/translations/pt-BR/README.md",
+			"image": "https://image.ibb.co/fcFWHR/138.png"
+		},
+		{
+			"id": 139,
+			"name": "Como ser* um compilador - Faça um compilador com JavaScript",
+			"author": "Mariko Kosaka",
+			"translators": "Caique Hitoshi Mitsuoka",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/como-ser-um-compilador--faca-um-compilador-com-javascript/artigo.md",
+			"image": "https://image.ibb.co/c5VTWm/139.png"
+		},
+		{
+			"id": 140,
+			"name": "A promessa de uma festa do hambúrguer",
+			"author": "Mariko Kosaka",
+			"translators": "Caique Hitoshi Mitsuoka",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/promessa-festa-hamburguer/artigo.md",
+			"image": "https://image.ibb.co/b1KfBm/140.png"
+		},
+		{
+			"id": 141,
+			"name": "JavaScript para Gatos",
+			"author": "Max Ogden",
+			"translators": "Carolina Pascale Campos",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/5eac7f0977fa3c669c521ae9a39f8e1faffb6627/javascript/javascript-para-gatos.md",
+			"image": "https://image.ibb.co/dNr5cR/141.png"
+		},
+		{
+			"id": 142,
+			"name": "Vale a pena aprender Vanilla JS? Claro!",
+			"author": "David Kopal",
+			"translators": "Marina Limeira",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/vale-a-pena-aprender-vanillajs--com-certeza.md",
+			"image": "https://image.ibb.co/mQOe46/142.png"
+		},
+		{
+			"id": 143,
+			"name": "Tratando uma resposta AJAX em Javascript (com ou sem jQuery)",
+			"author": "Matt Lunn",
+			"translators": "Matheus",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/javascript/tratando-respostas-ajax-com-ou-sem-jquery.md",
+			"image": "https://image.ibb.co/gahxP6/143.png"
+		},
+		{
+			"id": 144,
+			"name": "O que é controle de versão",
+			"author": "Atlassian",
+			"translators": "Phillip Nunes",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-controle-de-versao.md",
+			"image": "https://image.ibb.co/f3qR1m/144.png"
+		},
+		{
+			"id": 145,
+			"name": "O que é Git?",
+			"author": "Atlassian",
+			"translators": "Will Soares e Carolina Pascale Campos",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://github.com/entrylvl/traducoes-de-artigos/blob/master/git/o-que-e-git.md",
+			"image": "https://image.ibb.co/gXgS7R/145.png"
+		},
+		{
+			"id": 146,
+			"name": "Dica de CSS: Use :not para economizar tempo e linhas de código",
+			"author": "Timothy B. Smith",
+			"translators": "Larissa Mourullo",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/dica-css-use-not-para-economizar-tempo-e-linhas-de-c%C3%B3digo-3cc16468d42f",
+			"image": "https://image.ibb.co/fpiaun/146.png"
+		},
+		{
+			"id": 147,
+			"name": "FSearch",
+			"author": "Christian Boxdörfer",
+			"translators": "-",
+			"type": "Others",
+			"project": "In Progress",
+			"site": "https://hosted.weblate.org/engage/fsearch/?utm_source=widget",
+			"image": "https://image.ibb.co/duXeLS/147.png"
+		},
+		{
+			"id": 148,
+			"name": "DuckDuckGo",
+			"author": "Gabriel Weinberg",
+			"translators": "-",
+			"type": "Others",
+			"project": "In Progress",
+			"site": "https://duck.co/translate",
+			"image": "https://image.ibb.co/gYWTEn/148.png"
+		},
+		{
+			"id": 149,
+			"name": "Tutanota",
+			"author": "-",
+			"translators": "-",
+			"type": "Others",
+			"project": "In Progress",
+			"site": "https://tutanota.com/blog/posts/tutanota-translation-project",
+			"image": "https://image.ibb.co/iETx77/149.png"
+		},
+		{
+			"id": 150,
+			"name": "Ring",
+			"author": "Savoir-faire Linux Inc.",
+			"translators": "-",
+			"type": "Others",
+			"project": "In Progress",
+			"site": "https://ring.cx/en/contribute/translate",
+			"image": "https://image.ibb.co/iPPOEn/150.png"
+		},
+		{
+			"id": 151,
+			"name": "Querido Designer Jr.",
+			"author": "Elliot Dahl",
+			"translators": "Pri Barella",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://code.likeagirl.io/querido-designer-jr-91e67c8950af",
+			"image": "https://image.ibb.co/mpc777/151.png"
+		},
+		{
+			"id": 152,
+			"name": "As diferenças entre SQL e NoSQL: MySQL x MongoDB",
+			"author": "XplentyBlog",
+			"translators": "Lauren Ferreira",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/diferencas-entre-sql-e-nosql-51311f9069bd",
+			"image": "https://image.ibb.co/nMOrZn/152.png"
+		},
+		{
+			"id": 153,
+			"name": "Como se tornar um super ninja aprendiz de programação",
+			"author": "Marcus Gardiner",
+			"translators": "Vitor Martins",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/como-se-tornar-um-super-ninja-aprendiz-de-programação-b51f2488f96c",
+			"image": "https://image.ibb.co/fCvG0S/153.png"
+		},
+		{
+			"id": 154,
+			"name": "Grafos fantásticos e onde habitam: uma introdução à teoria dos grafos",
+			"author": "Vaidehi Joshi",
+			"translators": "Lauren Ferreira",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/grafos-fant%C3%A1sticos-e-onde-habitam-uma-introdu%C3%A7%C3%A3o-%C3%A0-teoria-dos-grafos-a7f9d737d5d2",
+			"image": "https://image.ibb.co/gii0un/154.png"
+		},
+		{
+			"id": 155,
+			"name": "Documentação do Electron",
+			"author": "Electron",
+			"translators": "-",
+			"type": "Documentation",
+			"project": "In Progress",
+			"site": "https://electronjs.org/docs?lang=pt-BR",
+			"image": "https://impactotecno.files.wordpress.com/2018/02/electron1.jpg?w=640"
+		},
+		{
+			"id": 156,
+			"name": "Documentação do Vuex",
+			"author": "Vuex",
+			"translators": "-",
+			"type": "Documentation",
+			"project": "Completed",
+			"site": "https://vuex.vuejs.org/ptbr/",
+			"image": "https://i.ibb.co/qYL9Wzr/156.png"
+		},
+		{
+			"id": 157,
+			"name": "O que você está esperando para falar em público?",
+			"author": "Arianne Donoghue",
+			"translators": "Lauren Ferreira ",
+			"type": "Articles",
+			"project": "Completed",
+			"site": "https://medium.com/devtranslate/o-que-voc%C3%AA-t%C3%A1-esperando-para-falar-em-p%C3%BAblico-f75d12df1355",
+			"image": "https://i.ibb.co/wrf0jBc/157.png"
+		}
+	]
+}

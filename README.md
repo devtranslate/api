@@ -1,21 +1,29 @@
 <p align="center">
-  <img src="http://ap.imagensbrasil.org/images/2017/08/30/fsfdsff46e54.png" alt="Logo DevTranslate"/>
+  <img src="https://raw.githubusercontent.com/devtranslate/devtranslate.github.io/master/images/logo.png" alt="Logo DevTranslate"/>
+  </br>
+  <a href="https://medium.com/devtranslate">
+    <img src="https://img.shields.io/badge/medium-translate-brightgreen.svg?style=for-the-badge" alt="Medium"/>
+  </a>
+  <a href="(https://telegram.me/devtranslate">
+    <img src="https://img.shields.io/badge/telegram-group-lightgrey.svg?style=for-the-badge" alt="Telegram"/>
+  </a>
+  <a href="(https://www.facebook.com/devtranslate">
+    <img src="https://img.shields.io/badge/facebook-oficial_page-blue.svg?style=for-the-badge" alt="Facebook"/>
+  </a>
 </p>
-
-[![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-cc2b5e.svg?style=flat-square)](https://gitter.im/devtranslate/Lobby)
-[![Like the page on facebook](https://img.shields.io/badge/facebook-like%20the%20page%20%E2%86%92-4267b2.svg?style=flat-square)](https://www.facebook.com/devtranslate/)
-[![Join the chat](https://img.shields.io/badge/telegram-join%20chat%20%E2%86%92-0088cc.svg?style=flat-square)](https://telegram.me/devtranslate)
-[![Follow on medium](https://img.shields.io/badge/medium-follow%20us%20%E2%86%92-02b875.svg?style=flat-square)](https://medium.com/devtranslate)
-[![GitHub issues](https://img.shields.io/github/issues/devtranslate/api.svg?style=flat-square)](https://github.com/devtranslate/api/issues)
-[![GitHub stars](https://img.shields.io/github/stars/devtranslate/api.svg?style=flat-square)](https://github.com/devtranslate/api/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/devtranslate/api.svg?style=flat-square)](https://github.com/devtranslate/api/network)
 
 # Contents
 1. [Portuguese](https://github.com/devtranslate/api#portuguese)
 2. [English](https://github.com/devtranslate/api#english)
 
-## Portuguese
-Em Breve.
+# Portuguese
+Neste respositório se encontra hospedado a nova api do site que se encontra organizada por idioma, facilitando a localização do conteúdo traduzido. Também informa o tipo de documento e se o mesmo esta em progresso ou concluído.
 
-## English
-Soon.
+### Contribuição
+Caso deseje contribuir com alguma alteração acesse o nosso guia de contribuição [clicando aqui](https://github.com/devtranslate/about/blob/master/CONTRIBUTING.md).
+
+# English
+Repository created to host our new api that is organized by language, facilitating the location of the translated content. It also informs the type of document and whether it is in progress or completed.
+
+### Contributing
+If you wish to contribute, check out our contribute guide by [clicking here](https://github.com/devtranslate/about/blob/master/CONTRIBUTING.md).
