@@ -7,7 +7,7 @@ namespace DevTranslate.Api.Entities
 {
     public enum Language
     {
-        English = 1,
-        Portuguese
+        Portuguese = 1,
+        English
     }
 }
