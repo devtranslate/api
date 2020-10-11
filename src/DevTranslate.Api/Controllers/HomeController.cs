@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace DevTranslate.Api.Controllers
 {
     [Route("")]
+    [ApiController]
     public class HomeController : ControllerBase
     {
         public IActionResult GetHome()
