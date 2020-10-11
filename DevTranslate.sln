@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTranslate.Api", "DevTranslate.Api\DevTranslate.Api.csproj", "{EBE55AB5-CFC3-47B8-AEC8-90598AB29C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTranslate.Api", "src\DevTranslate.Api\DevTranslate.Api.csproj", "{EBE55AB5-CFC3-47B8-AEC8-90598AB29C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTranslate.Api.Tests", "DevTranslate.Api.Tests\DevTranslate.Api.Tests.csproj", "{627F6675-9692-4F52-849D-B65248E5DF72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTranslate.Api.Tests", "src\DevTranslate.Api.Tests\DevTranslate.Api.Tests.csproj", "{627F6675-9692-4F52-849D-B65248E5DF72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
