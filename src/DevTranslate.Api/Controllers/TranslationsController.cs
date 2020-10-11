@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace DevTranslate.Api.Controllers
 {
+    [ApiController]
     [Route("translations")]
     public class TranslationsController : ControllerBase
     {
