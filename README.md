@@ -1,29 +1,37 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devtranslate/devtranslate.github.io/master/images/logo.png" alt="Logo DevTranslate"/>
-  </br>
-  <a href="https://medium.com/devtranslate">
-    <img src="https://img.shields.io/badge/medium-translate-brightgreen.svg?style=for-the-badge" alt="Medium"/>
+  <img src="https://i.ibb.co/CwVrryG/Logo.png" alt="DevTranslate logo" width="700" />
+</p>
+
+<h3 align="center">💾 API Devtranslate</h3>
+<p align="center">Repositório oficial da API do projeto <strong>Devtranslate</strong></p>
+
+<p align="center">
+  <a href="https://telegram.me/devtranslate">
+    <img src="https://img.shields.io/badge/telegram-@devtranslate-0088cc.svg?style=flat-square" alt="Telegram"/>
   </a>
-  <a href="(https://telegram.me/devtranslate">
-    <img src="https://img.shields.io/badge/telegram-group-lightgrey.svg?style=for-the-badge" alt="Telegram"/>
+  <a href="https://www.linkedin.com/company/devtranslate">
+    <img src="https://img.shields.io/badge/linkedin-oficial_page-e68523.svg?style=flat-square" alt="Linkedin"/>
   </a>
-  <a href="(https://www.facebook.com/devtranslate">
-    <img src="https://img.shields.io/badge/facebook-oficial_page-blue.svg?style=for-the-badge" alt="Facebook"/>
+  <a href="https://www.instagram.com/devtranslate/">
+    <img src="https://img.shields.io/badge/instagram-@devtranslate-c13584.svg?style=flat-square" alt="Instagram"/>
+  </a>
+  <a href="https://www.facebook.com/devtranslate">
+    <img src="https://img.shields.io/badge/facebook-oficial_page-3b5998.svg?style=flat-square" alt="Facebook"/>
   </a>
 </p>
 
-# Contents
-1. [Portuguese](https://github.com/devtranslate/api#portuguese)
-2. [English](https://github.com/devtranslate/api#english)
+<br />
 
-# Portuguese
-Neste respositório se encontra hospedado a nova api do site que se encontra organizada por idioma, facilitando a localização do conteúdo traduzido. Também informa o tipo de documento e se o mesmo esta em progresso ou concluído.
+## ✏️ Sumário
+- [Visão Geral do Projeto](#visão-geral-do-projeto)
+- [Documentação](#documentação)
+- [Licença](#licença)
 
-### Contribuição
-Caso deseje contribuir com alguma alteração acesse o nosso guia de contribuição [clicando aqui](https://github.com/devtranslate/about/blob/master/CONTRIBUTING.md).
+### Visão Geral do Projeto
+🚧 Em Contrução
 
-# English
-Repository created to host our new api that is organized by language, facilitating the location of the translated content. It also informs the type of document and whether it is in progress or completed.
+### Documentação
+🚧 Em Contrução
 
-### Contributing
-If you wish to contribute, check out our contribute guide by [clicking here](https://github.com/devtranslate/about/blob/master/CONTRIBUTING.md).
+## 📄 Licença
+[MIT](LICENSE) &copy; Devtranslate
