@@ -15,7 +15,7 @@ namespace DevTranslate.Api.Controllers
 
         public TranslationsController(DevTranslateContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         [HttpGet]

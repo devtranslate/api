@@ -10,6 +10,10 @@ namespace DevTranslate.Api.Context
 {
     public class DevTranslateContext : DbContext
     {
+        protected DevTranslateContext()
+        {
+        } 
+
         public DevTranslateContext(DbContextOptions<DevTranslateContext> options) : base(options)
         {
         }
