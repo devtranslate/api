@@ -1,4 +1,5 @@
 ﻿using DevTranslate.Api.Context;
+using DevTranslate.Api.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -21,22 +22,27 @@ namespace DevTranslate.Api.Controllers
         [HttpGet]
         public IActionResult SearchTranslations(int? page = 1, int? recordsPerPage = 10)
         {
-            if (recordsPerPage.HasValue && recordsPerPage.Value > 10)
+            if (!page.HasValue || page.Value < 1)
+            {
+                page = 1;
+            }
+
+            if (!recordsPerPage.HasValue || recordsPerPage.Value < 1 || recordsPerPage.Value > 10)
             {
                 recordsPerPage = 10;
             }
 
-            var query = _context.Translations.Select(t => new
+            var query = _context.Translations.Select(t => new SearchTranslationResult()
             {
-                t.Id,
-                t.Title,
-                t.Author,
-                t.Translator,
-                t.Language,
-                t.Url,
-                t.ImageUrl,
-                t.Status,
-                t.Type
+                Id = t.Id,
+                Title = t.Title,
+                Author =  t.Author,
+                Translator = t.Translator,
+                Language = t.Language,
+                Url = t.Url,
+                ImageUrl = t.ImageUrl,
+                Status = t.Status,
+                Type = t.Type
             })
             .Skip(recordsPerPage.Value * (page.Value - 1))
             .Take(recordsPerPage.Value)

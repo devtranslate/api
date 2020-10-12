@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 using Xunit;
+using DevTranslate.Api.DTO;
 
 namespace DevTranslate.Api.Tests.Controllers
 {
@@ -44,17 +45,13 @@ namespace DevTranslate.Api.Tests.Controllers
             context.SaveChanges();
         }
 
-        //  Red, Green, Refactor
         [Fact]
         public void Should_ReturnOK_When_SearchingTranslations()
         {
-            // A - Arrange
             var controller = new TranslationsController(context);
 
-            // A - Act
             var searchResult = controller.SearchTranslations();
 
-            // A - Assert
             Assert.IsType<OkObjectResult>(searchResult);
             Assert.True((searchResult as OkObjectResult).StatusCode == (int)HttpStatusCode.OK);
         }
@@ -66,8 +63,66 @@ namespace DevTranslate.Api.Tests.Controllers
 
             var searchResult = controller.SearchTranslations() as OkObjectResult;
 
-            Assert.IsAssignableFrom<ICollection>(searchResult.Value);
-            Assert.True((searchResult.Value as ICollection).Count == 10);
+            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
+            Assert.True((searchResult.Value as IEnumerable<SearchTranslationResult>).Count() == 10);
+        }
+
+        [Fact]
+        public void Should_ReturnPageTwo_When_SearchingPageTwo()
+        {
+            var controller = new TranslationsController(context);
+
+            var searchResult = controller.SearchTranslations(2) as OkObjectResult;
+
+            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
+
+            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
+            Assert.True(result.Count() == 10);
+            Assert.True(result.First().Id == 11);
+        }
+
+        [Fact]
+        public void Should_ReturnPageThree_When_SearchingPageThree()
+        {
+            var controller = new TranslationsController(context);
+
+            var searchResult = controller.SearchTranslations(3) as OkObjectResult;
+
+            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
+
+            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
+            Assert.True(result.Count() == 5);
+            Assert.True(result.First().Id == 21);
+        }
+
+        [Theory]
+        [InlineData(0)]
+        [InlineData(-5)]
+        public void Should_ReturnFirstPage_When_SearchingInvalidPage(int pageNumber)
+        {
+            var controller = new TranslationsController(context);
+
+            var searchResult = controller.SearchTranslations(pageNumber) as OkObjectResult;
+
+            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
+
+            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
+            Assert.True(result.Count() == 10);
+            Assert.True(result.First().Id == 1);
+        }
+
+        [Theory]
+        [InlineData(0)]
+        [InlineData(-5)]
+        [InlineData(11)]
+        public void Should_ReturnDefaultNumberOfRecords_When_SearchingInvalidNumberOfRecords(int recordsPerPage)
+        {
+            var controller = new TranslationsController(context);
+
+            var searchResult = controller.SearchTranslations(recordsPerPage: recordsPerPage) as OkObjectResult;
+
+            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
+            Assert.True((searchResult.Value as IEnumerable<SearchTranslationResult>).Count() == 10);
         }
     }
 }
