@@ -50,7 +50,7 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations();
+            var searchResult = controller.SearchTranslations(null);
 
             Assert.IsType<OkObjectResult>(searchResult);
             Assert.True((searchResult as OkObjectResult).StatusCode == (int)HttpStatusCode.OK);
@@ -61,7 +61,7 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations() as OkObjectResult;
+            var searchResult = controller.SearchTranslations(null) as OkObjectResult;
 
             Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
             Assert.True((searchResult.Value as IEnumerable<SearchTranslationResult>).Count() == 10);
@@ -72,7 +72,7 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations(2) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(null, 2) as OkObjectResult;
 
             Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
 
@@ -86,7 +86,7 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations(3) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(null, 3) as OkObjectResult;
 
             Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
 
@@ -102,7 +102,7 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations(pageNumber) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(null, pageNumber) as OkObjectResult;
 
             Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
 
@@ -119,10 +119,24 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations(recordsPerPage: recordsPerPage) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(null, recordsPerPage: recordsPerPage) as OkObjectResult;
 
             Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
             Assert.True((searchResult.Value as IEnumerable<SearchTranslationResult>).Count() == 10);
+        }
+
+        [Theory]
+        [InlineData("Title 2")]
+        [InlineData("Title 17")]
+        [InlineData("Title 23")]
+        public void Should_FilterByTitle_When_UserSentAQuery(string query)
+        {
+            var controller = new TranslationsController(context);
+
+            var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+
+            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
+            Assert.True(result.All(t => t.Title.Contains(query)));
         }
     }
 }
