@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using DevTranslate.Api.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -25,9 +27,11 @@ namespace DevTranslate.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
-            
+            services.AddControllers().AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
+                }
+            );
 
             services.AddDbContext<DevTranslateContext>(options =>
             {
