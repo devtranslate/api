@@ -33,6 +33,16 @@ namespace DevTranslate.Api
                 }
             );
 
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod();
+                });
+            });
+
             services.AddDbContext<DevTranslateContext>(options =>
             {
                 options.UseMySql(Configuration.GetConnectionString("DevTranslateConnectionString"), mySqlOptions =>
@@ -66,6 +76,8 @@ namespace DevTranslate.Api
             }
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseEndpoints(endpoints =>
             {
