@@ -20,7 +20,7 @@ namespace DevTranslate.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult SearchTranslations(int? page = 1, int? recordsPerPage = 10)
+        public IActionResult SearchTranslations(string query, int? page = 1, int? recordsPerPage = 10)
         {
             if (!page.HasValue || page.Value < 1)
             {
@@ -32,23 +32,28 @@ namespace DevTranslate.Api.Controllers
                 recordsPerPage = 10;
             }
 
-            var query = _context.Translations.Select(t => new SearchTranslationResult()
+            var databaseQuery = _context.Translations.Select(t => new SearchTranslationResult()
             {
                 Id = t.Id,
                 Title = t.Title,
-                Author =  t.Author,
+                Author = t.Author,
                 Translator = t.Translator,
                 Language = t.Language,
                 Url = t.Url,
                 ImageUrl = t.ImageUrl,
                 Status = t.Status,
                 Type = t.Type
-            })
-            .Skip(recordsPerPage.Value * (page.Value - 1))
-            .Take(recordsPerPage.Value)
-            .ToList();
+            });
 
-            return Ok(query);
+            if (!String.IsNullOrWhiteSpace(query))
+            {
+                databaseQuery = databaseQuery.Where(t => t.Title.Contains(query));
+            }
+
+            databaseQuery = databaseQuery.Skip(recordsPerPage.Value * (page.Value - 1))
+                                         .Take(recordsPerPage.Value);
+
+            return Ok(databaseQuery.ToList());
         }
     }
 }
