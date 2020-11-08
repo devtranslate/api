@@ -47,7 +47,7 @@ namespace DevTranslate.Api.Controllers
 
             if (!String.IsNullOrWhiteSpace(query))
             {
-                databaseQuery = databaseQuery.Where(t => t.Title.Contains(query));
+                databaseQuery = databaseQuery.Where(t => t.Title.Contains(query) || t.Author.Contains(query) || t.Translator.Contains(query));
             }
 
             databaseQuery = databaseQuery.Skip(recordsPerPage.Value * (page.Value - 1))
