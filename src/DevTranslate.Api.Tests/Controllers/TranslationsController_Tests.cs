@@ -137,6 +137,22 @@ namespace DevTranslate.Api.Tests.Controllers
 
             var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
             Assert.True(result.All(t => t.Title.Contains(query)));
+            Assert.True(result.Any());
+        }
+
+        [Theory]
+        [InlineData("Author 2")]
+        [InlineData("Author 17")]
+        [InlineData("Author 23")]
+        public void Should_FilterByAuthor_When_UserSentAQuery(string query)
+        {
+            var controller = new TranslationsController(context);
+
+            var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+
+            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
+            Assert.True(result.All(t => t.Author.Contains(query)));
+            Assert.True(result.Any());
         }
     }
 }
