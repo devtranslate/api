@@ -62,9 +62,10 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(null) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
-            Assert.True((searchResult.Value as IEnumerable<SearchTranslationResult>).Count() == 10);
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.Count() == 10);
         }
 
         [Fact]
@@ -73,12 +74,12 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(null, 2) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
-
-            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
-            Assert.True(result.Count() == 10);
-            Assert.True(result.First().Id == 11);
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.Count() == 10);
+            Assert.True(response.Translations.First().Id == 11);
+            Assert.True(response.Pagination.Page == 2);
         }
 
         [Fact]
@@ -87,12 +88,12 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(null, 3) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
-
-            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
-            Assert.True(result.Count() == 5);
-            Assert.True(result.First().Id == 21);
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.Count() == 5);
+            Assert.True(response.Translations.First().Id == 21);
+            Assert.True(response.Pagination.Page == 3);
         }
 
         [Theory]
@@ -103,12 +104,12 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(null, pageNumber) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
-
-            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
-            Assert.True(result.Count() == 10);
-            Assert.True(result.First().Id == 1);
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.Count() == 10);
+            Assert.True(response.Translations.First().Id == 1);
+            Assert.True(response.Pagination.Page == 1);
         }
 
         [Theory]
@@ -119,10 +120,12 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new TranslationsController(context);
 
-            var searchResult = controller.SearchTranslations(null, recordsPerPage: recordsPerPage) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(null, pageSize: recordsPerPage) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            Assert.IsAssignableFrom<IEnumerable<SearchTranslationResult>>(searchResult.Value);
-            Assert.True((searchResult.Value as IEnumerable<SearchTranslationResult>).Count() == 10);
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.Count() == 10);
+            Assert.True(response.Pagination.PageSize == 10);
         }
 
         [Theory]
@@ -134,10 +137,11 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
-            Assert.True(result.All(t => t.Title.Contains(query)));
-            Assert.True(result.Any());
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.All(t => t.Title.Contains(query)));
+            Assert.True(response.Translations.Any());
         }
 
         [Theory]
@@ -149,10 +153,11 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
-            Assert.True(result.All(t => t.Author.Contains(query)));
-            Assert.True(result.Any());
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.All(t => t.Author.Contains(query)));
+            Assert.True(response.Translations.Any());
         }
 
         [Theory]
@@ -164,10 +169,11 @@ namespace DevTranslate.Api.Tests.Controllers
             var controller = new TranslationsController(context);
 
             var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
 
-            var result = searchResult.Value as IEnumerable<SearchTranslationResult>;
-            Assert.True(result.All(t => t.Translator.Contains(query)));
-            Assert.True(result.Any());
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.All(t => t.Translator.Contains(query)));
+            Assert.True(response.Translations.Any());
         }
     }
 }
