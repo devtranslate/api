@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace DevTranslate.Api
@@ -47,16 +48,14 @@ namespace DevTranslate.Api
             {
                 options.UseMySql(Configuration.GetConnectionString("DevTranslateConnectionString"), mySqlOptions =>
                     {
-                        if (Environment.IsDevelopment())
-                        {
-                            mySqlOptions.ServerVersion(new Version(5, 7), ServerType.MySql);
-                        }
-
-                        if (Environment.IsProduction())
-                        {
-                            mySqlOptions.ServerVersion(new Version(8, 0), ServerType.MySql);
-                        }
+                        mySqlOptions.ServerVersion(new Version(8, 0), ServerType.MySql);
                     });
+            });
+
+            services.AddSwaggerGen(c => 
+            { 
+                c.SwaggerDoc("v2", new OpenApiInfo { Title = "Devtranslate API", Version = "v2" });
+                c.EnableAnnotations();
             });
         }
 
@@ -78,6 +77,16 @@ namespace DevTranslate.Api
             app.UseRouting();
 
             app.UseCors();
+
+            app.UseSwagger();
+
+            if (env.IsDevelopment())
+            {
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v2/swagger.json", "Devtranslate API V2");
+                });
+            }
 
             app.UseEndpoints(endpoints =>
             {

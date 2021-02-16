@@ -1,9 +1,11 @@
 ﻿using DevTranslate.Api.Context;
 using DevTranslate.Api.DTO;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 using System.Threading.Tasks;
 
 namespace DevTranslate.Api.Controllers
@@ -20,7 +22,15 @@ namespace DevTranslate.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult SearchTranslations(string query, int? page = 1, int? pageSize = 10)
+        [SwaggerResponse(200, "List of translations", typeof(SearchTranslationResponse))]
+        [SwaggerOperation(
+            Summary = "Get a list of translations",
+            Description = "Get a paginated list of translations, optionally filtering by title, author or translator",
+            OperationId = "SearchTranslations",
+            Tags = new[] { "Translations" }
+        )]
+        [Produces(MediaTypeNames.Application.Json)]
+        public IActionResult SearchTranslations([FromQuery] SearchTranslationRequest request)
         {
             var databaseQuery = _context.Translations.Select(t => new SearchTranslationResult()
             {
@@ -35,12 +45,12 @@ namespace DevTranslate.Api.Controllers
                 Type = t.Type
             });
 
-            if (!String.IsNullOrWhiteSpace(query))
+            if (!String.IsNullOrWhiteSpace(request.Query))
             {
-                databaseQuery = databaseQuery.Where(t => t.Title.Contains(query) || t.Author.Contains(query) || t.Translator.Contains(query));
+                databaseQuery = databaseQuery.Where(t => t.Title.Contains(request.Query) || t.Author.Contains(request.Query) || t.Translator.Contains(request.Query));
             }
 
-            var pagination = new PaginationResponse(page ?? 0, pageSize ?? 0, databaseQuery.Count());
+            var pagination = new PaginationResponse(request.Page ?? 0, request.PageSize ?? 0, databaseQuery.Count());
 
             databaseQuery = databaseQuery.Skip(pagination.PageSize * (pagination.Page - 1))
                                          .Take(pagination.PageSize);

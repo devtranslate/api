@@ -1,0 +1,26 @@
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace DevTranslate.Api.DTO
+{
+    public class SearchTranslationRequest
+    {
+        public SearchTranslationRequest()
+        {
+            Page = 1;
+            PageSize = 10;
+        }
+
+        [SwaggerParameter("Query text for searching translations by title, author or translator. Any translation with that contains the text in any of these fields will be returned.")]
+        public string Query { get; set; }
+
+        [SwaggerParameter("The number of the page of records to be returned. Defaults to 1.")]
+        public int? Page { get; set; }
+
+        [SwaggerParameter("Number of items per page. Can not be higher than 10 which is also its default value.")]
+        public int? PageSize { get; set; }
+    }
+}

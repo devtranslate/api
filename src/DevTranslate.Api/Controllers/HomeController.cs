@@ -8,6 +8,7 @@ namespace DevTranslate.Api.Controllers
 {
     [Route("")]
     [ApiController]
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class HomeController : ControllerBase
     {
         public IActionResult GetHome()
