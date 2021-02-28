@@ -3,13 +3,16 @@ name: release
 on:
   release:
     types: [published]
-  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Get the release version
+      id: get_release_version
+      run: echo ::set-output name=tag::${GITHUB_REF/refs\/tags\//}
+      shell: bash
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
@@ -17,7 +20,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build src/DevTranslate.Api/DevTranslate.Api.csproj --configuration Release --no-restore -p:Version=2.0.5.0
+      run: dotnet build src/DevTranslate.Api/DevTranslate.Api.csproj --configuration Release --no-restore -p:Version=${{ steps.get_release_version.outputs.tag }}.0
     - name: Publish
       run: dotnet publish src/DevTranslate.Api/DevTranslate.Api.csproj --configuration Release --no-restore --no-build --output published   
     - name: Upload Build Artifacts
@@ -48,7 +51,7 @@ jobs:
       - name: Restarting service
         uses: garygrossgarten/github-action-ssh@v0.6.3
         with:
-          command: /bin/systemctl restart devtranslate-api.service
+          command: sudo /bin/systemctl restart devtranslate-api.service
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           privateKey: ${{ secrets.SSH_KEY }}
