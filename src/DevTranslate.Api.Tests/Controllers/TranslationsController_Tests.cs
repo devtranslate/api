@@ -49,8 +49,12 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_ReturnOK_When_SearchingTranslations()
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+            };
 
-            var searchResult = controller.SearchTranslations(null);
+            var searchResult = controller.SearchTranslations(request) ;
 
             Assert.IsType<OkObjectResult>(searchResult);
             Assert.True((searchResult as OkObjectResult).StatusCode == (int)HttpStatusCode.OK);
@@ -60,8 +64,12 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_ReturnEnumerableWithTenItems_When_SearchingTranslationsWithoutPaginationParameters()
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+            };
 
-            var searchResult = controller.SearchTranslations(null) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -72,8 +80,13 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_ReturnPageTwo_When_SearchingPageTwo()
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Page = 2
+            };
 
-            var searchResult = controller.SearchTranslations(null, 2) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -86,8 +99,13 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_ReturnPageThree_When_SearchingPageThree()
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Page = 3
+            };
 
-            var searchResult = controller.SearchTranslations(null, 3) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -102,8 +120,13 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_ReturnFirstPage_When_SearchingInvalidPage(int pageNumber)
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Page = pageNumber
+            };
 
-            var searchResult = controller.SearchTranslations(null, pageNumber) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -119,8 +142,13 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_ReturnDefaultNumberOfRecords_When_SearchingInvalidNumberOfRecords(int recordsPerPage)
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                PageSize = recordsPerPage
+            };
 
-            var searchResult = controller.SearchTranslations(null, pageSize: recordsPerPage) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -135,8 +163,12 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_FilterByTitle_When_UserSentAQuery(string query)
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = query,
+            };
 
-            var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -151,8 +183,12 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_FilterByAuthor_When_UserSentAQuery(string query)
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = query,
+            };
 
-            var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
@@ -167,8 +203,12 @@ namespace DevTranslate.Api.Tests.Controllers
         public void Should_FilterByTranslator_When_UserSentAQuery(string query)
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = query,
+            };
 
-            var searchResult = controller.SearchTranslations(query: query) as OkObjectResult;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
