@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using DevTranslate.Api.Context;
@@ -9,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Interfaces;
 using Microsoft.OpenApi.Models;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
@@ -54,7 +57,21 @@ namespace DevTranslate.Api
 
             services.AddSwaggerGen(c => 
             { 
-                c.SwaggerDoc("v2", new OpenApiInfo { Title = "Devtranslate API", Version = "v2" });
+                c.SwaggerDoc("v2", new OpenApiInfo
+                {
+                    Title = "Devtranslate API",
+                    Version = "v2",
+                    Description = "Welcome! The Devtranslate API is currently in its second version and was created to support the open source Devtranslate cataloging and translation project.",
+                    Extensions = new Dictionary<string, IOpenApiExtension>
+                    {
+                      { "x-logo", new OpenApiObject
+                        {
+                           { "url", new OpenApiString("https://devtranslate.io/assets/images/logo-vertical.svg") },
+                           { "altText", new OpenApiString("Devtranslate Logo") }
+                        }
+                      }
+                    }
+                });
                 c.EnableAnnotations();
             });
         }
@@ -80,13 +97,39 @@ namespace DevTranslate.Api
 
             app.UseSwagger();
 
-            if (env.IsDevelopment())
+            app.UseReDoc(c =>
             {
-                app.UseSwaggerUI(c =>
+                c.RoutePrefix = "";
+                c.DocumentTitle = "Devtranslate API V2";
+                c.SpecUrl("/swagger/v2/swagger.json");
+                c.SortPropsAlphabetically();
+                c.HideDownloadButton();
+                c.DisableSearch();
+                c.InjectStylesheet("/assets/redoc-style.css");
+                c.ConfigObject.AdditionalItems.Add("theme", new
                 {
-                    c.SwaggerEndpoint("/swagger/v2/swagger.json", "Devtranslate API V2");
+                    typography = new
+                    {
+                        fontWeightBold = "300",
+                        fontFamily = "Cera Round Pro, sans-serif",
+                        headings = new
+                        {
+                            fontFamily = "Cera Round Pro, sans-serif",
+                        }
+                    },
+                    logo = new
+                    {
+                        gutter = "20px"
+                    },
+                    colors = new
+                    {
+                        primary = new
+                        {
+                            main = "#fc5156"
+                        },
+                    }
                 });
-            }
+            });
 
             app.UseEndpoints(endpoints =>
             {
