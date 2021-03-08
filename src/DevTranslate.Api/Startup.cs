@@ -97,6 +97,8 @@ namespace DevTranslate.Api
 
             app.UseSwagger();
 
+            app.UseStaticFiles();
+
             app.UseReDoc(c =>
             {
                 c.RoutePrefix = "";
