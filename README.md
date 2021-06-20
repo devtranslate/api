@@ -34,4 +34,4 @@ Seja bem vindo! A API Devtranslate atualmente está em sua segunda versão e foi
 Para acessar a documentação [clique aqui](https://api.devtranslate.io/).
 
 ## 📄 Licença
-[MIT](LICENSE) &copy; Devtranslate
+[MIT](LICENSE.md) &copy; Devtranslate
