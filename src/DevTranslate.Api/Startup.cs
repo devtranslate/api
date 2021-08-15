@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-using DevTranslate.Api.Context;
+﻿using DevTranslate.Api.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -13,7 +9,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Any;
 using Microsoft.OpenApi.Interfaces;
 using Microsoft.OpenApi.Models;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using System.Collections.Generic;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace DevTranslate.Api
 {
@@ -47,12 +45,9 @@ namespace DevTranslate.Api
                 });
             });
 
-            services.AddDbContext<DevTranslateContext>(options =>
+            services.AddDbContext<DevTranslateContext>(optionsBuilder =>
             {
-                options.UseMySql(Configuration.GetConnectionString("DevTranslateConnectionString"), mySqlOptions =>
-                    {
-                        mySqlOptions.ServerVersion(new Version(8, 0), ServerType.MySql);
-                    });
+                optionsBuilder.UseNpgsql(Configuration.GetConnectionString("DevTranslateConnectionString"));
             });
 
             services.AddSwaggerGen(c => 
