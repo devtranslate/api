@@ -16,13 +16,13 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.1.x
+        dotnet-version: 5.0.x
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build src/DevTranslate.Api/DevTranslate.Api.csproj --configuration Release --no-restore -p:Version=${{ steps.get_release_version.outputs.tag }}.0
     - name: Publish
-      run: dotnet publish src/DevTranslate.Api/DevTranslate.Api.csproj --configuration Release --no-restore --no-build --output published   
+      run: dotnet publish src/DevTranslate.Api/DevTranslate.Api.csproj --configuration Release --no-restore --no-build --output published
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2.2.2
       with:
@@ -42,7 +42,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@v0.7.3
         with:
           local: published
-          remote: /var/www/api.devtranslate.io
+          remote: /var/sites/api.devtranslate.io
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           privateKey: ${{ secrets.SSH_KEY }}
