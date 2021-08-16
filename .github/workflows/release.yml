@@ -51,7 +51,7 @@ jobs:
       - name: Restarting service
         uses: garygrossgarten/github-action-ssh@v0.6.3
         with:
-          command: sudo /bin/systemctl restart devtranslate-api.service
+          command: sudo /usr/bin/systemctl restart devtranslate-api.service
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           privateKey: ${{ secrets.SSH_KEY }}
