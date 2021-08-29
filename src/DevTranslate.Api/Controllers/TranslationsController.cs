@@ -57,6 +57,16 @@ namespace DevTranslate.Api.Controllers
                 databaseQuery = databaseQuery.Where(t => t.Status == request.Status.Value);
             }
 
+            if (request.Language.HasValue)
+            {
+                databaseQuery = databaseQuery.Where(t => t.Language == request.Language.Value);
+            }
+
+            if (request.Type.HasValue)
+            {
+                databaseQuery = databaseQuery.Where(t => t.Type == request.Type.Value);
+            }
+
             var pagination = new PaginationResponse(request.Page ?? 0, request.PageSize ?? 0, databaseQuery.Count());
 
             databaseQuery = databaseQuery.Skip(pagination.PageSize * (pagination.Page - 1))
