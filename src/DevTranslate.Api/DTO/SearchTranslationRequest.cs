@@ -24,7 +24,13 @@ namespace DevTranslate.Api.DTO
         [SwaggerParameter("Number of items per page. Can not be higher than 10 which is also its default value.")]
         public int? PageSize { get; set; }
 
-        [SwaggerParameter("Status of the translations to return.")]
+        [SwaggerParameter("Status of the translations to be returned.")]
         public TranslationStatus? Status { get; set; }
+
+        [SwaggerParameter("Language of the translations to be returned.")]
+        public Language? Language { get; set; }
+
+        [SwaggerParameter("Type of the translations to be returned.")]
+        public TranslationType? Type { get; set; }
     }
 }
