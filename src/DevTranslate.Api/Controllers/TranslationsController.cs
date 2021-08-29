@@ -52,6 +52,11 @@ namespace DevTranslate.Api.Controllers
                     || t.Translator.ToLower().Contains(request.Query.ToLower()));
             }
 
+            if (request.Status.HasValue)
+            {
+                databaseQuery = databaseQuery.Where(t => t.Status == request.Status.Value);
+            }
+
             var pagination = new PaginationResponse(request.Page ?? 0, request.PageSize ?? 0, databaseQuery.Count());
 
             databaseQuery = databaseQuery.Skip(pagination.PageSize * (pagination.Page - 1))

@@ -1,4 +1,5 @@
-﻿using Swashbuckle.AspNetCore.Annotations;
+﻿using DevTranslate.Api.Entities;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,8 @@ namespace DevTranslate.Api.DTO
 
         [SwaggerParameter("Number of items per page. Can not be higher than 10 which is also its default value.")]
         public int? PageSize { get; set; }
+
+        [SwaggerParameter("Status of the translations to return.")]
+        public TranslationStatus? Status { get; set; }
     }
 }
