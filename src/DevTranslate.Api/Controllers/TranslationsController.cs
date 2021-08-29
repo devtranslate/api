@@ -47,7 +47,9 @@ namespace DevTranslate.Api.Controllers
 
             if (!String.IsNullOrWhiteSpace(request.Query))
             {
-                databaseQuery = databaseQuery.Where(t => t.Title.Contains(request.Query) || t.Author.Contains(request.Query) || t.Translator.Contains(request.Query));
+                databaseQuery = databaseQuery.Where(t => t.Title.ToLower().Contains(request.Query.ToLower())
+                    || t.Author.ToLower().Contains(request.Query.ToLower())
+                    || t.Translator.ToLower().Contains(request.Query.ToLower()));
             }
 
             var pagination = new PaginationResponse(request.Page ?? 0, request.PageSize ?? 0, databaseQuery.Count());
