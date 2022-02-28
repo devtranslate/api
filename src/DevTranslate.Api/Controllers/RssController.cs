@@ -25,7 +25,7 @@ namespace DevTranslate.Api.Controllers
         [HttpGet]
         [ResponseCache(Duration = 7200)]
         [OutputCache("RssFeedResult")]
-        public IActionResult Index()
+        public IActionResult GetRssFeedOfTranslations()
         {
             SyndicationFeed feed = new("DevTranslate", null, new Uri("https://devtranslate.io/"), "https://api.devtranslate.io/rss", DateTime.UtcNow);
 

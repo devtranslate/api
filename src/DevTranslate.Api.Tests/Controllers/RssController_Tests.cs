@@ -32,7 +32,7 @@ namespace DevTranslate.Api.Tests.Controllers
         {
             var controller = new RssController(context);
 
-            var rssFeedResult = controller.Index() as FileContentResult;
+            var rssFeedResult = controller.GetRssFeedOfTranslations() as FileContentResult;
 
             Assert.NotNull(rssFeedResult);
             Assert.True(rssFeedResult.FileContents.Length > 0);
