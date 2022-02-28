@@ -56,7 +56,7 @@ namespace DevTranslate.Api.Tests.Controllers
                 Query = null,
             };
 
-            var searchResult = controller.SearchTranslations(request) as OkObjectResult; ;
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsType<OkObjectResult>(searchResult);
