@@ -1,17 +1,13 @@
 ﻿using DevTranslate.Api.Context;
 using DevTranslate.Api.Controllers;
+using DevTranslate.Api.DTO;
 using DevTranslate.Api.Entities;
-using DevTranslate.Api.Tests.Builders;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
-using System.Text;
 using Xunit;
-using DevTranslate.Api.DTO;
 
 namespace DevTranslate.Api.Tests.Controllers
 {
@@ -28,25 +24,16 @@ namespace DevTranslate.Api.Tests.Controllers
 
             context = new DevTranslateContext(options);
 
-            for (int i=1; i <= 25; i++)
+            foreach (var translation in MockedData.All)
             {
-                context.Translations.Add(new Translation(
-                    title: $"Title {i}",
-                    author: $"Author {i}",
-                    translator: $"Translator {i}",
-                    language: Language.Portuguese,
-                    url: $"https://link.devtranslate.io/{i}",
-                    imageUrl: $"https://cdn.devtranslate.io/images/{i}.png",
-                    status: TranslationStatus.Completed,
-                    type: TranslationType.Articles
-                ));
+                context.Translations.Add(translation);
             }
 
             context.SaveChanges();
         }
 
         [Fact]
-        public void Should_ReturnOK_When_SearchingTranslations()
+        public void Should_ReturnHttpOk_When_SearchReturnsResults()
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
@@ -61,7 +48,24 @@ namespace DevTranslate.Api.Tests.Controllers
         }
 
         [Fact]
-        public void Should_ReturnEnumerableWithTenItems_When_SearchingTranslationsWithoutPaginationParameters()
+        public void Should_ReturnHttpOk_When_SearchResultIsEmpty()
+        {
+            var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+            };
+
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult; ;
+            var response = searchResult.Value as SearchTranslationResponse;
+
+            Assert.IsType<OkObjectResult>(searchResult);
+            Assert.True(searchResult.StatusCode == (int)HttpStatusCode.OK);
+            Assert.NotEmpty(response.Translations);
+        }
+
+        [Fact]
+        public void Should_FallbackToTenItems_When_YouDontSpecifyPageSize()
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
@@ -74,72 +78,35 @@ namespace DevTranslate.Api.Tests.Controllers
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
             Assert.True(response.Translations.Count() == 10);
-        }
-
-        [Fact]
-        public void Should_ReturnPageTwo_When_SearchingPageTwo()
-        {
-            var controller = new TranslationsController(context);
-            var request = new SearchTranslationRequest()
-            {
-                Query = null,
-                Page = 2
-            };
-
-            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
-            var response = searchResult.Value as SearchTranslationResponse;
-
-            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.Count() == 10);
-            Assert.True(response.Translations.First().Id == 11);
-            Assert.True(response.Pagination.Page == 2);
-        }
-
-        [Fact]
-        public void Should_ReturnPageThree_When_SearchingPageThree()
-        {
-            var controller = new TranslationsController(context);
-            var request = new SearchTranslationRequest()
-            {
-                Query = null,
-                Page = 3
-            };
-
-            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
-            var response = searchResult.Value as SearchTranslationResponse;
-
-            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.Count() == 5);
-            Assert.True(response.Translations.First().Id == 21);
-            Assert.True(response.Pagination.Page == 3);
         }
 
         [Theory]
-        [InlineData(0)]
-        [InlineData(-5)]
-        public void Should_ReturnFirstPage_When_SearchingInvalidPage(int pageNumber)
+        [InlineData(1)]
+        [InlineData(3)]
+        [InlineData(5)]
+        [InlineData(7)]
+        [InlineData(9)]
+        public void Should_ReturnTheSpecifiedNumberOfItems_When_YouSpecifyThePageSizeUpToTheMaximum(int pageSize)
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
             {
                 Query = null,
-                Page = pageNumber
+                PageSize = pageSize,
             };
 
             var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.Count() == 10);
-            Assert.True(response.Translations.First().Id == 1);
-            Assert.True(response.Pagination.Page == 1);
+            Assert.True(response.Translations.Count() == pageSize);
         }
 
         [Theory]
         [InlineData(0)]
         [InlineData(-5)]
         [InlineData(11)]
-        public void Should_ReturnDefaultNumberOfRecords_When_SearchingInvalidNumberOfRecords(int recordsPerPage)
+        public void Should_FallbackToTenItems_When_TheSpecifiedPageSizeIsInvalid(int recordsPerPage)
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
@@ -157,63 +124,191 @@ namespace DevTranslate.Api.Tests.Controllers
         }
 
         [Theory]
-        [InlineData("Title 2")]
-        [InlineData("Title 17")]
-        [InlineData("Title 23")]
-        public void Should_FilterByTitle_When_UserSentAQuery(string query)
+        [InlineData(1)]
+        [InlineData(3)]
+        [InlineData(4)]
+        [InlineData(5)]
+        public void Should_ReturnTheSpecifiedPageOfResults_When_Searching(int pageNumber)
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
             {
-                Query = query,
+                Query = null,
+                Page = pageNumber
             };
 
             var searchResult = controller.SearchTranslations(request) as OkObjectResult;
             var response = searchResult.Value as SearchTranslationResponse;
+            var page = GetPageForRequest(pageNumber);
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.All(t => t.Title.Contains(query)));
-            Assert.True(response.Translations.Any());
+            Assert.True(response.Translations.Count() == page.Count);
+            Assert.True(response.Translations.All(t => page.Any(fp => fp.Title == t.Title)));
+            Assert.True(response.Pagination.Page == pageNumber);
         }
 
         [Theory]
-        [InlineData("Author 2")]
-        [InlineData("Author 17")]
-        [InlineData("Author 23")]
-        public void Should_FilterByAuthor_When_UserSentAQuery(string query)
+        [InlineData(0)]
+        [InlineData(-5)]
+        public void Should_FallbackToFirstPage_When_SpecifiedPageIsInvalid(int pageNumber)
         {
             var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Page = pageNumber
+            };
+
+            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
+            var response = searchResult.Value as SearchTranslationResponse;
+            var firstPage = GetPageForRequest(1);
+
+            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
+            Assert.True(response.Translations.Count() == firstPage.Count());
+            Assert.True(response.Translations.All(t => firstPage.Any(fp => fp.Title == t.Title)));
+            Assert.True(response.Pagination.Page == 1);
+        }
+
+
+
+        [Theory]
+        [InlineData("Voluptas")]
+        [InlineData("Ex Consectetur Voluptatem Quod Quia")]
+        [InlineData("Laborum")]
+        [InlineData("LABORUM")]
+        [InlineData("voluPTAS")]
+        public void Should_FilterByTitle_When_Searching(string query)
+        {
             var request = new SearchTranslationRequest()
             {
                 Query = query,
             };
 
-            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
-            var response = searchResult.Value as SearchTranslationResponse;
+            var translations = GetAllPagesForRequest(request);
 
-            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.All(t => t.Author.Contains(query)));
-            Assert.True(response.Translations.Any());
+            Assert.True(translations.All(t => t.Title.Contains(query, System.StringComparison.CurrentCultureIgnoreCase)));
+            Assert.True(translations.Any());
         }
 
         [Theory]
-        [InlineData("Translator 2")]
-        [InlineData("Translator 17")]
-        [InlineData("Translator 23")]
-        public void Should_FilterByTranslator_When_UserSentAQuery(string query)
+        [InlineData("Lucas Pollich")]
+        [InlineData("Terence")]
+        [InlineData("Terence Wolff")]
+        [InlineData("TERENCE")]
+        [InlineData("tEREnCE")]
+        public void Should_FilterByAuthor_When_Searching(string query)
         {
-            var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
             {
                 Query = query,
             };
 
-            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
-            var response = searchResult.Value as SearchTranslationResponse;
+            var translations = GetAllPagesForRequest(request);
 
-            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.All(t => t.Translator.Contains(query)));
-            Assert.True(response.Translations.Any());
+            Assert.True(translations.All(t => t.Author.Contains(query, System.StringComparison.CurrentCultureIgnoreCase)));
+            Assert.True(translations.Any());
+        }
+
+        [Theory]
+        [InlineData("Jamaal")]
+        [InlineData("Jamaal Boehm")]
+        [InlineData("Jamaal Morar")]
+        [InlineData("Buddy")]
+        [InlineData("BUDDY")]
+        [InlineData("buDDy")]
+        public void Should_FilterByTranslator_When_Searching(string query)
+        {
+            var request = new SearchTranslationRequest()
+            {
+                Query = query,
+            };
+
+            var translations = GetAllPagesForRequest(request);
+
+            Assert.True(translations.All(t => t.Translator.Contains(query, System.StringComparison.CurrentCultureIgnoreCase)));
+            Assert.True(translations.Any());
+        }
+
+        [Theory]
+        [InlineData(Language.Portuguese)]
+        [InlineData(Language.English)]
+        public void Should_FilterByLanguage_When_Searching(Language language)
+        {
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Language = language
+            };
+
+            var translations = GetAllPagesForRequest(request);
+
+            Assert.True(translations.All(t => t.Language == language));
+            Assert.True(translations.Any());
+        }
+
+        [Theory]
+        [InlineData(TranslationStatus.Completed)]
+        [InlineData(TranslationStatus.InProgress)]
+        public void Should_FilterByStatus_When_Searching(TranslationStatus status)
+        {
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Status = status
+            };
+
+            var translations = GetAllPagesForRequest(request);
+
+            Assert.True(translations.All(t => t.Status == status));
+            Assert.True(translations.Any());
+        }
+
+        [Theory]
+        [InlineData(TranslationType.Articles)]
+        [InlineData(TranslationType.Books)]
+        [InlineData(TranslationType.Documentation)]
+        public void Should_FilterByType_When_Searching(TranslationType type)
+        {
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                Type = type
+            };
+
+            var translations = GetAllPagesForRequest(request);
+
+            Assert.True(translations.All(t => t.Type == type));
+            Assert.True(translations.Any());
+        }
+
+        private List<SearchTranslationResult> GetAllPagesForRequest(SearchTranslationRequest request)
+        {
+            var result = new List<SearchTranslationResult>();
+            var controller = new TranslationsController(context);
+            int currentPageNumber = 0;
+
+            SearchTranslationResponse response = null;
+
+            do
+            {
+                request.Page = ++currentPageNumber;
+
+                var searchResult = controller.SearchTranslations(request) as OkObjectResult;
+                response = searchResult.Value as SearchTranslationResponse;
+
+                result.AddRange(response.Translations);
+
+            } while (response.Translations.Any());
+
+            return result;
+        }
+
+        private List<Translation> GetPageForRequest(int pageNumber, int pageSize = 10)
+        {
+            return context.Translations
+                .Skip((pageNumber-1) * pageSize)
+                .Take(pageSize)
+                .ToList();
         }
     }
 }
