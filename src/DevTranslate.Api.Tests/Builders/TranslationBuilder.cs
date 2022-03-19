@@ -1,7 +1,4 @@
 ﻿using DevTranslate.Api.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DevTranslate.Api.Tests.Builders
 {

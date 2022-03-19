@@ -1,5 +1,6 @@
 ﻿using DevTranslate.Api.Context;
 using DevTranslate.Api.DTO;
+using DevTranslate.Api.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System;
@@ -32,6 +33,11 @@ namespace DevTranslate.Api.Controllers
         [Produces(MediaTypeNames.Application.Json)]
         public IActionResult SearchTranslations([FromQuery] SearchTranslationRequest request)
         {
+            var pagination = Pagination.Create(request.Page, request.PageSize);
+
+            if (!pagination.IsSuccess)
+                return BadRequest(pagination.Error);
+
             var databaseQuery = _context.Translations.Select(t => new SearchTranslationResult()
             {
                 Id = t.Id,
@@ -67,12 +73,12 @@ namespace DevTranslate.Api.Controllers
                 databaseQuery = databaseQuery.Where(t => t.Type == request.Type.Value);
             }
 
-            var pagination = new PaginationResponse(request.Page ?? 0, request.PageSize ?? 0, databaseQuery.Count());
+            var paginationResponse = new PaginationResponse(pagination.Value, databaseQuery.Count());
 
-            databaseQuery = databaseQuery.Skip(pagination.PageSize * (pagination.Page - 1))
-                                         .Take(pagination.PageSize);
+            databaseQuery = databaseQuery.Skip(paginationResponse.PageSize * (paginationResponse.Page - 1))
+                                         .Take(paginationResponse.PageSize);
 
-            var response = new SearchTranslationResponse(databaseQuery, pagination);
+            var response = new SearchTranslationResponse(databaseQuery, paginationResponse);
 
             return Ok(response);
         }

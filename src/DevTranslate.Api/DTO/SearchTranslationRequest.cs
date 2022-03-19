@@ -9,12 +9,6 @@ namespace DevTranslate.Api.DTO
 {
     public class SearchTranslationRequest
     {
-        public SearchTranslationRequest()
-        {
-            Page = 1;
-            PageSize = 10;
-        }
-
         [SwaggerParameter("Query text for searching translations by title, author or translator. Any translation with that contains the text in any of these fields will be returned.")]
         public string Query { get; set; }
 
