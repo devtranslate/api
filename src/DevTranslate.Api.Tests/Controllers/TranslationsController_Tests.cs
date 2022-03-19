@@ -300,6 +300,18 @@ namespace DevTranslate.Api.Tests.Controllers
             Assert.True(translations.Any());
         }
 
+        [Fact]
+        public void Should_OrderTranslationsById_When_Searching()
+        {
+            var translationsFromDb = context.Translations.ToList();
+            var translationsFromController = GetAllPagesForRequest(new SearchTranslationRequest());
+
+            var idsFromDb = translationsFromDb.Select(t => t.Id).ToList();
+            var idsFromController = translationsFromController.Select(t => t.Id).ToList();
+
+            Assert.True(idsFromDb.SequenceEqual(idsFromController));
+        }
+
         private List<SearchTranslationResult> GetAllPagesForRequest(SearchTranslationRequest request)
         {
             var result = new List<SearchTranslationResult>();
