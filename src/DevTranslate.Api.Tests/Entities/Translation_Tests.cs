@@ -1,9 +1,6 @@
-﻿using DevTranslate.Api.Entities;
+﻿using DevTranslate.Api.Exceptions;
 using DevTranslate.Api.Tests.Builders;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace DevTranslate.Api.Tests.Entities
@@ -21,14 +18,17 @@ namespace DevTranslate.Api.Tests.Entities
         [Theory]
         [InlineData(null)]
         [InlineData("")]
-        public void Should_ThrowException_When_TitleIsNullOrEmpty(string titulo)
+        public void Should_ThrowException_When_TitleIsNullOrEmpty(string title)
         {
-            Assert.Throws<ArgumentNullException>("title", () =>
+            var exception = Assert.Throws<RequiredPropertyNotProvidedException>(() =>
             {
                 var translation = new TranslationBuilder()
-                    .WithTitle(titulo)
+                    .WithTitle(title)
                     .Build();
             });
+
+            Assert.True(exception.ParamName == "title");
+            Assert.True(exception.Message.Contains("title", StringComparison.CurrentCultureIgnoreCase));
         }
 
         [Theory]
@@ -36,12 +36,15 @@ namespace DevTranslate.Api.Tests.Entities
         [InlineData("")]
         public void Should_ThrowException_When_AuthorIsNullOrEmpty(string author)
         {
-            Assert.Throws<ArgumentNullException>("author", () =>
+            var exception = Assert.Throws<RequiredPropertyNotProvidedException>(() =>
             {
                 var translation = new TranslationBuilder()
                     .WithAuthor(author)
                     .Build();
             });
+
+            Assert.True(exception.ParamName == "author");
+            Assert.True(exception.Message.Contains("author", StringComparison.CurrentCultureIgnoreCase));
         }
 
         [Theory]
@@ -49,12 +52,15 @@ namespace DevTranslate.Api.Tests.Entities
         [InlineData("")]
         public void Should_ThrowException_When_TranslatorIsNullOrEmpty(string translator)
         {
-            Assert.Throws<ArgumentNullException>("translator", () =>
+            var exception = Assert.Throws<RequiredPropertyNotProvidedException>(() =>
             {
                 var translation = new TranslationBuilder()
                     .WithTranslator(translator)
                     .Build();
             });
+
+            Assert.True(exception.ParamName == "translator");
+            Assert.True(exception.Message.Contains("translator", StringComparison.CurrentCultureIgnoreCase));
         }
 
         [Theory]
@@ -62,12 +68,15 @@ namespace DevTranslate.Api.Tests.Entities
         [InlineData("")]
         public void Should_ThrowException_When_UrlIsNullOrEmpty(string url)
         {
-            Assert.Throws<ArgumentNullException>("url", () =>
+            var exception = Assert.Throws<RequiredPropertyNotProvidedException>(() =>
             {
                 var translation = new TranslationBuilder()
                     .WithUrl(url)
                     .Build();
             });
+
+            Assert.True(exception.ParamName == "url");
+            Assert.True(exception.Message.Contains("url", StringComparison.CurrentCultureIgnoreCase));
         }
 
         [Theory]
@@ -75,12 +84,15 @@ namespace DevTranslate.Api.Tests.Entities
         [InlineData("")]
         public void Should_ThrowException_When_ImageUrlIsNullOrEmpty(string imageUrl)
         {
-            Assert.Throws<ArgumentNullException>("imageUrl", () =>
+            var exception = Assert.Throws<RequiredPropertyNotProvidedException>(() =>
             {
                 var translation = new TranslationBuilder()
                     .WithImageUrl(imageUrl)
                     .Build();
             });
+
+            Assert.True(exception.ParamName == "imageUrl");
+            Assert.True(exception.Message.Contains("image url", StringComparison.CurrentCultureIgnoreCase));
         }
     }
 }

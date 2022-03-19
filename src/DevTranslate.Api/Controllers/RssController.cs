@@ -27,7 +27,7 @@ namespace DevTranslate.Api.Controllers
         [OutputCache("RssFeedResult")]
         public IActionResult GetRssFeedOfTranslations()
         {
-            SyndicationFeed feed = new("DevTranslate", null, new Uri("https://devtranslate.io/"), "https://api.devtranslate.io/rss", DateTime.UtcNow);
+            SyndicationFeed feed = new("DevTranslate", null, new Uri("https://devtranslate.io/"), null, DateTime.UtcNow);
 
             feed.Items = _context.Translations
                 .ToList()
@@ -42,15 +42,13 @@ namespace DevTranslate.Api.Controllers
             var settings = new XmlWriterSettings
             {
                 Encoding = Encoding.UTF8,
-                NewLineHandling = NewLineHandling.Entitize,
-                NewLineOnAttributes = true,
-                Indent = true
+                NewLineHandling = NewLineHandling.Entitize
             };
 
             using var stream = new MemoryStream();
             using var xmlWriter = XmlWriter.Create(stream, settings);
 
-            var rssFormatter = new Rss20FeedFormatter(feed, false);
+            var rssFormatter = new Rss20FeedFormatter(feed);
             rssFormatter.WriteTo(xmlWriter);
             xmlWriter.Flush();
             

@@ -2,8 +2,10 @@
 using DevTranslate.Api.Controllers;
 using DevTranslate.Api.DTO;
 using DevTranslate.Api.Entities;
+using DevTranslate.Api.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -13,23 +15,25 @@ namespace DevTranslate.Api.Tests.Controllers
 {
     public class TranslationsController_Tests
     {
-        private readonly DbContextOptions<DevTranslateContext> options;
         private readonly DevTranslateContext context;
 
         public TranslationsController_Tests()
         {
-            options = new DbContextOptionsBuilder<DevTranslateContext>()
-                .UseInMemoryDatabase(databaseName: "DevTranslateDb")
+            DbContextOptions<DevTranslateContext> options = new DbContextOptionsBuilder<DevTranslateContext>()
+                .UseInMemoryDatabase(databaseName: "DevTranslateInMemoryDbForTranslations")
                 .Options;
 
             context = new DevTranslateContext(options);
 
-            foreach (var translation in MockedData.All)
+            if (!context.Translations.Any())
             {
-                context.Translations.Add(translation);
-            }
+                foreach (var translation in MockedData.All)
+                {
+                    context.Translations.Add(translation);
+                }
 
-            context.SaveChanges();
+                context.SaveChanges();
+            }
         }
 
         [Fact]
@@ -105,8 +109,27 @@ namespace DevTranslate.Api.Tests.Controllers
         [Theory]
         [InlineData(0)]
         [InlineData(-5)]
+        public void Should_ReturnBadRequest_When_TheSpecifiedPageSizeIsInvalid(int recordsPerPage)
+        {
+            var controller = new TranslationsController(context);
+            var request = new SearchTranslationRequest()
+            {
+                Query = null,
+                PageSize = recordsPerPage
+            };
+
+            var searchResult = controller.SearchTranslations(request) as BadRequestObjectResult;
+            var searchResultValue = searchResult.Value as string;
+
+            Assert.NotNull(searchResult);
+            Assert.NotNull(searchResultValue);
+            Assert.True(searchResultValue.Contains("page size", StringComparison.CurrentCultureIgnoreCase));
+        }
+
+        [Theory]
         [InlineData(11)]
-        public void Should_FallbackToTenItems_When_TheSpecifiedPageSizeIsInvalid(int recordsPerPage)
+        [InlineData(45)]
+        public void Should_FallbackToTenRecords_When_TheSpecifiedPageSizeIsHigherThanTen(int recordsPerPage)
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
@@ -119,8 +142,8 @@ namespace DevTranslate.Api.Tests.Controllers
             var response = searchResult.Value as SearchTranslationResponse;
 
             Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.Count() == 10);
-            Assert.True(response.Pagination.PageSize == 10);
+            Assert.True(response.Translations.Count() == Pagination.MaxPageSize);
+            Assert.True(response.Pagination.PageSize == Pagination.MaxPageSize);
         }
 
         [Theory]
@@ -150,7 +173,7 @@ namespace DevTranslate.Api.Tests.Controllers
         [Theory]
         [InlineData(0)]
         [InlineData(-5)]
-        public void Should_FallbackToFirstPage_When_SpecifiedPageIsInvalid(int pageNumber)
+        public void Should_ReturnBadRequest_When_SpecifiedPageIsInvalid(int pageNumber)
         {
             var controller = new TranslationsController(context);
             var request = new SearchTranslationRequest()
@@ -159,17 +182,13 @@ namespace DevTranslate.Api.Tests.Controllers
                 Page = pageNumber
             };
 
-            var searchResult = controller.SearchTranslations(request) as OkObjectResult;
-            var response = searchResult.Value as SearchTranslationResponse;
-            var firstPage = GetPageForRequest(1);
+            var searchResult = controller.SearchTranslations(request) as BadRequestObjectResult;
+            var searchResultValue = searchResult.Value as string;
 
-            Assert.IsAssignableFrom<SearchTranslationResponse>(searchResult.Value);
-            Assert.True(response.Translations.Count() == firstPage.Count());
-            Assert.True(response.Translations.All(t => firstPage.Any(fp => fp.Title == t.Title)));
-            Assert.True(response.Pagination.Page == 1);
+            Assert.NotNull(searchResult);
+            Assert.NotNull(searchResultValue);
+            Assert.True(searchResultValue.Contains("page number", StringComparison.CurrentCultureIgnoreCase));
         }
-
-
 
         [Theory]
         [InlineData("Voluptas")]

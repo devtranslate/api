@@ -1,4 +1,5 @@
-﻿using Swashbuckle.AspNetCore.Annotations;
+﻿using DevTranslate.Api.Shared;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,23 +11,13 @@ namespace DevTranslate.Api.DTO
     {
         private readonly int _totalRecords;
 
-        public PaginationResponse(int page, int pageSize, int totalRecords)
+        public PaginationResponse(Pagination pagination, int totalRecords)
         {
-            if (page < 1)
-            {
-                page = 1;
-            }
-
-            if (pageSize < 1 || pageSize > 10)
-            {
-                pageSize = 10;
-            }
-
             _totalRecords = totalRecords;
 
-            Page = page;
-            PageSize = pageSize;
-            TotalPages = Convert.ToInt32(Math.Ceiling(totalRecords / (pageSize * 1.0m)));
+            Page = pagination.Page;
+            PageSize = pagination.PageSize;
+            TotalPages = Convert.ToInt32(Math.Ceiling(totalRecords / Convert.ToDecimal(pagination.PageSize)));
         }
 
         [SwaggerSchema("The number of the page of records to be returned. Defaults to 1.", ReadOnly = false)]
