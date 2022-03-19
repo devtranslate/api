@@ -76,9 +76,9 @@ namespace DevTranslate.Api.Controllers
             var paginationResponse = new PaginationResponse(pagination.Value, databaseQuery.Count());
 
             databaseQuery = databaseQuery
+                .OrderBy(t => t.Id)
                 .Skip(paginationResponse.PageSize * (paginationResponse.Page - 1))
-                .Take(paginationResponse.PageSize)
-                .OrderBy(t => t.Id);
+                .Take(paginationResponse.PageSize);
 
             var response = new SearchTranslationResponse(databaseQuery, paginationResponse);
 
