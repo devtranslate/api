@@ -10,6 +10,10 @@ namespace DevTranslate.Api.Entities
         Articles = 1,
         Books,
         Documentation,
-        Others
+        Others,
+        Video,
+        Code,
+        Workshop,
+        Project
     }
 }
